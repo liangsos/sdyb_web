@@ -1,0 +1,1292 @@
+{
+  "info": [
+    {
+      "flag": "堡集闸_31104101_DD_(true_false_true)",
+      "stcd": "31104101"
+    },
+    {
+      "flag": "白鹤观闸_31102701_DD_(true_false_true)",
+      "stcd": "31102701"
+    },
+    {
+      "flag": "韩庄闸_51203801_DD_(true_false_true)",
+      "stcd": "51203801"
+    },
+    {
+      "flag": "梁山闸_51211501_DD_(true_false_true)",
+      "stcd": "51211501"
+    },
+    {
+      "flag": "二级湖一闸_51202701_DD_(true_false_true)",
+      "stcd": "51202701"
+    },
+    {
+      "flag": "台儿庄闸_51204301_DD_(true_false_true)",
+      "stcd": "51204301"
+    },
+    {
+      "flag": "胜利堰闸_51112711_DD_(true_false_true)",
+      "stcd": "51112711"
+    },
+    {
+      "flag": "新沭河闸_51111911_DD_(true_false_true)",
+      "stcd": "51111911"
+    },
+    {
+      "flag": "刘家道口_51101201_DD_(true_false_true)",
+      "stcd": "51101201"
+    },
+    {
+      "flag": "彭道口闸_51105811_DD_(true_false_true)",
+      "stcd": "51105811"
+    },
+    {
+      "flag": "四女寺闸上_31000301_DD_(true_false_true)",
+      "stcd": "31000301"
+    },
+    {
+      "flag": "李家桥闸_31101201_DD_(true_false_true)",
+      "stcd": "31101201"
+    },
+    {
+      "flag": "庆云闸_31001901_DD_(true_false_true)",
+      "stcd": "31001901"
+    },
+    {
+      "flag": "郑店闸_31102601_DD_(true_false_true)",
+      "stcd": "31102601"
+    },
+    {
+      "flag": "宫家闸_31103801_DD_(true_false_true)",
+      "stcd": "31103801"
+    },
+    {
+      "flag": "王铺闸_31100501_DD_(true_false_true)",
+      "stcd": "31100501"
+    },
+    {
+      "flag": "刘桥闸_31103501_DD_(true_false_true)",
+      "stcd": "31103501"
+    },
+    {
+      "flag": "大道王闸_31101901_DD_(true_false_true)",
+      "stcd": "31101901"
+    },
+    {
+      "flag": "四女寺闸(减)_31001802_DD_(true_false_true)",
+      "stcd": "31001802"
+    },
+    {
+      "flag": "四女寺闸(南)_31000302_DD_(true_false_true)",
+      "stcd": "31000302"
+    },
+    {
+      "flag": "四女寺闸(岔)_31001852_DD_(true_false_true)",
+      "stcd": "31001852"
+    },
+    {
+      "flag": "诸城闸_41806850_DD_(true_false_true)",
+      "stcd": "41806850"
+    },
+    {
+      "flag": "刘庄闸_51211701_DD_(true_false_true)",
+      "stcd": "51211701"
+    },
+    {
+      "flag": "魏楼闸_51211801_DD_(true_false_true)",
+      "stcd": "51211801"
+    },
+    {
+      "flag": "马庄闸_51213301_DD_(true_false_true)",
+      "stcd": "51213301"
+    },
+    {
+      "flag": "路菜园闸_51213501_DD_(true_false_true)",
+      "stcd": "51213501"
+    },
+    {
+      "flag": "李庙闸_51213901_DD_(true_false_true)",
+      "stcd": "51213901"
+    },
+    {
+      "flag": "张庄闸_51213701_DD_(true_false_true)",
+      "stcd": "51213701"
+    },
+    {
+      "flag": "刘连屯闸_31105601_DD_(true_false_true)",
+      "stcd": "31105601"
+    },
+    {
+      "flag": "南村_41810401_ZQ_(true_true_true)",
+      "stcd": "41810401"
+    },
+    {
+      "flag": "书院_51207201_ZQ_(true_true_true)",
+      "stcd": "51207201"
+    },
+    {
+      "flag": "后营_51200301_ZQ_(true_true_true)",
+      "stcd": "51200301"
+    },
+    {
+      "flag": "马楼_51208001_ZQ_(true_true_true)",
+      "stcd": "51208001"
+    },
+    {
+      "flag": "孙庄_51213201_ZQ_(true_true_true)",
+      "stcd": "51213201"
+    },
+    {
+      "flag": "鱼台_51213801_ZQ_(true_true_true)",
+      "stcd": "51213801"
+    },
+    {
+      "flag": "黄庄_51206801_ZQ_(true_true_true)",
+      "stcd": "51206801"
+    },
+    {
+      "flag": "临沂_51101101_ZQ_(true_true_true)",
+      "stcd": "51101101"
+    },
+    {
+      "flag": "石拉渊_51111501_ZZ_(true_true_false)",
+      "stcd": "51111501"
+    },
+    {
+      "flag": "大汶口_41500691_ZQ_(true_true_true)",
+      "stcd": "41500691"
+    },
+    {
+      "flag": "戴村坝_41501601_ZQ_(true_true_true)",
+      "stcd": "41501601"
+    },
+    {
+      "flag": "滕州_51208701_ZQ_(true_true_true)",
+      "stcd": "51208701"
+    },
+    {
+      "flag": "柴胡店_51209011_ZQ_(true_true_true)",
+      "stcd": "51209011"
+    },
+    {
+      "flag": "姜庄湖_51104201_ZZ_(true_true_false)",
+      "stcd": "51104201"
+    },
+    {
+      "flag": "临清_31000101_ZQ_(true_true_true)",
+      "stcd": "31000101"
+    },
+    {
+      "flag": "南陶_31004601_ZQ_(true_true_true)",
+      "stcd": "31004601"
+    },
+    {
+      "flag": "葛沟_51100801_ZQ_(true_true_true)",
+      "stcd": "51100801"
+    },
+    {
+      "flag": "谭家坊_41805701_ZQ_(true_true_true)",
+      "stcd": "41805701"
+    },
+    {
+      "flag": "波罗树_51207301_ZZ_(true_true_false)",
+      "stcd": "51207301"
+    },
+    {
+      "flag": "莱芜_41500101_ZQ_(true_true_true)",
+      "stcd": "41500101"
+    },
+    {
+      "flag": "东里店_51100201_ZQ_(true_true_true)",
+      "stcd": "51100201"
+    },
+    {
+      "flag": "薛城_51209101_ZQ_(true_true_true)",
+      "stcd": "51209101"
+    },
+    {
+      "flag": "峄城_51209301_ZQ_(true_true_true)",
+      "stcd": "51209301"
+    },
+    {
+      "flag": "北望_41500301_ZQ_(true_true_true)",
+      "stcd": "41500301"
+    },
+    {
+      "flag": "楼德_41503201_ZQ_(true_true_true)",
+      "stcd": "41503201"
+    },
+    {
+      "flag": "蒙阴_51103301_ZQ_(true_true_true)",
+      "stcd": "51103301"
+    },
+    {
+      "flag": "角沂_51104501_ZQ_(true_true_true)",
+      "stcd": "51104501"
+    },
+    {
+      "flag": "高里_51104101_ZQ_(true_true_true)",
+      "stcd": "51104101"
+    },
+    {
+      "flag": "黄寺闸_51214001_ZQ_(true_true_true)",
+      "stcd": "51214001"
+    },
+    {
+      "flag": "聊城_31103211_ZQ_(true_true_true)",
+      "stcd": "31103211"
+    },
+    {
+      "flag": "臧格庄_41814801_ZQ_(true_true_true)",
+      "stcd": "41814801"
+    },
+    {
+      "flag": "中楼_51130600_PP_(true_true_false)",
+      "stcd": "51130600"
+    },
+    {
+      "flag": "莒县_51111301_ZQ_(true_true_true)",
+      "stcd": "51111301"
+    },
+    {
+      "flag": "斜午_51100601_ZZ_(true_true_false)",
+      "stcd": "51100601"
+    },
+    {
+      "flag": "付旺庄_51103601_ZZ_(true_true_false)",
+      "stcd": "51103601"
+    },
+    {
+      "flag": "产芝水库_41810200_RR_(true_true_true)",
+      "stcd": "41810200"
+    },
+    {
+      "flag": "尹府水库_41811000_RR_(true_true_true)",
+      "stcd": "41811000"
+    },
+    {
+      "flag": "崂山水库_41812900_RR_(true_true_true)",
+      "stcd": "41812900"
+    },
+    {
+      "flag": "尼山水库_51207800_RR_(true_true_true)",
+      "stcd": "51207800"
+    },
+    {
+      "flag": "西苇水库_51208300_RR_(true_true_true)",
+      "stcd": "51208300"
+    },
+    {
+      "flag": "雪野_41502500_RR_(true_true_true)",
+      "stcd": "41502500"
+    },
+    {
+      "flag": "田庄_51100100_RR_(true_true_true)",
+      "stcd": "51100100"
+    },
+    {
+      "flag": "马河水库_51208400_RR_(true_true_true)",
+      "stcd": "51208400"
+    },
+    {
+      "flag": "岩马水库_51208600_RR_(true_true_true)",
+      "stcd": "51208600"
+    },
+    {
+      "flag": "冶源水库_41805400_RR_(true_true_true)",
+      "stcd": "41805400"
+    },
+    {
+      "flag": "墙夼水库_41806800_RR_(true_true_true)",
+      "stcd": "41806800"
+    },
+    {
+      "flag": "峡山水库_41807100_RR_(true_true_true)",
+      "stcd": "41807100"
+    },
+    {
+      "flag": "高崖水库_41808800_RR_(true_true_true)",
+      "stcd": "41808800"
+    },
+    {
+      "flag": "牟山水库_41809000_RR_(true_true_true)",
+      "stcd": "41809000"
+    },
+    {
+      "flag": "黄前水库_41502800_RR_(true_true_true)",
+      "stcd": "41502800"
+    },
+    {
+      "flag": "光明水库_41503400_RR_(true_true_true)",
+      "stcd": "41503400"
+    },
+    {
+      "flag": "跋山_51100300_RR_(true_true_true)",
+      "stcd": "51100300"
+    },
+    {
+      "flag": "沙沟_51110700_RR_(true_true_true)",
+      "stcd": "51110700"
+    },
+    {
+      "flag": "唐村_51104700_RR_(true_true_true)",
+      "stcd": "51104700"
+    },
+    {
+      "flag": "许家崖_51105200_RR_(true_true_true)",
+      "stcd": "51105200"
+    },
+    {
+      "flag": "岸堤_51103400_RR_(true_true_true)",
+      "stcd": "51103400"
+    },
+    {
+      "flag": "陡山_51114800_RR_(true_true_true)",
+      "stcd": "51114800"
+    },
+    {
+      "flag": "会宝岭_51209900_RR_(true_true_true)",
+      "stcd": "51209900"
+    },
+    {
+      "flag": "王屋_41814100_RR_(true_true_true)",
+      "stcd": "41814100"
+    },
+    {
+      "flag": "沐浴_41816500_RR_(true_true_true)",
+      "stcd": "41816500"
+    },
+    {
+      "flag": "门楼_41814900_RR_(true_true_true)",
+      "stcd": "41814900"
+    },
+    {
+      "flag": "青峰岭水库_51111000_RR_(true_true_true)",
+      "stcd": "51111000"
+    },
+    {
+      "flag": "小仕阳水库_51114600_RR_(true_true_true)",
+      "stcd": "51114600"
+    },
+    {
+      "flag": "日照水库_51300100_RR_(true_true_true)",
+      "stcd": "51300100"
+    },
+    {
+      "flag": "米山_41815700_RR_(true_true_true)",
+      "stcd": "41815700"
+    },
+    {
+      "flag": "龙角山_41816000_RR_(true_true_true)",
+      "stcd": "41816000"
+    },
+    {
+      "flag": "卧虎山_41403800_RR_(true_true_true)",
+      "stcd": "41403800"
+    },
+    {
+      "flag": "白浪河水库_41806200_RR_(true_true_true)",
+      "stcd": "41806200"
+    },
+    {
+      "flag": "贺庄水库_51206900_RR_(true_true_true)",
+      "stcd": "51206900"
+    },
+    {
+      "flag": "华村水库_51207500_RR_(true_true_true)",
+      "stcd": "51207500"
+    },
+    {
+      "flag": "龙湾套水库_51207700_RR_(true_true_true)",
+      "stcd": "51207700"
+    },
+    {
+      "flag": "东周水库_41503000_RR_(true_true_true)",
+      "stcd": "41503000"
+    },
+    {
+      "flag": "黄井闸_31106130_DD_(true_false_true)",
+      "stcd": "31106130"
+    },
+    {
+      "flag": "挑河闸_311Q3963_DD_(true_false_true)",
+      "stcd": "311Q3963"
+    },
+    {
+      "flag": "沾利闸_311Q3940_DD_(true_false_true)",
+      "stcd": "311Q3940"
+    },
+    {
+      "flag": "黄山_41805301_ZQ_(true_true_true)",
+      "stcd": "41805301"
+    },
+    {
+      "flag": "郭家屯_41808351_ZQ_(true_true_true)",
+      "stcd": "41808351"
+    },
+    {
+      "flag": "流河_41809491_ZQ_(true_true_true)",
+      "stcd": "41809491"
+    },
+    {
+      "flag": "郑家_41810001_ZQ_(true_true_true)",
+      "stcd": "41810001"
+    },
+    {
+      "flag": "闸子_41811502_ZQ_(true_true_true)",
+      "stcd": "41811502"
+    },
+    {
+      "flag": "葛家埠_41810801_ZZ_(true_true_false)",
+      "stcd": "41810801"
+    },
+    {
+      "flag": "团旺_41816401_ZQ_(true_true_true)",
+      "stcd": "41816401"
+    },
+    {
+      "flag": "福山_41814701_ZQ_(true_true_true)",
+      "stcd": "41814701"
+    },
+    {
+      "flag": "张家院_41810101_ZZ_(true_true_false)",
+      "stcd": "41810101"
+    },
+    {
+      "flag": "即墨_41812401_ZQ_(true_true_true)",
+      "stcd": "41812401"
+    },
+    {
+      "flag": "岚西头_41811101_ZQ_(true_true_true)",
+      "stcd": "41811101"
+    },
+    {
+      "flag": "乌衣巷_41812701_ZQ_(true_true_true)",
+      "stcd": "41812701"
+    },
+    {
+      "flag": "红旗_41811601_ZQ_(true_true_true)",
+      "stcd": "41811601"
+    },
+    {
+      "flag": "胶南_41812111_ZQ_(true_true_true)",
+      "stcd": "41812111"
+    },
+    {
+      "flag": "招远_41813601_PP_(true_true_false)",
+      "stcd": "41813601"
+    },
+    {
+      "flag": "海阳_41816201_ZQ_(true_true_true)",
+      "stcd": "41816201"
+    },
+    {
+      "flag": "牟平_41815301_ZQ_(true_true_true)",
+      "stcd": "41815301"
+    },
+    {
+      "flag": "元村_31004300_ZQ_(true_true_true)",
+      "stcd": "31004300"
+    },
+    {
+      "flag": "白楼_41504001_ZQ_(true_true_true)",
+      "stcd": "41504001"
+    },
+    {
+      "flag": "王家邵庄_51105001_ZZ_(true_true_false)",
+      "stcd": "51105001"
+    },
+    {
+      "flag": "水明崖_51104001_ZQ_(true_true_true)",
+      "stcd": "51104001"
+    },
+    {
+      "flag": "前城子_51103901_PP_(true_true_false)",
+      "stcd": "51103901"
+    },
+    {
+      "flag": "棠梨树_51125200_PP_(true_true_false)",
+      "stcd": "51125200"
+    },
+    {
+      "flag": "安阳_31006900_ZQ_(true_true_true)",
+      "stcd": "31006900"
+    },
+    {
+      "flag": "庄里水库_51208860_RR_(true_true_true)",
+      "stcd": "51208860"
+    },
+    {
+      "flag": "岳城水库_31007100_RR_(true_true_true)",
+      "stcd": "31007100"
+    },
+    {
+      "flag": "石嘴子_51208688_RR_(true_true_true)",
+      "stcd": "51208688"
+    },
+    {
+      "flag": "户主_51224000_RR_(true_true_true)",
+      "stcd": "51224000"
+    },
+    {
+      "flag": "周村_51209800_RR_(true_true_true)",
+      "stcd": "51209800"
+    },
+    {
+      "flag": "金斗_41503300_RR_(true_true_true)",
+      "stcd": "41503300"
+    },
+    {
+      "flag": "高陵_41815100_RR_(true_true_true)",
+      "stcd": "41815100"
+    },
+    {
+      "flag": "李村_41813250_ZQ_(true_true_true)",
+      "stcd": "41813250"
+    },
+    {
+      "flag": "东韩_41813350_ZQ_(true_true_true)",
+      "stcd": "41813350"
+    },
+    {
+      "flag": "马家店_31105890_ZQ_(true_true_true)",
+      "stcd": "31105890"
+    },
+    {
+      "flag": "王家集_31106330_ZQ_(true_true_true)",
+      "stcd": "31106330"
+    },
+    {
+      "flag": "利国_31108320_ZQ_(true_true_true)",
+      "stcd": "31108320"
+    },
+    {
+      "flag": "贾家_31106620_ZQ_(true_true_true)",
+      "stcd": "31106620"
+    },
+    {
+      "flag": "刁庄_31104905_ZQ_(true_true_true)",
+      "stcd": "31104905"
+    },
+    {
+      "flag": "栖霞北_41814750_ZQ_(true_true_true)",
+      "stcd": "41814750"
+    },
+    {
+      "flag": "老岚_41814670_ZQ_(true_true_true)",
+      "stcd": "41814670"
+    },
+    {
+      "flag": "上游_41520850_PP_(true_true_false)",
+      "stcd": "41520850"
+    },
+    {
+      "flag": "泰丰_41502450_ZQ_(true_true_true)",
+      "stcd": "41502450"
+    },
+    {
+      "flag": "陈北_41502550_ZQ_(true_true_true)",
+      "stcd": "41502550"
+    },
+    {
+      "flag": "马盘龙_41500070_ZZ_(true_true_false)",
+      "stcd": "41500070"
+    },
+    {
+      "flag": "大朱曹_51300380_ZQ_(true_true_true)",
+      "stcd": "51300380"
+    },
+    {
+      "flag": "李家谭崖_51300320_ZQ_(true_true_true)",
+      "stcd": "51300320"
+    },
+    {
+      "flag": "聂家洪沟_51114620_ZQ_(true_true_true)",
+      "stcd": "51114620"
+    },
+    {
+      "flag": "鲍村_41815501_ZQ_(true_true_true)",
+      "stcd": "41815501"
+    },
+    {
+      "flag": "高格庄水库_41832100_RR_(true_true_true)",
+      "stcd": "41832100"
+    },
+    {
+      "flag": "山洲水库_41811900_RR_(true_true_true)",
+      "stcd": "41811900"
+    },
+    {
+      "flag": "乔店_41520250_RR_(true_true_true)",
+      "stcd": "41520250"
+    },
+    {
+      "flag": "葫芦山_41500088_RR_(true_true_true)",
+      "stcd": "41500088"
+    },
+    {
+      "flag": "大冶_41520550_RR_(true_true_true)",
+      "stcd": "41520550"
+    },
+    {
+      "flag": "鹁鸽楼_41500150_RR_(true_true_true)",
+      "stcd": "41500150"
+    },
+    {
+      "flag": "杨家横_41520300_RR_(true_true_true)",
+      "stcd": "41520300"
+    },
+    {
+      "flag": "公庄_41502650_RR_(true_true_true)",
+      "stcd": "41502650"
+    },
+    {
+      "flag": "沟里_41500188_RR_(true_true_true)",
+      "stcd": "41500188"
+    },
+    {
+      "flag": "红旗_51100188_RR_(true_true_true)",
+      "stcd": "51100188"
+    },
+    {
+      "flag": "昌里_51104800_RR_(true_true_true)",
+      "stcd": "51104800"
+    },
+    {
+      "flag": "石泉湖(东)_51115000_RR_(true_true_true)",
+      "stcd": "51115000"
+    },
+    {
+      "flag": "马庄_51125550_RR_(true_true_true)",
+      "stcd": "51125550"
+    },
+    {
+      "flag": "石岚_51105500_RR_(true_true_true)",
+      "stcd": "51105500"
+    },
+    {
+      "flag": "高湖_51103488_RR_(true_true_true)",
+      "stcd": "51103488"
+    },
+    {
+      "flag": "吴家庄_51104688_RR_(true_true_true)",
+      "stcd": "51104688"
+    },
+    {
+      "flag": "大山_51320450_RR_(true_true_true)",
+      "stcd": "51320450"
+    },
+    {
+      "flag": "龙王口_51104388_RR_(true_true_true)",
+      "stcd": "51104388"
+    },
+    {
+      "flag": "古城_51104288_RR_(true_true_true)",
+      "stcd": "51104288"
+    },
+    {
+      "flag": "黄仁_51104088_RR_(true_true_true)",
+      "stcd": "51104088"
+    },
+    {
+      "flag": "书房_51124950_RR_(true_true_true)",
+      "stcd": "51124950"
+    },
+    {
+      "flag": "朱家坡_51122650_RR_(true_true_true)",
+      "stcd": "51122650"
+    },
+    {
+      "flag": "安靖_51104198_RR_(true_true_true)",
+      "stcd": "51104198"
+    },
+    {
+      "flag": "龙潭_51112588_RR_(true_true_true)",
+      "stcd": "51112588"
+    },
+    {
+      "flag": "公家庄(西)_51104587_RR_(true_true_true)",
+      "stcd": "51104587"
+    },
+    {
+      "flag": "寨子山_51121450_RR_(true_true_true)",
+      "stcd": "51121450"
+    },
+    {
+      "flag": "寨子_51100588_RR_(true_true_true)",
+      "stcd": "51100588"
+    },
+    {
+      "flag": "黄土山_51121950_RR_(true_true_true)",
+      "stcd": "51121950"
+    },
+    {
+      "flag": "大夫宁_51104788_RR_(true_true_true)",
+      "stcd": "51104788"
+    },
+    {
+      "flag": "刘庄_51125450_RR_(true_true_true)",
+      "stcd": "51125450"
+    },
+    {
+      "flag": "考村_51227300_RR_(true_true_true)",
+      "stcd": "51227300"
+    },
+    {
+      "flag": "双河_51227100_RR_(true_true_true)",
+      "stcd": "51227100"
+    },
+    {
+      "flag": "杨庄_51124400_RR_(true_true_true)",
+      "stcd": "51124400"
+    },
+    {
+      "flag": "平山_41814488_RR_(true_true_true)",
+      "stcd": "41814488"
+    },
+    {
+      "flag": "战山_41814500_RR_(true_true_true)",
+      "stcd": "41814500"
+    },
+    {
+      "flag": "邱山_41837900_RR_(true_true_true)",
+      "stcd": "41837900"
+    },
+    {
+      "flag": "北邢家_41836900_RR_(true_true_true)",
+      "stcd": "41836900"
+    },
+    {
+      "flag": "迟家沟_41837050_RR_(true_true_true)",
+      "stcd": "41837050"
+    },
+    {
+      "flag": "坎上_41813388_RR_(true_true_true)",
+      "stcd": "41813388"
+    },
+    {
+      "flag": "勾山_41810188_RR_(true_true_true)",
+      "stcd": "41810188"
+    },
+    {
+      "flag": "赵家_41813500_RR_(true_true_true)",
+      "stcd": "41813500"
+    },
+    {
+      "flag": "临疃河_41836100_RR_(true_true_true)",
+      "stcd": "41836100"
+    },
+    {
+      "flag": "白云洞_41813288_RR_(true_true_true)",
+      "stcd": "41813288"
+    },
+    {
+      "flag": "南台_41816188_RR_(true_true_true)",
+      "stcd": "41816188"
+    },
+    {
+      "flag": "里店_41816288_RR_(true_true_true)",
+      "stcd": "41816288"
+    },
+    {
+      "flag": "庵里_41814788_RR_(true_true_true)",
+      "stcd": "41814788"
+    },
+    {
+      "flag": "瓦善_41815788_RR_(true_true_true)",
+      "stcd": "41815788"
+    },
+    {
+      "flag": "桃园_41814988_RR_(true_true_true)",
+      "stcd": "41814988"
+    },
+    {
+      "flag": "龙泉_41839650_RR_(true_true_true)",
+      "stcd": "41839650"
+    },
+    {
+      "flag": "坤龙邢_41840600_RR_(true_true_true)",
+      "stcd": "41840600"
+    },
+    {
+      "flag": "后龙河_41815288_RR_(true_true_true)",
+      "stcd": "41815288"
+    },
+    {
+      "flag": "所前泊_41815388_RR_(true_true_true)",
+      "stcd": "41815388"
+    },
+    {
+      "flag": "崮山_41816988_RR_(true_true_true)",
+      "stcd": "41816988"
+    },
+    {
+      "flag": "台依_41842200_RR_(true_true_true)",
+      "stcd": "41842200"
+    },
+    {
+      "flag": "花家疃_41816788_RR_(true_true_true)",
+      "stcd": "41816788"
+    },
+    {
+      "flag": "纸坊_41839900_RR_(true_true_true)",
+      "stcd": "41839900"
+    },
+    {
+      "flag": "湾头_41815488_RR_(true_true_true)",
+      "stcd": "41815488"
+    },
+    {
+      "flag": "郭格庄_41815188_RR_(true_true_true)",
+      "stcd": "41815188"
+    },
+    {
+      "flag": "武林_41815088_RR_(true_true_true)",
+      "stcd": "41815088"
+    },
+    {
+      "flag": "南圈_41841350_RR_(true_true_true)",
+      "stcd": "41841350"
+    },
+    {
+      "flag": "院里_41816888_RR_(true_true_true)",
+      "stcd": "41816888"
+    },
+    {
+      "flag": "锦绣川_41403700_RR_(true_true_true)",
+      "stcd": "41403700"
+    },
+    {
+      "flag": "崮头水库_41428988_RR_(true_true_true)",
+      "stcd": "41428988"
+    },
+    {
+      "flag": "东王庄_41503620_ZQ_(true_true_true)",
+      "stcd": "41503620"
+    },
+    {
+      "flag": "角峪大桥_41500250_ZZ_(true_true_false)",
+      "stcd": "41500250"
+    },
+    {
+      "flag": "石汶河引水闸_41502830_ZZ_(true_true_false)",
+      "stcd": "41502830"
+    },
+    {
+      "flag": "瀛汶河引水闸_41502630_ZZ_(true_true_false)",
+      "stcd": "41502630"
+    },
+    {
+      "flag": "泮汶河入河口_41502930_ZQ_(true_true_true)",
+      "stcd": "41502930"
+    },
+    {
+      "flag": "卞庄_51209690_ZQ_(true_true_true)",
+      "stcd": "51209690"
+    },
+    {
+      "flag": "刘家庄_51115040_ZQ_(true_true_true)",
+      "stcd": "51115040"
+    },
+    {
+      "flag": "南坊_51105530_ZQ_(true_true_true)",
+      "stcd": "51105530"
+    },
+    {
+      "flag": "地方_51104160_ZQ_(true_true_true)",
+      "stcd": "51104160"
+    },
+    {
+      "flag": "周井铺_51105560_ZQ_(true_true_true)",
+      "stcd": "51105560"
+    },
+    {
+      "flag": "老屯_51209630_ZQ_(true_true_true)",
+      "stcd": "51209630"
+    },
+    {
+      "flag": "大兴屯_51209640_ZQ_(true_true_true)",
+      "stcd": "51209640"
+    },
+    {
+      "flag": "刘庄_51105550_ZQ_(true_true_true)",
+      "stcd": "51105550"
+    },
+    {
+      "flag": "南湖_5111557B_ZQ_(true_true_true)",
+      "stcd": "5111557B"
+    },
+    {
+      "flag": "管帅_41827300_PP_(true_true_false)",
+      "stcd": "41827300"
+    },
+    {
+      "flag": "桑园_51114580_ZZ_(true_true_false)",
+      "stcd": "51114580"
+    },
+    {
+      "flag": "郭家当门_5111028B_ZZ_(true_true_false)",
+      "stcd": "5111028B"
+    },
+    {
+      "flag": "小岭_51209680_ZZ_(true_true_false)",
+      "stcd": "51209680"
+    },
+    {
+      "flag": "圣旨崖_99999904_ZQ_(true_true_true)",
+      "stcd": "99999904"
+    },
+    {
+      "flag": "高泽南岭_99999904_ZQ_(true_true_true)",
+      "stcd": "99999903"
+    },
+    {
+      "flag": "北陈庄_99999901_ZQ_(true_true_true)",
+      "stcd": "99999901"
+    },
+    {
+      "flag": "天宝_99999902_ZQ_(true_true_true)",
+      "stcd": "99999902"
+    },
+    {
+      "flag": "马头_51101700_ZQ_(true_true_true)",
+      "stcd": "51101700"
+    },
+    {
+      "flag": "马石河_51102110_ZQ_(true_true_true)",
+      "stcd": "51102110"
+    },
+    {
+      "flag": "窑上_51113201_ZQ_(true_true_true)",
+      "stcd": "51113201"
+    },
+    {
+      "flag": "官坊街_51115101_PP_(true_true_false)",
+      "stcd": "51115101"
+    },
+    {
+      "flag": "北墅水库_41810788_RR_(true_true_true)",
+      "stcd": "41810788"
+    },
+    {
+      "flag": "铁山水库_41812088_RR_(true_true_true)",
+      "stcd": "41812088"
+    },
+    {
+      "flag": "陡崖子水库_41834350_RR_(true_true_true)",
+      "stcd": "41834350"
+    },
+    {
+      "flag": "小珠山水库_41811888_RR_(true_true_true)",
+      "stcd": "41811888"
+    },
+    {
+      "flag": "王圈水库_41812388_RR_(true_true_true)",
+      "stcd": "41812388"
+    },
+    {
+      "flag": "宋化泉水库_41810488_RR_(true_true_true)",
+      "stcd": "41810488"
+    },
+    {
+      "flag": "黄同水库_41810900_RR_(true_true_true)",
+      "stcd": "41810900"
+    },
+    {
+      "flag": "吉利河水库_41812188_RR_(true_true_true)",
+      "stcd": "41812188"
+    },
+    {
+      "flag": "尹城水库_51207045_RR_(true_true_true)",
+      "stcd": "51207045"
+    },
+    {
+      "flag": "嵩山水库_41805388_RR_(true_true_true)",
+      "stcd": "41805388"
+    },
+    {
+      "flag": "黑虎山水库_41805588_RR_(true_true_true)",
+      "stcd": "41805588"
+    },
+    {
+      "flag": "符山水库_41806388_RR_(true_true_true)",
+      "stcd": "41806388"
+    },
+    {
+      "flag": "青墩子水库_41806788_RR_(true_true_true)",
+      "stcd": "41806788"
+    },
+    {
+      "flag": "三里庄水库_41808000_RR_(true_true_true)",
+      "stcd": "41808000"
+    },
+    {
+      "flag": "于家河水库_41808088_RR_(true_true_true)",
+      "stcd": "41808088"
+    },
+    {
+      "flag": "马旺水库_41809288_RR_(true_true_true)",
+      "stcd": "41809288"
+    },
+    {
+      "flag": "王吴水库_41811800_RR_(true_true_true)",
+      "stcd": "41811800"
+    },
+    {
+      "flag": "大关水库_41829350_RR_(true_true_true)",
+      "stcd": "41829350"
+    },
+    {
+      "flag": "尚庄水库_41808888_RR_(true_true_true)",
+      "stcd": "41808888"
+    },
+    {
+      "flag": "大河_41500488_RR_(true_true_true)",
+      "stcd": "41500488"
+    },
+    {
+      "flag": "山阳_41503088_RR_(true_true_true)",
+      "stcd": "41503088"
+    },
+    {
+      "flag": "角峪_41500288_RR_(true_true_true)",
+      "stcd": "41500288"
+    },
+    {
+      "flag": "尚庄炉_41500988_RR_(true_true_true)",
+      "stcd": "41500988"
+    },
+    {
+      "flag": "相邸_51300400_RR_(true_true_true)",
+      "stcd": "51300400"
+    },
+    {
+      "flag": "小马庄_51227700_RR_(true_true_true)",
+      "stcd": "51227700"
+    },
+    {
+      "flag": "上冶_51124600_RR_(true_true_true)",
+      "stcd": "51124600"
+    },
+    {
+      "flag": "长新桥_51210088_RR_(true_true_true)",
+      "stcd": "51210088"
+    },
+    {
+      "flag": "凌山头_51111688_RR_(true_true_true)",
+      "stcd": "51111688"
+    },
+    {
+      "flag": "施庄_51104188_RR_(true_true_true)",
+      "stcd": "51104188"
+    },
+    {
+      "flag": "城子_41810088_RR_(true_true_true)",
+      "stcd": "41810088"
+    },
+    {
+      "flag": "留驾_41814288_RR_(true_true_true)",
+      "stcd": "41814288"
+    },
+    {
+      "flag": "建新_41843200_RR_(true_true_true)",
+      "stcd": "41843200"
+    },
+    {
+      "flag": "巨峰_51300288_RR_(true_true_true)",
+      "stcd": "51300288"
+    },
+    {
+      "flag": "马陵_51300388_RR_(true_true_true)",
+      "stcd": "51300388"
+    },
+    {
+      "flag": "长城岭_41827900_RR_(true_true_true)",
+      "stcd": "41827900"
+    },
+    {
+      "flag": "小王疃_41806188_RR_(true_true_true)",
+      "stcd": "41806188"
+    },
+    {
+      "flag": "学庄_41806288_RR_(true_true_true)",
+      "stcd": "41806288"
+    },
+    {
+      "flag": "河西_51114488_RR_(true_true_true)",
+      "stcd": "51114488"
+    },
+    {
+      "flag": "石店_41428888_RR_(true_true_true)",
+      "stcd": "41428888"
+    },
+    {
+      "flag": "钓鱼台_41428890_RR_(true_true_true)",
+      "stcd": "41428890"
+    },
+    {
+      "flag": "胜利_41500350_RR_(true_true_true)",
+      "stcd": "41500350"
+    },
+    {
+      "flag": "龙门口_41842750_RR_(true_true_true)",
+      "stcd": "41842750"
+    },
+    {
+      "flag": "户部岭_51300188_RR_(true_true_true)",
+      "stcd": "51300188"
+    },
+    {
+      "flag": "峤山_51111188_RR_(true_true_true)",
+      "stcd": "51111188"
+    },
+    {
+      "flag": "双庙水库_41810988_RR_(true_true_true)",
+      "stcd": "41810988"
+    },
+    {
+      "flag": "书院水库_41812988_RR_(true_true_true)",
+      "stcd": "41812988"
+    },
+    {
+      "flag": "青年水库_41811550_RR_(true_true_true)",
+      "stcd": "41811550"
+    },
+    {
+      "flag": "挪城水库_41833850_RR_(true_true_true)",
+      "stcd": "41833850"
+    },
+    {
+      "flag": "孙家屯水库_41811188_RR_(true_true_true)",
+      "stcd": "41811188"
+    },
+    {
+      "flag": "黄山水库_41831050_RR_(true_true_true)",
+      "stcd": "41831050"
+    },
+    {
+      "flag": "双山水库_41810888_RR_(true_true_true)",
+      "stcd": "41810888"
+    },
+    {
+      "flag": "大泽山水库_41810588_RR_(true_true_true)",
+      "stcd": "41810588"
+    },
+    {
+      "flag": "淄阳水库_41810688_RR_(true_true_true)",
+      "stcd": "41810688"
+    },
+    {
+      "flag": "石棚水库_41812500_RR_(true_true_true)",
+      "stcd": "41812500"
+    },
+    {
+      "flag": "淌水崖水库_41805350_RR_(true_true_true)",
+      "stcd": "41805350"
+    },
+    {
+      "flag": "荆山水库_41805788_RR_(true_true_true)",
+      "stcd": "41805788"
+    },
+    {
+      "flag": "石门水库_41806888_RR_(true_true_true)",
+      "stcd": "41806888"
+    },
+    {
+      "flag": "郭家村水库_41806988_RR_(true_true_true)",
+      "stcd": "41806988"
+    },
+    {
+      "flag": "共青团水库_41828300_RR_(true_true_true)",
+      "stcd": "41828300"
+    },
+    {
+      "flag": "沂山水库_41808488_RR_(true_true_true)",
+      "stcd": "41808488"
+    },
+    {
+      "flag": "下株梧水库_41808188_RR_(true_true_true)",
+      "stcd": "41808188"
+    },
+    {
+      "flag": "丹河水库_41825600_RR_(true_true_true)",
+      "stcd": "41825600"
+    },
+    {
+      "flag": "马宋水库_41826550_RR_(true_true_true)",
+      "stcd": "41826550"
+    },
+    {
+      "flag": "吴家楼水库_41829000_RR_(true_true_true)",
+      "stcd": "41829000"
+    },
+    {
+      "flag": "牛台山水库_41807003_RR_(true_true_true)",
+      "stcd": "41807003"
+    },
+    {
+      "flag": "彩山_41503550_RR_(true_true_true)",
+      "stcd": "41503550"
+    },
+    {
+      "flag": "贤村_41500750_RR_(true_true_true)",
+      "stcd": "41500750"
+    },
+    {
+      "flag": "苇池_41503450_RR_(true_true_true)",
+      "stcd": "41503450"
+    },
+    {
+      "flag": "田村_41522911_RR_(true_true_true)",
+      "stcd": "41522911"
+    },
+    {
+      "flag": "小安门_41500198_RR_(true_true_true)",
+      "stcd": "41500198"
+    },
+    {
+      "flag": "直界_41500888_RR_(true_true_true)",
+      "stcd": "41500888"
+    },
+    {
+      "flag": "月牙河_51206713_RR_(true_true_true)",
+      "stcd": "51206713"
+    },
+    {
+      "flag": "张庄_51103788_RR_(true_true_true)",
+      "stcd": "51103788"
+    },
+    {
+      "flag": "刘大河_51300740_RR_(true_true_true)",
+      "stcd": "51300740"
+    },
+    {
+      "flag": "金岭_41814388_RR_(true_true_true)",
+      "stcd": "41814388"
+    },
+    {
+      "flag": "庙埠河_41814188_RR_(true_true_true)",
+      "stcd": "41814188"
+    },
+    {
+      "flag": "小平_41816450_RR_(true_true_true)",
+      "stcd": "41816450"
+    },
+    {
+      "flag": "盘石_41842300_RR_(true_true_true)",
+      "stcd": "41842300"
+    },
+    {
+      "flag": "侯家_41813580_RR_(true_true_true)",
+      "stcd": "41813580"
+    },
+    {
+      "flag": "石亩子_51130000_RR_(true_true_true)",
+      "stcd": "51130000"
+    },
+    {
+      "flag": "龙潭沟_41812160_RR_(true_true_true)",
+      "stcd": "41812160"
+    }
+  ]
+}

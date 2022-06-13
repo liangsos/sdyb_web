@@ -1,0 +1,122 @@
+﻿//# sourceURL=yb_jsyb.js
+function upJsybPanelShow() {
+    $("#panel_jyzzt").show();
+    tools.showPanelIndex("panel_jyzzt");
+}
+
+//关闭按钮事件
+$("#panel_jyzzt .icon-close").click(function () {
+    $(this).parent().parent().parent().hide();
+    //隐藏面板层级
+    tools.hidePanelIndex($(this).parent().parent().parent().attr("id"));
+
+});
+
+//报表通用可拖拽事件
+// $(".mode-jyzzt").draggable({
+//     handle: '.panel-header',
+//     cursor: "move",
+//     opacity: 0.7
+// });
+//面板添加点击事件 保证操作面板在最上层
+$(".mode-jyzzt").click(function (event) {
+    //按钮事件阻止
+    if ($(event.target).hasClass("btn") || $(event.target).hasClass("th-click") || $(event.target).hasClass("icon-close") || event.target.tagName == "A")
+        return;
+    tools.showPanelIndex($(this).attr("id"));
+});
+
+/**
+ * 降雨模式下拉框值选择触发
+ */
+$("#jsyb_fpfa").on("change" , function(event){
+    let modValue = $("#jsyb_fpfa  option:selected").val();
+    if(modValue === ''){
+        tools.show_message_error_const("请先点击表格中对应的流域名称")
+        return
+    }
+    let param = {
+        dpNoComment:modValue
+    }
+    $.ajax({
+        type: 'post',
+        contentType: "application/json; charset=utf-8",
+        async: false,
+        dataType: 'json',
+        headers: {
+            "Authorization": getCookie("accessToken")
+        },
+        url: apiUrl_cloud + "api-rainsituation/basin/getDpdbPInfo",
+        data: JSON.stringify(param),
+        success:function(res){
+            debugger
+            if(res.code === 200){
+                let legendName = res.data.comment;
+                //循环获取参数
+                x_data = []
+                y_data = []
+                $.each(res.data.pointList , function (index ,item){
+                    x_data.push(item.lno)
+                    y_data.push(item.p)
+                })
+
+                let option = {
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            crossStyle: {
+                                color: '#999'
+                            }
+                        }
+                    },
+                    legend: {
+                        data:[legendName]
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            name: '小时(h)',
+                            data: x_data,
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '雨量(mm)',
+                            axisLabel: {
+                                formatter: '{value} mm'
+                            }
+                        }
+                    ],
+                    series:[
+                        {
+                            id:"y_bar",
+                            name: '雨量',
+                            type: 'bar',
+                            barWidth: "8px",
+                            data: y_data
+                        },{
+                            id:"y_line",
+                            name: '雨量',
+                            smooth: true,
+                            type: 'line',
+                            data: y_data
+                        }
+                    ]
+                }
+                if(!tools_panel.chartMod){
+                    tools_panel.chartMod = echarts.init($("#init_jyzzt")[0])
+                }
+                tools_panel.chartMod.clear()
+                tools_panel.chartMod.setOption(option,true)
+                upJsybPanelShow()
+            }else{
+                tools.show_message_error_const(res.msg)
+            }
+        },
+        error:function(msg){
+            tools.show_message_error_const(msg)
+        }
+    })
+})

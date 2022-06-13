@@ -1,0 +1,185 @@
+﻿var default_hsyj_width_report = 300;
+var default_hsyj_height_report = 180;
+
+
+//演进河流数组
+var arr_river_yj_all = ["挑河",
+    "沾利河",
+    "南运河",
+    "四女寺减河",
+    "老赵牛河",
+    "秦口河",
+    "德惠新河",
+    "徒骇河",
+    "马颊河",
+    "漳卫河",
+    "安阳河",
+    "卫河河南",
+    "漳河",
+    "北沙河",
+    "洸府河",
+    "万福河",
+    "白马河",
+    "小沂河",
+    "新薛河",
+    "城郭河",
+    "西泇河",
+    "东鱼河",
+    "洙赵新河",
+    "梁济运河",
+    "泗河",
+    "韩庄运河",
+    "玉符河",
+    "锦阳川",
+    "光明河",
+    "石汶河",
+    "瀛汶河",
+    "柴汶河",
+    "大汶河",
+    "弥河",
+    "白浪河",
+    "汶河",
+    "渠河",
+    "潍河",
+    "大沽河",
+    "南胶莱河",
+    "北胶莱河",
+    "泽河",
+    "猪洞河",
+    "小沽河",
+    "胶河",
+    "清洋河",
+    "大沽夹河",
+    "五龙河",
+    "蚬河",
+    "白沙河",
+    "黄水河",
+    "乳山河",
+    "母猪河",
+    "墨水河",
+    "浔河",
+    "付疃河",
+    "新沭河",
+    "分沂入沭",
+    "沭河",
+    "袁公河",
+    "温凉河",
+    "祊河",
+    "梓河",
+    "东汶河",
+    "沂河"
+]
+$(document).ready(function () {
+   
+});
+$("#panelHsyj .icon-close").click(function () {
+    $(this).parent().parent().parent().hide();
+    $("#bar_hsyj").attr("src", "./page_h/img/bar_hsyj.png");
+    $("#bar_hsyj").removeClass("bar_active");
+});
+ 
+$("#panelHsyj").draggable({
+    handle: '.panel-header',
+    cursor: "move",
+    opacity: 0.7
+});
+ 
+function yb_hsyj_PanelShow() {
+    var arr_data = new Array();
+    $.each(arr_river_yj_all, function (index, item) {
+        var _temp = {
+            "id": item,
+            "title": item
+        };
+        arr_data.push(_temp);
+    })
+
+	var arr_river = [
+		{
+            "id": '全省河流',
+            "title": "全省河流",
+            "subs": arr_data 
+		 
+		},
+ 
+	];
+ 
+
+	  $('#list_river').comboTree({
+        source: arr_river,
+		isMultiple: true,
+		isFirstClassSelectable: false, //第一级是否可选
+          cascadeSelect: true,
+          selectedlength: 100 //最多可选
+ 
+	});
+  
+    $("#panelHsyj").show();
+    $("#panelHsyj").css({
+        "left": "calc(50% - " + (default_hsyj_width_report / 2) + "px)",
+        "top": "calc(50% - " + (default_hsyj_height_report / 2) + "px)",
+        "margin-left": "0px",
+        "margin-top": "0px"
+    });
+    return;
+
+}
+ 
+function yb_hsyj_PanelHide() {
+    $("#panelHsyj").hide();
+    return; 
+}
+//面板添加点击事件 保证操作面板在最上层
+$("#panelHsyj").click(function (event) {
+    //按钮事件阻止
+    if ($(event.target).hasClass("btn") || $(event.target).hasClass("th-click") || $(event.target).hasClass("icon-close-new") || event.target.tagName == "A")
+        return;
+    tools.showPanelIndex($(this).attr("id"));
+});
+ 
+$("#hsyj_sumbit_ok").click(function (event) {
+
+
+    var slect_river_info = $("#list_river .role_select").attr("data-id");
+    if (slect_river_info != undefined) {
+        var slect_river = slect_river_info.split(",");
+        if (slect_river.length > 0)
+            start_hsyj(slect_river);
+    }
+
+
+    $("#panelHsyj .icon-close").click();
+});
+ 
+ 
+/**
+ * 洪水演进效果
+ */
+function start_hsyj(arr_riverName) {
+
+    if (ybddMapType != "1")
+        return;
+    if (searchRange != "14")
+        return;
+
+    var svgDocument = document.getElementById("SVGDoc").getSVGDocument();
+     var svgWnd = svgDocument.svgWnd;
+ 
+     svgWnd.btn_river_yj(arr_riverName);
+}
+/**
+ * 清除洪水演进效果
+ */
+ function clear_hsyj() {
+
+     $("#bar_hsyj").attr("src", "./page_h/img/bar_hsyj.png");
+
+    if (ybddMapType != "1")
+        return;
+    if (searchRange != "14")
+        return;
+
+    var svgDocument = document.getElementById("SVGDoc").getSVGDocument();
+    var svgWnd = svgDocument.svgWnd;
+    svgWnd.clearAll_river_yj();
+}

@@ -1,0 +1,85 @@
+﻿@charset "UTF-8";
+.m-style {
+    position: relative;
+    white-space:nowrap;
+    overflow:hidden;
+    zoom: 1;
+}
+
+.m-style:before,
+.m-style:after {
+    content: "";
+    display: table;
+}
+
+.m-style:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.m-style span {
+    display: inline;
+    padding: 0 1px;
+    margin:0 1px;
+    color: #bdbdbd;
+}
+
+.m-style .active {
+    color: #4ea0f5;
+    background: #FFF;
+    border: 1px solid #fff;
+}
+
+.m-style a {
+    display: inline;
+    padding: 0 1px;
+    margin:0 1px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.m-style a:hover {
+    color: #4ea0f5;
+    background: #FFF;
+}
+
+.m-style .next,
+.m-style .prev {
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.eg img {
+    max-width: 800px;
+    min-height: 500px;
+}
+
+.m-style input[type="text"] {
+    display: inline;
+    margin: 0 2px;
+    width: 22px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+
+.m-style .jump-btn{
+    padding:0px;
+    margin:0px;
+    border:none;
+}
+
+.m-style .jump-btn:hover {
+    color: #fff;
+    background: none;
+}

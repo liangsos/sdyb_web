@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./common.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <div class="page flex-col">
+      <div class="section1 flex-col justify-between">
+ 
+        <div class="box7 flex-row">
+          <div class="layer1 flex-col">
+        <!---->    <div class="main1 flex-col justify-between">
+              <div class="layer2 flex-col justify-center align-center">
+                <div class="bd1 flex-row">
+                  <img
+                    class="label9"
+                    referrerpolicy="no-referrer"
+                    src="./img/temp_h_5.png"
+                  />
+                  <span class="info1">流域分区</span>
+                  <img
+                    class="icon3"
+                    referrerpolicy="no-referrer"
+                    src="./img/SketchPngbde94045b91aa402d3bf58bf0c69a24e73e68cd78244f234367c659ff6df2c81.png"
+                  />
+                </div>
+              </div>
+           
+              <div class="layer3 flex-col justify-center align-center">
+                <div class="mod1 flex-row">
+                  <div class="box8 flex-col">
+                    <img
+                      class="label10"
+                      referrerpolicy="no-referrer"
+                      src="./img/temp_h_5.png"
+                    />
+                  </div>
+                  <span class="txt3">行政分区</span>
+                  <img
+                    class="icon4"
+                    referrerpolicy="no-referrer"
+                    src="./img/SketchPng86d1a935c45ce1867a54dfc496dbe305d44bd0d0ec948f4d35baea520b732d10.png"
+                  />
+                </div>
+              </div>
+              <div class="layer4 flex-col justify-center">
+                <div class="bd2 flex-col">
+                    <span class="word9">漳卫南运河</span>
+                    <span class="txt4">漳卫南运河</span>
+                    <span class="word10">漳卫南运河</span>
+                  <div class="box9 flex-col justify-center">
+                      <span class="word11">漳卫南运河</span>
+                   
+                  </div>
+                  <span class="word12">漳卫南运河</span>
+                  <span class="word13">漳卫南运河</span>
+                  <span class="word14">漳卫南运河</span>
+                  <span class="txt5">漳卫南运河</span>
+                  <span class="info2">漳卫南运河</span>
+                </div>
+              </div>
+       
+            </div>
+          </div>
+          <div class="layer6 flex-col">
+            <div class="mod2 flex-row">
+              <div class="block1 flex-col">
+                <div class="box10 flex-row justify-between">
+                  <img
+                    class="label11"
+                    referrerpolicy="no-referrer"
+                    src="./img/SketchPnge04d4973f1f564ac107f62aeab7dc184b28a7c4e4ac51868d2a09a438d4514d6.png"
+                  />
+                  <span class="word15">预报</span>
+                </div>
+              </div>
+              <div class="block1 flex-col">
+                  <div class="box10 flex-row justify-between">
+                      <img class="label11"
+                           referrerpolicy="no-referrer"
+                           src="./img/temp_h_3.png" />
+                      <span class="word15">预警</span>
+                  </div>
+              </div>
+              <div style="display: inline-flex;margin-left:80px;">
+                  <div class="block3 flex-col">
+                      <span class="word16">时间设置</span>
+                  </div>
+                  <div class="block4 flex-col justify-between">
+                      <div class="box11 flex-col">
+                          <span class="word17">降雨设置</span>
+                      </div>
+                      <div class="box12 flex-col"></div>
+                  </div>
+                  <span class="word18">模型选择</span>
+                  <span class="info4">预报计算</span>
+                  <span class="word19">成果修正</span>
+                  <span class="txt6">发布保存</span>
+              </div>
+        
+              <div class="block1 flex-col" style=" margin-left: 80px;">
+                  <div class="box10 flex-row justify-between">
+                      <img class="label11"
+                           referrerpolicy="no-referrer"
+                           src="./img/SketchPngfefc9dc433435d1c7ae32446af1dbd6aa8d6cf051d6251b70c1d42bef3e24be9.png" />
+                      <span class="word15">预演</span>
+                  </div>
+              </div>
+              <div class="block1 flex-col">
+                  <div class="box10 flex-row justify-between">
+                      <img class="label11"
+                           referrerpolicy="no-referrer"
+                           src="./img/SketchPng5f885ca5deb22822e1d0ab4db63c6c9ac7b0959cf5f78204c105e44319429271.png" />
+                      <span class="word15">预案</span>
+                  </div>
+              </div>
+            </div>
+            <div class="mod3 flex-col" style=" margin-left: 470px; ">
+              <div class="box13 flex-row justify-between">
+                <div class="box14 flex-col"></div>
+                <div class="box15 flex-col"></div>
+                <div class="box16 flex-col"></div>
+                <div class="box17 flex-col"></div>
+              </div>
+              <div class="box18 flex-col">
+                <img
+                  class="icon6"
+                  referrerpolicy="no-referrer"
+                  src="./img/SketchPng6903a90fe4f48b1caf9cfa0a85f85edf3e85193ac234d3a31eb275f6b85089e2.png"
+                />
+              </div>
+              <div class="box19 flex-col"></div>
+              <div class="box20 flex-col">
+                <img
+                  class="icon7"
+                  referrerpolicy="no-referrer"
+                  src="./img/SketchPng578b9ad9e7691cdb6daf2b29390094a6291c43c7ad907eb422877873d38e6c25.png"
+                />
+              </div>
+              <div class="box21 flex-col"></div>
+              <div class="box22 flex-col">
+                <div class="group2 flex-col"></div>
+              </div>
+              <img
+                class="label12"
+                referrerpolicy="no-referrer"
+                src="./img/SketchPng36a013f2f227dc502dc899cacb83bb4200c2ca09404925a5e0529bf9f991aea4.png"
+              />
+              <img
+                class="icon8"
+                referrerpolicy="no-referrer"
+                src="./img/SketchPng9c284be06c8842008ad316ce9b9962cc416c61553f27aebddd1426c1f38aaa2f.png"
+              />
+              <img
+                class="label13"
+                referrerpolicy="no-referrer"
+                src="./img/SketchPng6cec53477be5d139aba9b9c90fc8ab5b04dd421bf8a5869472c4f80fe68eaf7e.png"
+              />
+            </div>
+            <div class="mod4 flex-row justify-between" >
+              <div class="section2 flex-col align-center">
+                <div class="section3 flex-col justify-between">
+                  <span class="infoBox1">
+                    收
+                    <br />
+                    起
+                  </span>
+                  <img
+                    class="icon9"
+                    referrerpolicy="no-referrer"
+                    src="./img/SketchPng6ab8222432ca31646e80317ba0792f5ccb516c0958d8a196e85c4265fdc22334.png"
+                  />
+                </div>
+              </div>
+              <div class="section4 flex-col" style="display:none">
+                <div class="block7 flex-col justify-between">
+                  <div class="block8 flex-col justify-center">
+                    <div class="box23 flex-col">
+                      <div class="group3 flex-row justify-between">
+                        <span class="info5">降雨设置</span>
+                        <div class="mod5 flex-col"></div>
+                      </div>
+                      <div class="group4 flex-col"></div>
+                      <div class="group5 flex-row justify-between">
+                        <span class="word20">降雨方案：</span>
+                        <div class="main2 flex-col"></div>
+                      </div>
+                      <div class="group6 flex-row">
+                        <span class="info6">放大形式：</span>
+                        <div class="box24 flex-col"></div>
+                        <span class="txt7">百分比</span>
+                        <div class="box25 flex-col"></div>
+                        <span class="word21">绝对值</span>
+                      </div>
+                      <div class="group7 flex-row justify-between">
+                        <span class="word22">增大值：</span>
+                        <div class="bd3 flex-col"></div>
+                        <span class="word23">%</span>
+                      </div>
+                      <div class="group8 flex-row">
+                        <div class="main3 flex-col">
+                          <button
+                            class="section5 flex-col justify-center align-center"
+                          >
+                            <span class="word24">确定</span>
+                          </button>
+                        </div>
+                        <div class="main4 flex-col">
+                          <span class="txt8">取消</span>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="word25">实时降水</span>
+                    <span class="word26">0</span>
+                  </div>
+                  <div class="block9 flex-col"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layer7 flex-col justify-end">
+            <div class="box26 flex-col">
+              <div class="main5 flex-col">
+                <img
+                  class="img2"
+                  referrerpolicy="no-referrer"
+                  src="./img/SketchPng6d2ed06b8713c0137c7bb9181fd3f1da7b27e702c52d45ca336c448a82cc4354.png"
+                />
+              </div>
+            </div>
+            <span class="info7"></span>
+            <span class="txt9"></span>
+          </div>
+         
+        </div>
+      </div>
+ 
+ 
+      
+      <div class="section19 flex-col"><span class="word31">概化图</span></div>
+    </div>
+  </body>
+</html>

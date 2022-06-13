@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from 60.216.119.102:10086/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Sep 2021 07:04:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洪水预报系统</title>
+    <link rel="stylesheet" type="text/css" href="Css/common.css" />
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link rel="stylesheet" type="text/css" href="Css/panel.css" />
+    <link href="Jquery/toastr/toastr.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Jquery/jQuery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Jquery/bootstrap/css/bootstrap.css">
+    <link href="Jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Css/home.css">
+    <script src="Script/home/home.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+    <div style="width:100%;height:100%">
+        <div class="framePage">
+            <iframe id="frame_shikuang" class="page_1" style="width: 100%; height: 100%; background-color:black" src="shikuang.html"> </iframe>
+            <iframe id="frame_yubao" class="page_2" style="width:100%;height:100%;display:none" src="ybdd.html"> </iframe>
+            <!----> <iframe id="frame_huishang" class="page_3" style="width: 100%; height: 100%; display: none; background-color: black" src="huishang.html"> </iframe>
+            <iframe id="frame_fagl" class="page_4" style="width:100%;height:100%;display:none" src="fagl.html"> </iframe>
+            <iframe id="frame_mxgj" class="page_5" style="width: 100%; height: 100%; display: none" src="mxgj.html"> </iframe>
+            <iframe id="frame_xtgl" class="page_6" style="width:100%;height:100%;display:none" src="xtgl.html"> </iframe>
+        </div>
+    </div>
+
+    <!-- <div id="panel_password_change" class="modal-panel" style="display: none; position: absolute; width: 260px; height: 200px; top: calc(50% - 100px); left: calc(50% - 130px);margin-top:0px;margin-left:0px;">
+         <div class="panel-header">
+             <span class="modal-title">修改密码</span>
+             <div class="title_btn">
+                 <a class="icon-close" href="javascript:;" title="关闭"></a>
+             </div>
+         </div>
+         <div class="form-inline" style="padding: 20px;">
+             <div>
+                 <label style="font-size: 15px; ">新密码:</label>
+                 <input id="change_password" class="form-control  " type="password" size="16" step="1" style="width: 120px; margin-left: 30px; " />
+
+             </div>
+             <div style="margin-top:10px;">
+                 <label style="font-size: 15px; ">确认密码:</label>
+                 <input id="change_confirmPassword" class="form-control  " type="password" size="16" step="1" style="width: 120px; margin-left: 15px; " />
+
+             </div>
+             <div style="margin-top: 20px; margin-left: 10px;">
+                 <button id="change_ok" class="btn btn-color" style=" background-color: #4ea0f5; border-color: #4ea0f5; width: 80px;">
+                     <span class="word24 ">确定</span>
+                 </button>
+                 <button id="change_cancel" class="btn btn-color" style="background-color: #f6f6f6; border-color: #eee; width: 80px; margin-left: 20px;">
+                     <span class="word24 ">取消</span>
+                 </button>
+             </div>
+
+         </div>
+     </div>-->
+    <div id="panel_password_change" class="modal-panel " style="display: none; position: absolute; width: 260px; height: 200px; top: calc(50% - 100px); left: calc(50% - 130px);margin-top:0px;margin-left:0px;">
+        <div class="panel-header">
+            <span class="modal-title">修改密码</span>
+            <div class="title_btn">
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+        <div class="form-inline" style="padding: 20px;">
+            <div>
+                <label style="font-size: 15px; ">新密码:</label>
+                <input id="change_password" class="form-control  " type="password" size="16" step="1" style="width: 120px; margin-left: 30px; " />
+
+            </div>
+            <div style="margin-top:10px;">
+                <label style="font-size: 15px; ">确认密码:</label>
+                <input id="change_confirmPassword" class="form-control  " type="password" size="16" step="1" style="width: 120px; margin-left: 15px; " />
+
+            </div>
+            <div style="margin-top: 20px; margin-left: 10px;">
+                <button id="change_ok" class="btn btn-color" style=" background-color: #4ea0f5; border-color: #4ea0f5; width: 80px;">
+                    <span class="word24 ">确定</span>
+                </button>
+                <button id="change_cancel" class="btn btn-color" style="background-color: #f6f6f6; border-color: #eee; width: 80px; margin-left: 20px;">
+                    <span class="word24 ">取消</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="Jquery/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Jquery/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.drag.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.event.ue.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.udraggable.js"></script>
+    <script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+    <script src="Script/common/cookieMgr.js" type="text/javascript"></script>
+    <script src="Script/common/apiLogin.js" type="text/javascript"></script>
+    <script src="Script/common/common_fun.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Script/common/checkrole.js"></script>
+    <script type="text/javascript" src="Script/home/home.js"></script>
+</body>
+</html>

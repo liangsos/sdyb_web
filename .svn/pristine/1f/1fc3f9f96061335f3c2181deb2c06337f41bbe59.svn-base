@@ -1,0 +1,67 @@
+ 
+.yb-pa-s {
+    z-index: 190;
+    background: url(./img/yb_menu_bg_s.png) 100% no-repeat;
+    position: absolute;
+    top: 200px;
+    left:300px;
+    display: none;
+    height: 666px;
+    width: 40px;
+    margin-left:50px;
+ 
+}
+#btn_sjsz_shu .icon_img_bg, #btn_jysz_shu .icon_img_bg, #btn_mxxz_shu .icon_img_bg, #btn_ybjs_shu .icon_img_bg, #btn_cgxz_shu .icon_img_bg, #btn_fbbc_shu .icon_img_bg {
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+#btn_sjsz_shu .icon_img, #btn_jysz_shu .icon_img, #btn_mxxz_shu .icon_img, #btn_ybjs_shu .icon_img, #btn_cgxz_shu .icon_img, #btn_fbbc_shu .icon_img {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    width: 16px;
+    height: 16px;
+}
+#btn_sjsz_shu, #btn_jysz_shu, #btn_mxxz_shu, #btn_ybjs_shu, #btn_cgxz_shu, #btn_fbbc_shu {
+    cursor: pointer;
+}
+
+#btn_sjsz_shu_text, #btn_jysz_shu_text, #btn_mxxz_shu_text, #btn_ybjs_shu_text, #btn_cgxz_shu_text, #btn_fbbc_shu_text {
+    position: absolute;
+    left: 52px;
+    top: 0px;
+/* display: none*/ 
+}
+
+    #btn_sjsz_shu_text img, #btn_jysz_shu_text img, #btn_mxxz_shu_text img, #btn_ybjs_shu_text img, #btn_cgxz_shu_text img, #btn_fbbc_shu_text img {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        height: 45px;
+        width: 75px;
+    }
+
+    #btn_sjsz_shu_text span, #btn_jysz_shu_text span, #btn_mxxz_shu_text span, #btn_ybjs_shu_text span, #btn_cgxz_shu_text span, #btn_fbbc_shu_text span {
+        position: absolute;
+        left: 13px;
+        width: 60px;
+        top: 12px;
+    }
+
+.yb-pa-s .progress_over_1, .yb-pa-s .progress_ready_1,
+.yb-pa-s .progress_over_2, .yb-pa-s .progress_ready_2,
+.yb-pa-s .progress_over_3, .yb-pa-s .progress_ready_3,
+.yb-pa-s .progress_over_4, .yb-pa-s .progress_ready_4,
+.yb-pa-s .progress_over_5, .yb-pa-s .progress_ready_5 {
+    position: absolute;
+    left: 20px;
+    height: 86px;
+    width: 2px;
+    top: 38px;
+    display: none;
+    z-index: 99;
+}

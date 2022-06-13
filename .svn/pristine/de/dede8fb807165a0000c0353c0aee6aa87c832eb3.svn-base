@@ -1,0 +1,79 @@
+{
+  "info": [
+    {
+      "cold": "#F2FAFC",
+      "name": "上级湖湖西区",
+      "warm": "#FFF9E9"
+    },
+    {
+      "cold": "#DBEFF8",
+      "name": "上级湖湖东区",
+      "warm": "#FFEEEB"
+    },
+    {
+      "cold": "#BCDCE9",
+      "name": "下级湖湖东区",
+      "warm": "#DBC7DD"
+    },
+    {
+      "cold": "#DCE2F2",
+      "name": "中运河区",
+      "warm": "#F7D7E0"
+    },
+    {
+      "cold": "#F2FAFC",
+      "name": "沂沭河区",
+      "warm": "#FFF9E9"
+    },
+    {
+      "cold": "#BCDCE9",
+      "name": "日赣区",
+      "warm": "#DBC7DD"
+    },
+    {
+      "cold": "#DCE2F2",
+      "name": "独流入海区",
+      "warm": "#F7D7E0"
+    },
+    {
+      "cold": "#F2FAFC",
+      "name": "胶莱大沽区",
+      "warm": "#FFF9E9"
+    },
+    {
+      "cold": "#DBEFF8",
+      "name": "胶东半岛区",
+      "warm": "#FFEEEB"
+    },
+    {
+      "cold": "#DBEFF8",
+      "name": "潍弥白浪区",
+      "warm": "#FFEEEB"
+    },
+    {
+      "cold": "#DBEFF8",
+      "name": "徒骇马颊河",
+      "warm": "#FFEEEB"
+    },
+    {
+      "cold": "#BCDCE9",
+      "name": "小清河",
+      "warm": "#DBC7DD"
+    },
+    {
+      "cold": "#DCE2F2",
+      "name": "大汶河",
+      "warm": "#F7D7E0"
+    },
+    {
+      "cold": "#FFFDFA",
+      "name": "漳卫南运河",
+      "warm": "#FFFDFA"
+    },
+    {
+      "cold": "#FFFDFA",
+      "name": "黄河花园口以下",
+      "warm": "#FFFDFA"
+    }
+  ]
+}

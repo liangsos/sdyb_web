@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg id="svg_11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 595.27559 766.91489"  onclick="onSvgclick(evt)" onmouseover="onSvgonmouseover(evt)" onmouseout="onSvgonmouseout(evt)" onmousedown="onSvgmousedown(evt)" onload="init(this)">
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/svg-pan-zoom.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/svg.min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/snap.svg-min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/jquery-3.3.1.min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Script/ybdd/svg/svg_innerop_ght.js"></script>
+  <def>
+    <style>
+
+
+
+      /*站点颜色配置*/
+      .st_polygon_ZQ,.st_polygon_ZQ_white{fill:#96f1f1 !important ;}
+      {fill:#96f1f1 !important ;}
+      .st_polygon_ZQ_blue{fill:#0086D1 !important ;}
+      .st_polygon_ZQ_red{fill:#FF0000 !important ;}
+      .st_polygon_ZQ_pink{fill:#FF00FF !important ;}
+      .st_polygon_ZQ_yellow{fill:#FFFF00 !important ;}
+      .st_polygon_ZQ_orange{fill:#FFA500 !important ;}
+
+      .st_polyline_ZQ,.st_polyline_ZQ_white{fill:#96f1f1 !important ;}
+
+      .st_polyline_ZQ_blue{fill:#0086D1 !important ;}
+      .st_polyline_ZQ_red{fill:#FF0000 !important ;}
+      .st_polyline_ZQ_pink{fill:#FF00FF !important ;}
+      .st_polyline_ZQ_yellow{fill:#FFFF00 !important ;}
+      .st_polyline_ZQ_orange{fill:#FFA500 !important ;}
+
+      .st_polygon_ZZ,.st_polygon_ZZ_white{fill:none !important ;}
+
+      .st_polygon_ZZ_blue{fill:#0086D1 !important ;}
+      .st_polygon_ZZ_red{fill:#FF0000 !important ;}
+      .st_polygon_ZZ_pink{fill:#FF00FF !important ;}
+      .st_polygon_ZZ_orange{fill:#FFA500 !important ;}
+      .st_polygon_ZZ_yellow{fill:#FFFF00 !important ;}
+
+
+      .st_polygon_DD,.st_polygon_DD_white{fill:#96f1f1 !important ;}
+      .st_polygon_DD_blue{fill:#0086D1 !important ;}
+      .st_polygon_DD_red{fill:#FF0000 !important ;}
+      .st_polygon_DD_pink{fill:#FF00FF !important ;}
+      .st_polygon_DD_yellow{fill:#FFFF00 !important ;}
+      .st_polygon_DD_orange{fill:#FFA500 !important ;}
+
+      .st_polygon_HP,.st_polygon_HP_white{fill:#96f1f1 !important ;}
+      .st_polygon_HP_blue{fill:#0086D1 !important ;}
+      .st_polygon_HP_red{fill:#FF0000 !important ;}
+      .st_polygon_HP_yellow{fill:#FFFF00 !important ;}
+      .st_polygon_HP_pink{fill:#FF00FF !important ;}
+      .st_polygon_HP_orange{fill:#FFA500 !important ;}
+
+      .st_polygon_PP,.st_polygon_PP_white{fill:#96f1f1 !important ;}
+      .st_polygon_PP_blue{fill:#0086D1 !important ;}
+      .st_polygon_PP_red{fill:#FF0000 !important ;}
+      .st_polygon_PP_yellow{fill:#FFFF00 !important ;}
+      .st_polygon_PP_pink{fill:#FF00FF !important ;}
+      .st_polygon_PP_orange{fill:#FFA500 !important ;}
+
+      .name_white{fill:#FFFFFF !important ;}
+      .name_red{fill:#E6001 !important ;}
+
+      .st_path_RR, .st_path_RR_white{fill:#96f1f1 !important ;}
+
+      .st_path_RR_blue{fill:#0086D1 !important;}
+      .st_path_RR_red{fill:#FF0000 !important;}
+      .st_path_RR_pink{fill:#FF00FF !important;}
+      .st_path_RR_yellow{fill:#FFFF00 !important;}
+      .st_path_RR_orange{fill:#FFA500 !important;}
+
+      .st_circle_RR_white{fill:#96DAF1 !important;}
+      .st_path_RR_white{fill:#96DAF1 !important;}
+
+      .st_line_RR_white{fill:#96DAF1 !important; stroke:#96DAF1 !important;}
+
+      .st_ellipse_RR{fill:#96f1f1 !important ;}
+      .st_ellipse_RR_blue{fill:#0086D1 !important ;}
+      .st_ellipse_RR_red{fill:#FF0000 !important ;}
+      .st_ellipse_RR_yellow{fill:#FFFF00 !important ;}
+      .st_ellipse_RR_pink{fill:#FF00FF !important ;}
+      .st_ellipse_RR_orange{fill:#FFA500 !important ;}
+
+      .st_rect_DD{fill:#96f1f1; }
+      .st_rect_DD_blue{fill:#0086D1 !important ;}
+      .st_rect_DD_red{fill:#FF0000 !important ;}
+      .st_rect_DD_pink{fill:#FF00FF !important ;}
+      .st_rect_DD_orange{fill:#FFA500 !important ;}
+
+      .st_rect_DD_yellow{fill:#FFFF00 !important ;}
+
+
+
+      .st_rect_XX{fill:#A1CEA7 !important ;}
+      .st_rect_XX_blue{fill:#0086D1 !important ;}
+      .st_rect_XX_red{fill:#FF0000 !important ;}
+      .st_rect_XX_pink{fill:#FF00FF !important ;}
+      .st_rect_XX_orange{fill:#FFA500 !important ;}
+
+      .st_rect_XX_yellow{fill:#FFFF00 !important ;}
+
+      .st_path_XX{fill:#A1CEA7 !important ;}
+      .st_path_XX_blue{fill:#0086D1; !important ;}
+      .st_path_XX_red{fill:#FF0000 !important ;}
+      .st_path_XX_pink{fill:#FF00FF !important ;}
+      .st_path_XX_orange{fill:#FFA500 !important ;}
+      .st_path_XX_yellow{fill:#FFFF00 !important ;}
+      .st_path_XX_green{fill:	#33ff33 !important ;}
+
+
+      .st_circle_XX_red{fill:#FF0000 !important ;}
+      .st_line_XX_red{stroke:#FF0000 !important ;}
+      .st_circle_DD_red{fill:#FF0000 !important ;}
+      .st_line_DD_red{stroke:#FF0000 !important ;}
+      .st_circle_RR_red{fill:#FF0000 !important ;}
+      .st_line_RR_red{stroke:#FF0000 !important ;}
+      .st_circle_ZQ_red{fill:#FF0000 !important ;}
+      .st_line_ZQ_red{stroke:#FF0000 !important ;}
+
+      .st_circle_XX_blue{fill:#0086D1 !important ;}
+      .st_line_XX_blue{stroke:#0086D1 !important ;}
+      .st_circle_DD_blue{fill:#0086D1 !important ;}
+      .st_line_DD_blue{stroke:#0086D1 !important ;}
+      .st_circle_RR_blue{fill:#0086D1 !important ;}
+      .st_line_RR_blue{stroke:#0086D1 !important ;}
+      .st_circle_ZQ_blue{fill:#0086D1 !important ;}
+      .st_line_ZQ_blue{stroke:#0086D1 !important ;}
+
+
+      .st_circle_XX_pink{fill:#FF00FF !important ;}
+      .st_line_XX_pink{stroke:#FF00FF !important ;}
+      .st_circle_DD_pink{fill:#FF00FF !important ;}
+      .st_line_DD_pink{stroke:#FF00FF !important ;}
+      .st_circle_RR_pink{fill:#FF00FF !important ;}
+      .st_line_RR_pink{stroke:#FF00FF !important ;}
+      .st_circle_ZQ_pink{fill:#FF00FF !important ;}
+      .st_line_ZQ_pink{stroke:#FF00FF !important ;}
+
+
+      .st_circle_XX_yellow{fill:#FFFF00 !important ;}
+      .st_line_XX_yellow{stroke:#FFFF00 !important ;}
+      .st_circle_DD_yellow{fill:#FFFF00 !important ;}
+      .st_line_DD_yellow{stroke:#FFFF00 !important ;}
+      .st_circle_RR_yellow{fill:#FFFF00 !important ;}
+      .st_line_RR_yellow{stroke:#FFFF00 !important ;}
+      .st_circle_ZQ_yellow{fill:#FFFF00 !important ;}
+      .st_line_ZQ_yellow{stroke:#FFFF00 !important ;}
+
+      .st_circle_XX_orange{fill:#FFA500 !important ;}
+      .st_line_XX_orange{stroke:#FFA500 !important ;}
+      .st_circle_DD_orange{fill:#FFA500 !important ;}
+      .st_line_DD_orange{stroke:#FFA500 !important ;}
+      .st_circle_RR_orange{fill:#FFA500 !important ;}
+      .st_line_RR_orange{stroke:#FFA500 !important ;}
+      .st_circle_ZQ_orange{fill:#FFA500 !important ;}
+      .st_line_ZQ_orange{stroke:#FFA500 !important ;}
+
+
+      .st_circle_XX_green{fill:#33ff33 !important ;}
+      .st_line_XX_green{stroke:#33ff33 !important ;}
+      .st_circle_DD_green{fill:#33ff33 !important ;}
+      .st_line_DD_green{stroke:#33ff33 !important ;}
+      .st_circle_RR_green{fill:#33ff33 !important ;}
+      .st_line_RR_green{stroke:#33ff33 !important ;}
+      .st_circle_ZQ_green{fill:#33ff33 !important ;}
+      .st_line_ZQ_green{stroke:#33ff33 !important ;}
+
+
+      .st_circle_XX{fill:#0086D1 !important ;}
+      .st_line_XX{stroke:#0086D1 !important ;}
+      .st_circle_DD{fill:#0086D1 !important ;}
+      .st_line_DD{stroke:#FF0000 !important ;}
+      .st_circle_RR{fill:#0086D1 !important ;}
+      .st_line_RR{stroke:#0086D1 !important ;}
+      .st_circle_ZQ{fill:#0086D1 !important ;}
+      .st_line_ZQ{stroke:#0086D1 !important ;}
+
+
+
+
+      .stcd_shanshuo_stop {
+      animation-play-state:paused;
+      }
+
+
+      .stcd_shanshuo {
+      box-shadow: 30px 30px 5px #888888;
+      animation: key_stcd_shanshuo 0.4s linear infinite ;
+      animation-play-state:running;
+      }
+
+      @keyframes key_stcd_shanshuo {
+      0% {
+      opacity: 0
+      }
+
+      50% {
+      opacity: 1;
+      }
+      100% {
+      opacity:0;
+      }
+      }
+      @keyframes key_stcd_shuofang {
+      0% {
+      transform: scale(0.5,0.5)
+      }
+
+      50% {
+      transform: scale(1,1)
+      }
+
+      100% {
+      transform: scale(2,2)
+      }
+      }
+
+      .temp_bigsmall {
+
+      animation: key_temp_bigsmall 0.8s linear infinite ;
+      }
+
+      @keyframes key_temp_bigsmall {
+      0% {d
+      transform: scale(1,1)
+      }
+
+      50% {
+      transform: scale(3,3)
+      }
+
+      100% {
+      transform: scale(5,5)
+      }
+      }
+
+      .stcd_noactive{
+      fill:#C0C0C0 !important ;
+      stroke:#C0C0C0 !important ;
+      }
+
+      .area_active{
+      fill:#2592FF !important ;
+      opacity:0.65 !important ;
+      }
+    </style>
+  </def>
+  <title></title>  
+  <g id="河道"> 
+    <rect id="白马河" x="272.90749" y="582.51611" width="104.55396" height="0.73411" transform="translate(335.00804 -84.5007) rotate(30)" style="fill:#3ca0da"/>  
+    <rect id="白马河-2" data-name="白马河" x="367.9297" y="322.77463" width="64.84476" height="1.05658" transform="translate(902.87449 434.10814) rotate(153.51215)" style="fill:#3bac9b"/>  
+    <rect id="白马河-3" data-name="白马河" x="218.38481" y="224.30536" width="64.84476" height="1.05658" transform="translate(125.19249 -87.69693) rotate(26.22911)" style="fill:#3bac9b"/>  
+    <rect id="白马河-4" data-name="白马河" x="183.51169" y="329.81125" width="100.63683" height="1.63977" transform="translate(140.83857 -63.50849) rotate(21.99351)" style="fill:#3bac9b"/>  
+    <rect id="白马河-5" data-name="白马河" x="221.25666" y="207.87892" width="64.84476" height="1.05658" transform="translate(118.22833 -90.65755) rotate(26.22911)" style="fill:#3bac9b"/>  
+    <rect id="白马河-6" data-name="白马河" x="218.88653" y="437.94875" width="64.84476" height="1.05658" transform="translate(152.08 -57.07508) rotate(18.49566)" style="fill:#3bac9b"/>  
+    <rect id="白马河-7" data-name="白马河" x="216.83507" y="488.38318" width="64.84476" height="1.05658" transform="translate(167.97349 -53.81924) rotate(18.49566)" style="fill:#3bac9b"/>  
+    <rect id="东汶河" x="363.55754" y="478.86474" width="101.53298" height="0.77563" transform="translate(-184.11738 271.36968) rotate(-30)" style="fill:#3bac9b"/>  
+    <rect id="白马河-8" data-name="白马河" x="277.17082" y="530.24345" width="33.87939" height="1.05658" transform="translate(325.97609 -75.20204) rotate(32.00182)" style="fill:#3ca0da"/>  
+    <rect id="邳苍分洪道" x="67.17425" y="660.06719" width="238.31353" height="5.42509" transform="translate(-377.23178 267.31393) rotate(-39.23915)" style="fill:#3ca0da"/>  
+    <path id="沂河" d="M280.28279,759.25532h0c-1.59767,0-2.89284-2.61144-2.89284-5.8328V67.117c0-3.22137,1.29517-5.83281,2.89284-5.83281h0c1.59767,0,2.89284,2.61144,2.89284,5.83281l-.10674,686.30557C283.06889,756.64388,281.88046,759.25532,280.28279,759.25532Z" style="fill:#2c75ae"/>  
+    <path id="沂河-2" data-name="沂河" d="M370.95377,759.25532h0c-1.12519,0-2.03734-2.564-2.03734-5.7269V79.68364c0-3.16288.91215-5.7269,2.03734-5.7269h0c1.12519,0,2.03733,2.564,2.03733,5.7269l-.07517,673.84478C372.91593,756.6913,372.079,759.25532,370.95377,759.25532Z" style="fill:#2c75ae"/>  
+    <rect id="白马河-9" data-name="白马河" x="142.46644" y="214.49325" width="37.9188" height="0.52829" transform="translate(92.17454 -44.82554) rotate(21.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-10" data-name="白马河" x="167.57684" y="258.7996" width="41.47966" height="0.52829" transform="translate(499.05226 181.47136) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-11" data-name="白马河" x="116.01238" y="236.41751" width="41.47966" height="0.52829" transform="translate(407.42357 198.51906) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-12" data-name="白马河" x="120.93492" y="283.24457" width="41.47966" height="0.52829" transform="translate(457.6089 258.31863) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-13" data-name="白马河" x="100.14093" y="230.00712" width="41.47966" height="0.52829" transform="translate(379.66436 204.42439) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-14" data-name="白马河" x="140.35056" y="239.7029" width="63.17384" height="0.41374" transform="translate(458.77898 170.33141) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-15" data-name="白马河" x="416.18562" y="590.49669" width="63.17384" height="0.41374" transform="translate(1166.2103 773.12656) rotate(141.41054)" style="fill:#3ca0da"/>  
+    <rect id="白马河-16" data-name="白马河" x="368.91162" y="217.34901" width="170.32248" height="2.56396" transform="translate(940.80894 87.98009) rotate(139.26441)" style="fill:#2c75ae"/>  
+    <rect id="东汶河-2" data-name="东汶河" x="69.25781" y="274.14559" width="216.78792" height="2.8658" transform="matrix(0.92723, 0.3745, -0.3745, 0.92723, 116.13296, -46.476)" style="fill:#2c75ae"/>  
+    <rect id="东汶河-3" data-name="东汶河" x="371.61294" y="273.35505" width="160.8907" height="1.62044" transform="translate(904.11658 548.33054) rotate(180)" style="fill:#2c75ae"/>  
+    <rect id="东汶河-4" data-name="东汶河" x="371.85296" y="610.18596" width="128.98556" height="1.03532" transform="translate(27.06539 -18.4594) rotate(2.50105)" style="fill:#3ca0da"/>  
+    <rect id="白马河-17" data-name="白马河" x="122.70528" y="367.78722" width="25.28039" height="0.52829" transform="translate(123.74888 -23.92532) rotate(18.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-18" data-name="白马河" x="116.27811" y="387.00084" width="25.28039" height="0.52829" transform="matrix(0.94835, 0.31723, -0.31723, 0.94835, 129.5121, -20.89399)" style="fill:#3ca0da"/>  
+    <rect id="白马河-19" data-name="白马河" x="147.25149" y="482.26751" width="25.28039" height="0.52829" transform="matrix(0.94835, 0.31723, -0.31723, 0.94835, 161.33366, -25.79901)" style="fill:#3ca0da"/>  
+    <rect id="白马河-20" data-name="白马河" x="189.6008" y="422.31393" width="41.47966" height="0.52829" transform="translate(677.81851 357.15766) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-21" data-name="白马河" x="175.14755" y="418.60035" width="41.47966" height="0.52829" transform="translate(655.25846 365.97272) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-22" data-name="白马河" x="130.3672" y="402.29449" width="41.47966" height="0.52829" transform="matrix(-0.31723, 0.94835, -0.94835, -0.31723, 580.80869, 386.96144)" style="fill:#3ca0da"/>  
+    <rect id="白马河-23" data-name="白马河" x="161.16102" y="413.49154" width="41.47966" height="0.52829" transform="translate(631.99002 372.50732) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-24" data-name="白马河" x="147.31469" y="407.96361" width="41.47966" height="0.52829" transform="translate(608.50878 378.35688) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-25" data-name="白马河" x="147.8964" y="494.30041" width="22.38188" height="0.52829" transform="translate(678.57421 500.58656) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-26" data-name="白马河" x="135.36615" y="614.87056" width="22.38188" height="0.52829" transform="translate(645.11106 1004.12523) rotate(141.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-27" data-name="白马河" x="118.39603" y="646.03903" width="22.38188" height="0.52829" transform="translate(634.34595 1070.23588) rotate(141.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-28" data-name="白马河" x="113.29322" y="438.9035" width="37.09659" height="0.52829" transform="translate(590.1496 453.45444) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-29" data-name="白马河" x="148.7624" y="449.84573" width="37.09659" height="0.52829" transform="matrix(-0.31723, 0.94835, -0.94835, -0.31723, 647.24781, 434.23079)" style="fill:#3ca0da"/>  
+    <rect id="白马河-30" data-name="白马河" x="136.87757" y="475.72615" width="77.63021" height="0.49391" transform="translate(682.81615 460.34966) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-31" data-name="白马河" x="401.69751" y="497.50877" width="38.13681" height="0.69797" transform="translate(607.41776 -126.696) rotate(56.84203)" style="fill:#3ca0da"/>  
+    <rect id="白马河-32" data-name="白马河" x="86.35002" y="380.04105" width="63.17384" height="0.41374" transform="translate(515.95765 389.02982) rotate(108.49566)" style="fill:#3ca0da"/>  
+    <rect id="白马河-33" data-name="白马河" x="58.33311" y="404.07087" width="63.17384" height="0.41374" transform="translate(132.89475 -7.6437) rotate(18.49566)" style="fill:#3ca0da"/>  
+    <rect id="东汶河-5" data-name="东汶河" x="94.19461" y="436.92578" width="192.4717" height="3.10253" transform="translate(148.93549 -37.76244) rotate(18.49566)" style="fill:#2c75ae"/>  
+    <rect id="东汶河-6" data-name="东汶河" x="359.77139" y="368.64874" width="158.07526" height="2.94179" transform="translate(-126.27056 268.99114) rotate(-30)" style="fill:#2c75ae"/>  
+    <rect id="白马河-34" data-name="白马河" x="70.76591" y="425.70062" width="43.12171" height="1.29615" transform="translate(525.94264 474.04262) rotate(108.49566)" style="fill:#3bac9b"/>  
+    <rect id="白马河-35" data-name="白马河" x="65.72761" y="659.50559" width="53.31996" height="1.09129" transform="translate(576.67316 1117.94926) rotate(141.36369)" style="fill:#3bac9b"/>  
+    <rect id="白马河-36" data-name="白马河" x="190.44744" y="599.92048" width="54.05875" height="0.52829" transform="translate(550.50897 55.56794) rotate(51.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-37" data-name="白马河" x="177.26871" y="610.4546" width="54.05875" height="0.52829" transform="translate(553.78717 69.81906) rotate(51.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-38" data-name="白马河" x="119.86166" y="619.74635" width="89.4512" height="0.35051" transform="translate(546.05937 104.295) rotate(51.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-39" data-name="白马河" x="77.20868" y="654.88007" width="90.88813" height="0.45716" transform="translate(557.79318 150.26824) rotate(51.36369)" style="fill:#3ca0da"/>  
+    <rect id="白马河-40" data-name="白马河" x="217.17999" y="117.02635" width="64.84476" height="0.98767" transform="translate(72.17059 -93.73866) rotate(24.76137)" style="fill:#3bac9b"/>  
+    <rect id="白马河-41" data-name="白马河" x="367.35744" y="132.9878" width="64.84476" height="0.98767" transform="translate(-13.18048 217.77306) rotate(-30)" style="fill:#3bac9b"/>  
+    <rect id="白马河-42" data-name="白马河" x="187.28012" y="327.27077" width="22.38188" height="0.52829" transform="translate(576.49777 266.16968) rotate(111.99351)" style="fill:#3ca0da"/>  
+    <rect id="白马河-43" data-name="白马河" x="240.68426" y="348.84041" width="22.38188" height="0.52829" transform="translate(669.90177 246.29946) rotate(111.99351)" style="fill:#3ca0da"/> 
+  </g>  
+  <g id="水文站"> 
+    <polygon id="id_51104101" points="243.833 335.002 249.257 327.545 245.11 325.87 243.833 335.002" style="fill:#ca1d1d" flag="高里_51104101_ZQ_(true_true_false)"/>  
+    <polygon id="id_51105530" points="263.902 442.112 268.744 434.956 264.807 433.519 263.902 442.112" style="fill:#c91e1d" flag="南坊_51105530_ZQ_(true_true_false)"/>  
+    <polygon id="id_51209640" points="199.191 603.862 206.653 599.507 203.725 596.507 199.191 603.862" style="fill:#c91e1d" flag="大兴屯_51209640_ZQ_(true_true_false)"/>  
+    <polygon id="id_51209690" points="168.714 625.691 176.176 621.336 173.249 618.336 168.714 625.691" style="fill:#c91e1d" flag="卞庄_51209690_ZQ_(true_true_false)"/>  
+    <polygon id="id_51209630" points="219.58 603.067 227.043 598.712 224.115 595.712 219.58 603.067" style="fill:#c91e1d" flag="老屯_51209630_ZQ_(true_true_false)"/>  
+    <polygon id="id_51104201" points="199.756 444.615 195.673 450.81 199.401 452.026 199.756 444.615" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="姜庄湖_51104201_ZZ_(true_true_false)"/>  
+    <polygon id="id_51105001" points="155.884 478.81 159.967 472.615 156.24 471.399 155.884 478.81" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="王家邵庄_51105001_ZZ_(true_true_false)"/>  
+    <polygon id="id_51100601" points="276.816 184.597 269.642 182.702 269.678 186.623 276.816 184.597" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="斜午_51100601_ZZ_(true_true_false)"/>  
+    <polygon id="id_5111028B" points="368.645 210.079 361.471 208.185 361.507 212.106 368.645 210.079" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="郭家当门_5111028B_ZZ_(true_true_false)"/>  
+    <polygon id="id_51114580" points="476.764 196.329 473.42 189.705 470.511 192.334 476.764 196.329" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="桑园_51114580_ZZ_(true_true_false)"/>  
+    <polygon id="id_51111501" points="368.916 514.397 361.699 512.676 361.829 516.595 368.916 514.397" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="石拉渊_51111501_ZZ_(true_true_false)"/>  
+    <polygon id="id_51105550" points="250.389 489.073 245.43 496.846 249.672 498.265 250.389 489.073" style="fill:#c91e1d" flag="刘庄_51105550_ZQ_(true_true_false)"/>  
+    <polygon id="id_51105560" points="266.323 494.883 261.364 502.657 265.605 504.076 266.323 494.883" style="fill:#c91e1d" flag="周井铺_51105560_ZQ_(true_true_false)"/>  
+    <polygon id="id_51104501" points="262.287 463.602 257.328 471.376 261.57 472.795 262.287 463.602" style="fill:#c91e1d" flag="角沂_51104501_ZQ_(true_true_false)"/>  
+    <polygon id="id_51125200" points="169.409 494.757 177.183 499.716 178.602 495.474 169.409 494.757" style="fill:#c91e1d" flag="棠梨树_51125200_PP_(true_true_false)"/>  
+    <polygon id="id_51104160" points="162.037 430.339 157.078 438.113 161.319 439.532 162.037 430.339" style="fill:#c91e1d" flag="地方_51104160_ZQ_(true_true_false)"/>  
+    <polygon id="id_51103901" points="144.451 277.868 137.232 272.064 135.35 276.144 144.451 277.868" style="fill:#c91e1d" flag="前城子_51103901_PP_(true_true_false)"/>  
+    <polygon id="id_51103301" points="145.095 261.221 150.52 253.764 146.372 252.089 145.095 261.221" style="fill:#c91e1d" flag="蒙阴_51103301_ZQ_(true_true_false)"/>  
+    <polygon id="id_51104001" points="171.671 241.565 164.214 236.14 162.539 240.288 171.671 241.565" style="fill:#c91e1d" flag="水明崖_51104001_ZQ_(true_true_false)"/>  
+    <polygon id="id_51100201" points="283.123 124.318 291.236 126.347 291.236 122.291 283.123 124.318" style="fill:#c91e1d" flag="东里店_51100201_ZQ_(true_true_false)"/>  
+    <polygon id="id_99999901" points="368.714 133.482 360.601 131.454 360.601 135.51 368.714 133.482" style="fill:#c91e1d" flag="北陈庄_99999901_ZQ_(true_true_false)"/>  
+    <polygon id="id_99999902" points="397.193 135.551 400.189 143.358 403.511 141.03 397.193 135.551" style="fill:#c91e1d" flag="天宝_99999902_ZQ_(true_true_false)"/>  
+    <polygon id="id_51209680" points="398.131 325.297 400.178 333.404 403.753 331.486 398.131 325.297" style="fill:#none;stroke:#e50012;stroke-miterlimit:10;stroke-width:0.400000005960465px" flag="小岭_51209680_ZZ_(true_true_false)"/>  
+    <polygon id="id_51130600" points="467.383 355.768 470.29 363.609 473.637 361.319 467.383 355.768" style="fill:#c91e1d" flag="中楼_51130600_PP_(true_true_false)"/>  
+    <polygon id="id_51115040" points="392.471 492.549 394.735 503.059 399.415 500.757 392.471 492.549" style="fill:#c91e1d" flag="刘家庄_51115040_ZQ_(true_true_false)"/>  
+    <polygon id="id_51101101" points="283.346 508.477 292.617 510.795 292.617 506.159 283.346 508.477" style="fill:#c91e1d" flag="临沂_51101101_ZQ_(true_true_false)"/>  
+    <polygon id="id_51101700" points="283.346 697.869 292.617 700.187 292.617 695.551 283.346 697.869" style="fill:#c91e1d" flag="马头_51101700_ZQ_(true_true_false)"/>  
+    <polygon id="id_51113201" points="372.077 697.869 381.348 700.187 381.348 695.551 372.077 697.869" style="fill:#c91e1d" flag="窑上_51113201_ZQ_(true_true_false)"/>  
+    <polygon id="id_51100801" points="282.591 263.013 290.703 265.042 290.703 260.985 282.591 263.013" style="fill:#c91e1d" flag="葛沟_51100801_ZQ_(true_true_false)"/>  
+    <polygon id="id_51111301" points="368.916 298.902 360.804 296.873 360.804 300.93 368.916 298.902" style="fill:#c91e1d" flag="莒县_51111301_ZQ_(true_true_false)"/>  
+    <polygon id="id_51115101" points="421.204 497.664 431.311 493.999 428.397 489.674 421.204 497.664" style="fill:#c91e1d" flag="官坊街_51115101_PP_(true_true_false)"/>  
+    <polygon id="id_51102110" points="296.193 532.722 302.83 526.322 299.037 523.951 296.193 532.722" style="fill:#c91e1d" flag="马石河_51102110_ZQ_(true_true_false)"/> 
+  </g>  
+  <g id="闸坝"> 
+    <g id="id_51106001" flag="江风口闸_51106001_DD_(true_false_true)"> 
+      <rect x="263.09886" y="593.78643" width="4.58352" height="8.79134" transform="translate(863.24607 864.30776) rotate(137.9205)" style="fill:#fff"/>  
+      <path d="M266.44956,603.44362l3.9234-3.54251-6.1994-6.86595-3.9234,3.54251Zm3.056-3.64961-3.00846,2.7164-.70984-3.81033Zm-5.31377-5.8851.70984,3.81032-3.7183-1.09392Z" style="fill:#c91e1d"/> 
+    </g>  
+    <g id="id_51105811" flag="彭道口闸_51105811_DD_(true_false_true)"> 
+      <rect x="294.30089" y="561.21746" width="4.58352" height="8.79134" transform="translate(408.52642 -63.16047) rotate(37.76534)" style="fill:#fff"/>  
+      <path d="M301.585,563.6431l-4.17877-3.23734-5.66534,7.31285,4.17877,3.23734Zm-4.13126-2.36469,3.20428,2.48239-3.62548,1.37054Zm-4.856,6.26816,3.62548-1.37054-.4212,3.85293Z" style="fill:#c91e1d"/> 
+    </g>  
+    <g id="id_51111911" flag="新沭河闸_51111911_DD_(true_false_true)"> 
+      <rect x="382.07056" y="603.63003" width="4.58352" height="8.79134" transform="translate(40.26854 -23.66182) rotate(3.72087)" style="fill:#fff"/>  
+      <path d="M387.39613,603.59841l-5.27492-.343-.60033,9.23111,5.27493.343Zm-4.747.35344,4.04481.263-2.23681,3.1653Zm-.51457,7.91238,2.23681-3.1653,1.808,3.42835Z" style="fill:#c91e1d"/> 
+    </g>  
+    <g id="id_51101201" flag="刘家道口_51101201_DD_(true_false_true)"> 
+      <rect x="278.0067" y="572.222" width="4.58352" height="13.1655" transform="translate(859.10321 298.5063) rotate(90)" style="fill:#fff"/>  
+      <path d="M287.20943,581.54486v-5.28607H273.35615v5.28607Zm-.98952-4.71408v4.05336l-4.9476-2.02668Zm-11.87424,0,4.9476,2.02668-4.9476,2.02668Z" style="fill:#c91e1d"/> 
+    </g>  
+    <g id="id_51112711" flag="胜利堰闸_51112711_DD_(true_false_true)"> 
+      <rect x="368.44676" y="644.12498" width="4.58352" height="13.1655" transform="translate(1021.44625 279.96921) rotate(90)" style="fill:#fff"/>  
+      <path d="M377.64949,653.44783v-5.28607H363.79621v5.28607Zm-.98952-4.71408v4.05336l-4.9476-2.02668Zm-11.87424,0,4.9476,2.02668-4.9476,2.02668Z" style="fill:#c91e1d"/> 
+    </g> 
+  </g>  
+  <g id="水库"> 
+    <g id="id_51100100" flag="田庄_51100100_RR_(true_true_true)"> 
+      <circle cx="279.83817" cy="87.1253" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M273.94232,86.68067h11.75412a5.89565,5.89565,0,0,0-5.85828-5.44455,5.94246,5.94246,0,0,0-5.89584,5.44455Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51100300" flag="跋山_51100300_RR_(true_true_true)"> 
+      <circle cx="280.8834" cy="161.51202" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M274.98754,161.06739h11.75413a5.89567,5.89567,0,0,0-5.85828-5.44455,5.94246,5.94246,0,0,0-5.89585,5.44455Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51110700" flag="沙沟_51110700_RR_(true_true_true)"> 
+      <circle cx="370.95376" cy="96.92218" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M365.05791,96.47755H376.812a5.89563,5.89563,0,0,0-5.85828-5.44455,5.94244,5.94244,0,0,0-5.89584,5.44455Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51111000" flag="青峰岭水库_51111000_RR_(true_true_true)"> 
+      <circle cx="370.24578" cy="179.15275" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M364.34992,178.70812H376.104a5.89567,5.89567,0,0,0-5.85828-5.44455,5.94246,5.94246,0,0,0-5.89585,5.44455Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51114600" flag="小仕阳水库_51114600_RR_(true_true_true)"> 
+      <circle cx="437.96902" cy="231.62069" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M432.88439,234.63819l9.62841-6.74189a5.89565,5.89565,0,0,0-7.92169-1.09974,5.94244,5.94244,0,0,0-1.70672,7.84163Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51103400" flag="岸堤_51103400_RR_(true_true_true)"> 
+      <circle cx="160.41954" cy="268.42696" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M155.11956,265.80608l10.89824,4.40318a5.89566,5.89566,0,0,0-3.39214-7.24265,5.94246,5.94246,0,0,0-7.5061,2.83947Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51114800" flag="陡山_51114800_RR_(true_true_true)"> 
+      <circle cx="417.18159" cy="383.38513" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M411.85332,385.948l10.17937-5.87707a5.89567,5.89567,0,0,0-7.7957-1.786,5.94248,5.94248,0,0,0-2.38367,7.663Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51104700" flag="唐村_51104700_RR_(true_true_true)"> 
+      <circle cx="93.038" cy="424.22249" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M87.64979,421.78818l11.04526,4.02014a5.89565,5.89565,0,0,0-3.64284-7.11985,5.94243,5.94243,0,0,0-7.40242,3.09971Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51105200" flag="许家崖_51105200_RR_(true_true_true)"> 
+      <circle cx="178.27137" cy="470.08225" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M172.88315,467.64793l11.04526,4.02015a5.89566,5.89566,0,0,0-3.64283-7.11986,5.94248,5.94248,0,0,0-7.40243,3.09971Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51209900" flag="会宝岭（南）_51209900_RR_(true_true_true)"> 
+      <circle cx="95.94173" cy="657.21032" r="6.29622" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>  
+      <path d="M91.13944,660.65949l9.00418-7.5554a5.89564,5.89564,0,0,0-7.98739-.40514,5.94245,5.94245,0,0,0-1.01679,7.96054Z" style="fill:#fff"/> 
+    </g>  
+    <g id="id_51111688" flag="凌山头_51111688_RR_(true_true_true)"> 
+      <circle cx="452.26439" cy="587.11912" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M449.65693,583.77737a4.23863,4.23863,0,0,0-.7343,5.94921l6.68352-5.21492A4.23864,4.23864,0,0,0,449.65693,583.77737Z" style="fill:#e8f4fc"/>  
+      <path d="M454.87185,590.46088a4.23863,4.23863,0,0,0,.7343-5.94922l-6.68352,5.21492A4.23863,4.23863,0,0,0,454.87185,590.46088Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51115000" flag="石泉湖（东）_51115000_RR_(true_true_true)"> 
+      <circle cx="442.77877" cy="463.32307" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M440.84094,459.55332a4.23862,4.23862,0,0,0-1.83191,5.70758l7.53949-3.87566A4.23864,4.23864,0,0,0,440.84094,459.55332Z" style="fill:#e8f4fc"/>  
+      <path d="M444.71661,467.09282a4.23865,4.23865,0,0,0,1.83191-5.70758L439.009,465.2609A4.23864,4.23864,0,0,0,444.71661,467.09282Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="石庙子"> 
+      <circle cx="503.32393" cy="176.21513" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M500.53423,173.02392a4.23864,4.23864,0,0,0-.40151,5.9809l6.38241-5.57938A4.23864,4.23864,0,0,0,500.53423,173.02392Z" style="fill:#e8f4fc"/>  
+      <path d="M506.11362,179.40634a4.23863,4.23863,0,0,0,.40151-5.9809l-6.38241,5.57938A4.23864,4.23864,0,0,0,506.11362,179.40634Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51111188" flag="峤山_51111188_RR_(true_true_true)"> 
+      <circle cx="420.2124" cy="274.6074" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M420.18983,270.3688a4.23865,4.23865,0,0,0-4.216,4.26117l8.47719-.04514A4.23864,4.23864,0,0,0,420.18983,270.3688Z" style="fill:#e8f4fc"/>  
+      <path d="M420.235,278.846a4.23863,4.23863,0,0,0,4.216-4.26116l-8.47719.04514A4.23864,4.23864,0,0,0,420.235,278.846Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51103488" flag="高湖_51103488_RR_(true_true_true)"> 
+      <circle cx="188.36346" cy="258.24256" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M189.95084,254.31237a4.23863,4.23863,0,0,0-5.51757,2.34281l7.86038,3.17476A4.23862,4.23862,0,0,0,189.95084,254.31237Z" style="fill:#e8f4fc"/>  
+      <path d="M186.77608,262.17275a4.23862,4.23862,0,0,0,5.51757-2.34281l-7.86038-3.17476A4.23863,4.23863,0,0,0,186.77608,262.17275Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51100588" flag="寨子_51100588_RR_(true_true_true)"> 
+      <circle cx="253.08803" cy="226.53258" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M254.67541,222.60239a4.23862,4.23862,0,0,0-5.51757,2.34281l7.86038,3.17476A4.23862,4.23862,0,0,0,254.67541,222.60239Z" style="fill:#e8f4fc"/>  
+      <path d="M251.50065,230.46277a4.23863,4.23863,0,0,0,5.51757-2.34281l-7.86038-3.17476A4.23863,4.23863,0,0,0,251.50065,230.46277Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51121450" flag="寨子山_51121450_RR_(true_true_true)"> 
+      <circle cx="253.07077" cy="208.4072" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M254.65815,204.477a4.23863,4.23863,0,0,0-5.51757,2.34281l7.86038,3.17477A4.23864,4.23864,0,0,0,254.65815,204.477Z" style="fill:#e8f4fc"/>  
+      <path d="M251.48339,212.3374a4.23863,4.23863,0,0,0,5.51757-2.34281l-7.86038-3.17477A4.23865,4.23865,0,0,0,251.48339,212.3374Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51100188" flag="红旗水库_51100188_RR_(true_true_true)"> 
+      <circle cx="251.44202" cy="118.36872" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M253.02941,114.43853a4.23864,4.23864,0,0,0-5.51758,2.34281l7.86038,3.17477A4.23863,4.23863,0,0,0,253.02941,114.43853Z" style="fill:#e8f4fc"/>  
+      <path d="M249.85464,122.29891a4.23862,4.23862,0,0,0,5.51757-2.3428l-7.86038-3.17477A4.23863,4.23863,0,0,0,249.85464,122.29891Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51103788" flag="张庄_51103788_RR_(true_true_true)"> 
+      <circle cx="136.799" cy="235.86047" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M138.38639,231.93028a4.23865,4.23865,0,0,0-5.51758,2.34281l7.86039,3.17476A4.23863,4.23863,0,0,0,138.38639,231.93028Z" style="fill:#e8f4fc"/>  
+      <path d="M135.21162,239.79066a4.23864,4.23864,0,0,0,5.51758-2.34281l-7.86039-3.17476A4.23863,4.23863,0,0,0,135.21162,239.79066Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51122650" flag="朱家坡_51122650_RR_(true_true_true)"> 
+      <circle cx="165.62966" cy="216.4553" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M167.217,212.52511a4.23862,4.23862,0,0,0-5.51757,2.34281l7.86038,3.17476A4.23862,4.23862,0,0,0,167.217,212.52511Z" style="fill:#e8f4fc"/>  
+      <path d="M164.04228,220.38549a4.23863,4.23863,0,0,0,5.51757-2.34281l-7.86038-3.17476A4.23863,4.23863,0,0,0,164.04228,220.38549Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51121950" flag="黄土山_51121950_RR_(true_true_true)"> 
+      <circle cx="122.39079" cy="226.53258" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M123.97818,222.60239a4.23864,4.23864,0,0,0-5.51758,2.34281L126.321,228.12A4.23863,4.23863,0,0,0,123.97818,222.60239Z" style="fill:#e8f4fc"/>  
+      <path d="M120.80341,230.46277A4.23865,4.23865,0,0,0,126.321,228.12l-7.86039-3.17476A4.23863,4.23863,0,0,0,120.80341,230.46277Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51105500" flag="石岚_51105500_RR_(true_true_true)"> 
+      <circle cx="194.17223" cy="423.15917" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M195.23555,419.98045a3.35185,3.35185,0,0,0-4.242,2.11541l6.35744,2.12663A3.35184,3.35184,0,0,0,195.23555,419.98045Z" style="fill:#e8f4fc"/>  
+      <path d="M193.10891,426.33789a3.35184,3.35184,0,0,0,4.242-2.1154l-6.35744-2.12663A3.35182,3.35182,0,0,0,193.10891,426.33789Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104288" flag="古城_51104288_RR_(true_true_true)"> 
+      <circle cx="213.3136" cy="413.69055" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M214.37692,410.51183a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12664A3.35184,3.35184,0,0,0,214.37692,410.51183Z" style="fill:#e8f4fc"/>  
+      <path d="M212.25028,416.86927a3.35183,3.35183,0,0,0,4.242-2.1154l-6.35744-2.12664A3.35184,3.35184,0,0,0,212.25028,416.86927Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51125450" flag="刘庄_51125450_RR_(true_true_true)"> 
+      <circle cx="247.45324" cy="436.67113" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M248.51655,433.49241a3.35182,3.35182,0,0,0-4.242,2.1154l6.35744,2.12663A3.35182,3.35182,0,0,0,248.51655,433.49241Z" style="fill:#e8f4fc"/>  
+      <path d="M246.38992,439.84985a3.35185,3.35185,0,0,0,4.242-2.11541l-6.35744-2.12663A3.35184,3.35184,0,0,0,246.38992,439.84985Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51125550" flag="马庄_51125550_RR_(true_true_true)"> 
+      <circle cx="233.41248" cy="483.61114" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M234.4758,480.43242a3.35184,3.35184,0,0,0-4.242,2.11541l6.35744,2.12663A3.35184,3.35184,0,0,0,234.4758,480.43242Z" style="fill:#e8f4fc"/>  
+      <path d="M232.34916,486.78986a3.35184,3.35184,0,0,0,4.242-2.1154l-6.35744-2.12663A3.35182,3.35182,0,0,0,232.34916,486.78986Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104388" flag="龙王口_51104388_RR_(true_true_true)"> 
+      <circle cx="169.74473" cy="442.8335" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M170.80805,439.65478a3.35185,3.35185,0,0,0-4.242,2.11541l6.35744,2.12663A3.35184,3.35184,0,0,0,170.80805,439.65478Z" style="fill:#e8f4fc"/>  
+      <path d="M168.68141,446.01223a3.35185,3.35185,0,0,0,4.242-2.11541l-6.35744-2.12663A3.35184,3.35184,0,0,0,168.68141,446.01223Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104800" flag="昌里_51104800_RR_(true_true_true)"> 
+      <circle cx="134.37875" cy="431.58275" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M135.44207,428.404a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12664A3.35184,3.35184,0,0,0,135.44207,428.404Z" style="fill:#e8f4fc"/>  
+      <path d="M133.31543,434.76147a3.35184,3.35184,0,0,0,4.242-2.1154L131.2,430.51943A3.35183,3.35183,0,0,0,133.31543,434.76147Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51124950" flag="书房_51124950_RR_(true_true_true)"> 
+      <circle cx="158.22206" cy="494.2752" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M159.28538,491.09648a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12664A3.35184,3.35184,0,0,0,159.28538,491.09648Z" style="fill:#e8f4fc"/>  
+      <path d="M157.15874,497.45392a3.35184,3.35184,0,0,0,4.242-2.1154l-6.35744-2.12664A3.35184,3.35184,0,0,0,157.15874,497.45392Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51227700" flag="小马庄_51227700_RR_(true_true_true)"> 
+      <circle cx="143.8802" cy="594.01601" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M141.8709,591.33317a3.35183,3.35183,0,0,0-.67353,4.69214l5.36567-4.01861A3.35183,3.35183,0,0,0,141.8709,591.33317Z" style="fill:#e8f4fc"/>  
+      <path d="M145.8895,596.69884a3.35183,3.35183,0,0,0,.67354-4.69214l-5.36567,4.01861A3.35182,3.35182,0,0,0,145.8895,596.69884Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51227300" flag="考村_51227300_RR_(true_true_true)"> 
+      <circle cx="129.58697" cy="645.79849" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M127.57766,643.11565a3.35183,3.35183,0,0,0-.67353,4.69214l5.36567-4.01861A3.35183,3.35183,0,0,0,127.57766,643.11565Z" style="fill:#e8f4fc"/>  
+      <path d="M131.59627,648.48132a3.35183,3.35183,0,0,0,.67353-4.69214l-5.36567,4.01861A3.35183,3.35183,0,0,0,131.59627,648.48132Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51209800" flag="周村_51209800_RR_(true_true_true)"> 
+      <circle cx="76.8867" cy="672.44153" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M74.8774,669.75869a3.35183,3.35183,0,0,0-.67353,4.69214l5.36567-4.0186A3.35183,3.35183,0,0,0,74.8774,669.75869Z" style="fill:#e8f4fc"/>  
+      <path d="M78.896,675.12436a3.35182,3.35182,0,0,0,.67353-4.69213l-5.36567,4.0186A3.35183,3.35183,0,0,0,78.896,675.12436Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51227100" flag="双河_51227100_RR_(true_true_true)"> 
+      <circle cx="101.90337" cy="629.1501" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M99.89407,626.46726a3.35184,3.35184,0,0,0-.67354,4.69214l5.36568-4.0186A3.35184,3.35184,0,0,0,99.89407,626.46726Z" style="fill:#e8f4fc"/>  
+      <path d="M103.91267,631.83294a3.35184,3.35184,0,0,0,.67354-4.69214l-5.36568,4.0186A3.35184,3.35184,0,0,0,103.91267,631.83294Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51210088" flag="长新桥_51210088_RR_(true_true_true)"> 
+      <circle cx="145.97726" cy="614.4093" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M143.968,611.72646a3.35183,3.35183,0,0,0-.67353,4.69214l5.36567-4.0186A3.35184,3.35184,0,0,0,143.968,611.72646Z" style="fill:#e8f4fc"/>  
+      <path d="M147.98656,617.09214a3.35183,3.35183,0,0,0,.67353-4.69214l-5.36567,4.0186A3.35184,3.35184,0,0,0,147.98656,617.09214Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51124600" flag="上冶_51124600_RR_(true_true_true)"> 
+      <circle cx="184.49751" cy="405.1605" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M185.56082,401.98177a3.35185,3.35185,0,0,0-4.242,2.11541l6.35745,2.12663A3.35185,3.35185,0,0,0,185.56082,401.98177Z" style="fill:#e8f4fc"/>  
+      <path d="M183.43419,408.33922a3.35185,3.35185,0,0,0,4.242-2.11541l-6.35745-2.12663A3.35185,3.35185,0,0,0,183.43419,408.33922Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51124400" flag="杨庄_51124400_RR_(true_true_true)"> 
+      <circle cx="165.71668" cy="414.38393" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M166.78,411.20521a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12664A3.35183,3.35183,0,0,0,166.78,411.20521Z" style="fill:#e8f4fc"/>  
+      <path d="M164.65337,417.56265a3.35182,3.35182,0,0,0,4.242-2.1154l-6.35744-2.12664A3.35183,3.35183,0,0,0,164.65337,417.56265Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104198" flag="安靖_51104198_RR_(true_true_true)"> 
+      <circle cx="153.4104" cy="394.84021" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M154.47372,391.66149a3.35184,3.35184,0,0,0-4.242,2.11541l6.35744,2.12663A3.35184,3.35184,0,0,0,154.47372,391.66149Z" style="fill:#e8f4fc"/>  
+      <path d="M152.34708,398.01893a3.35184,3.35184,0,0,0,4.242-2.1154l-6.35744-2.12663A3.35182,3.35182,0,0,0,152.34708,398.01893Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104587" flag="公家庄（西）_51104587_RR_(true_true_true)"> 
+      <circle cx="135.26168" cy="368.30187" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M136.325,365.12315a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12664A3.35184,3.35184,0,0,0,136.325,365.12315Z" style="fill:#e8f4fc"/>  
+      <path d="M134.19836,371.48059a3.35184,3.35184,0,0,0,4.242-2.1154l-6.35744-2.12664A3.35184,3.35184,0,0,0,134.19836,371.48059Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104788" flag="大夫宁_51104788_RR_(true_true_true)"> 
+      <circle cx="128.83451" cy="387.51549" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M129.89783,384.33677a3.35184,3.35184,0,0,0-4.242,2.1154l6.35744,2.12663A3.35183,3.35183,0,0,0,129.89783,384.33677Z" style="fill:#e8f4fc"/>  
+      <path d="M127.77119,390.69421a3.35183,3.35183,0,0,0,4.242-2.11541l-6.35744-2.12663A3.35184,3.35184,0,0,0,127.77119,390.69421Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104688" flag="吴家庄_51104688_RR_(true_true_true)"> 
+      <circle cx="79.50424" cy="399.63411" r="4.87445" style="fill:#7bcce7"/>  
+      <path d="M80.84888,395.61439a4.23864,4.23864,0,0,0-5.36436,2.67508l8.03944,2.68928A4.23863,4.23863,0,0,0,80.84888,395.61439Z" style="fill:#e8f4fc"/>  
+      <path d="M78.1596,403.65383a4.23864,4.23864,0,0,0,5.36436-2.67508l-8.03944-2.68928A4.23864,4.23864,0,0,0,78.1596,403.65383Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104188" flag="施庄_51104188_RR_(true_true_true)"> 
+      <circle cx="250.80598" cy="351.75183" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M252.06125,348.6439a3.35183,3.35183,0,0,0-4.36319,1.85265l6.21584,2.51055A3.35183,3.35183,0,0,0,252.06125,348.6439Z" style="fill:#e8f4fc"/>  
+      <path d="M249.55071,354.85975a3.35182,3.35182,0,0,0,4.36319-1.85265l-6.21584-2.51055A3.35183,3.35183,0,0,0,249.55071,354.85975Z" style="fill:#31bdeb"/> 
+    </g>  
+    <g id="id_51104088" flag="黄仁_51104088_RR_(true_true_true)"> 
+      <circle cx="197.7739" cy="329.26103" r="3.85463" style="fill:#7bcce7"/>  
+      <path d="M199.02917,326.1531a3.35184,3.35184,0,0,0-4.3632,1.85265l6.21585,2.51055A3.35184,3.35184,0,0,0,199.02917,326.1531Z" style="fill:#e8f4fc"/>  
+      <path d="M196.51862,332.369a3.35183,3.35183,0,0,0,4.3632-1.85265l-6.21585-2.51055A3.35184,3.35184,0,0,0,196.51862,332.369Z" style="fill:#31bdeb"/> 
+    </g> 
+  </g>  
+  <g id="标注"> 
+    <text transform="matrix(0.77451, -0.63256, 0.63256, 0.77451, 178.26303, 671.39235)" style="font-size:4px;fill:#fff;font-family:FZSSJW--GB1-0, FZShuSong-Z01S;letter-spacing:0.67999267578125em"> 
+      <tspan xml:space="preserve">道  洪  分  苍  邳</tspan> 
+    </text>  
+     <text transform="translate(334.1485 222.29266)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.0400390625em">郭家当门</text>  
+    <text transform="translate(342.48019 301.79905)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">莒县</text>  
+    <text transform="matrix(0.89552, -0.44502, 0.44502, 0.89552, 399.069, 343.07057)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.040008544921875em">小岭</text>  
+    <text transform="translate(469.70444 373.8476) rotate(-26.48793)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.040008544921875em">中楼</text>  
+    <text transform="translate(427.29026 462.2037) rotate(-29.99987)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S;letter-spacing:0.040008544921875em">石泉湖</text>  
+    <text transform="translate(433.42744 492.05081) rotate(-29.99987)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.040008544921875em">官坊街</text>  
+    <text transform="matrix(0.72464, -0.68913, 0.68913, 0.72464, 451.82944, 605.72795)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S;letter-spacing:0.0399932861328125em">凌山头</text>  
+    <text transform="translate(176.88978 620.1854) rotate(-35.75348)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">卞庄</text>  
+    <text transform="translate(384.47178 700.18715)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">窑上</text>  
+    <text transform="translate(288.13401 89.60445)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">田庄</text>  
+    <text transform="translate(251.87482 186.62269)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">斜午</text>  
+    <text transform="translate(379.4189 181.8089)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S;letter-spacing:0.0400390625em">青峰岭</text>  
+    <text transform="translate(438.81914 252.09861) rotate(-40.73559)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">小仕阳</text>  
+    <text transform="translate(418.49202 401.33644) rotate(-29.99987)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">陡山</text>  
+    <text transform="translate(462.20168 193.02616) rotate(-40.73559)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">桑园</text>  
+    <text transform="translate(504.84616 195.04261) rotate(-46.82548)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">石亩子</text>  
+    <text transform="translate(412.56772 287.83674)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S;letter-spacing:0.0400390625em">峤山</text>  
+    <text transform="translate(379.41885 653.99788)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">胜利堰闸</text>  
+    <text transform="translate(376.65993 622.01389)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">新沭河闸</text>  
+    <text transform="translate(334.14858 517.30907)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.0400390625em">石拉渊</text>  
+    <text transform="translate(392.05987 516.57032) rotate(-26.50407)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S;letter-spacing:0.040008544921875em">刘家庄</text>  
+    <text transform="translate(343.62908 145.37892)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">北陈庄</text>  
+    <text transform="translate(379.41875 99.87619)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">沙沟</text>  
+    <text transform="translate(400.34446 153.36131) rotate(-35.20338)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">天宝</text>  
+    <text transform="translate(288.13374 132.12384) rotate(90)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">31 (5-9)</text>  
+    <text transform="translate(288.13374 214.15167) rotate(90)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">77 (11-17)</text>  
+    <text transform="translate(315.60472 574.61402) rotate(29.99987)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">21 (3-5)</text>  
+    <text transform="translate(288.13423 96.92218) rotate(90)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">45 (6-10)</text>  
+    <text transform="translate(293.42785 265.04171)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">葛沟</text>  
+    <text transform="translate(294.89151 511.07042)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">临沂</text>  
+    <text transform="translate(290.19254 164.38674)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">跋山</text>  
+    <text transform="translate(290.20054 552.59591) rotate(32.00204)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">彭道口闸</text>  
+    <text transform="translate(288.13374 584.8753)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">刘家道口</text>  
+    <text transform="translate(294.89156 699.79132)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">马头</text>  
+    <text transform="translate(302.59109 532.44546) rotate(32.00204)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">马石河</text>  
+    <text transform="translate(293.42765 127.21599)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">东里店</text>  
+    <polygon points="281.725 343.086 280.283 347.085 278.84 343.086 281.725 343.086" style="fill:#f7f5ae"/>  
+    <line x1="280.28279" y1="322.91842" x2="280.28279" y2="343.87219" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <polygon points="281.725 520.761 280.283 524.76 278.84 520.761 281.725 520.761" style="fill:#f7f5ae"/>  
+    <line x1="280.28279" y1="500.59333" x2="280.28279" y2="521.54711" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <polygon points="281.725 653.211 280.283 657.21 278.84 653.211 281.725 653.211" style="fill:#f7f5ae"/>  
+    <line x1="280.28278" y1="633.0439" x2="280.28279" y2="653.99768" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <text transform="translate(294.44917 185.50616)" style="writing-mode:tb;text-orientation:upright;glyph-orientation-vertical:0deg;font-size:11px;fill:#2c75ae;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">沂
+      <tspan x="0" y="11" xml:space="preserve" visibility="hidden">                                                                                      </tspan>  
+      <tspan x="0" y="243.80469">河</tspan> 
+    </text>  
+    <text transform="translate(358.65132 269.01593)" style="writing-mode:tb;text-orientation:upright;glyph-orientation-vertical:0deg;font-size:11px;fill:#2c75ae;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">沭
+      <tspan x="0" y="11" xml:space="preserve"  visibility="hidden">                                                                                             </tspan>  
+      <tspan x="0" y="262.75391">河</tspan> 
+    </text>  
+    <text transform="translate(115.94417 277.8674) rotate(24.76137)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">前城子</text>  
+    <text transform="translate(144.47363 246.80319) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">蒙阴</text>  
+    <text transform="translate(150.45308 227.88136) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">水明崖</text>  
+    <text transform="translate(194.68839 262.50535) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">高湖</text>  
+    <text transform="translate(156.61206 204.18979) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">朱家坡</text>  
+    <text transform="translate(110.86084 214.78035) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">黄
+      <tspan x="0" y="9.6001">土</tspan>  
+      <tspan x="0" y="19.2002">山</tspan> 
+    </text>  
+    <text transform="translate(122.56805 240.12299) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">张
+      <tspan x="0" y="9.6001">庄</tspan> 
+    </text>  
+    <polygon points="188.045 279.189 189.221 280.241 187.644 280.182 188.045 279.189" style="fill:#f7f5ae"/>  
+    <line x1="180.90326" y1="276.88162" x2="188.11502" y2="279.79441" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <polygon points="248.871 283.819 250.046 284.871 248.47 284.812 248.871 283.819" style="fill:#f7f5ae"/>  
+    <line x1="241.729" y1="281.51162" x2="248.94076" y2="284.42441" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <text transform="translate(191.00403 458.19432) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">姜庄湖</text>  
+    <text transform="translate(233.84069 503.65368) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">刘庄</text>  
+    <text transform="translate(251.88565 509.18532) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">周井铺</text>  
+    <text transform="translate(220.76708 493.14154) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">马庄</text>  
+    <text transform="translate(236.61627 445.04839) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">刘庄</text>  
+    <text transform="translate(128.75824 360.43871) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">公家庄</text>  
+    <text transform="translate(114.67824 395.57305) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">大夫宁</text>  
+    <text transform="translate(75.82842 390.78868) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">吴家庄</text>  
+    <text transform="translate(159.09751 394.85105) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">安
+      <tspan x="0" y="9.6001">靖</tspan> 
+    </text>  
+    <text transform="translate(169.84206 414.84629) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">杨
+      <tspan x="0" y="9.6001">庄</tspan> 
+    </text>  
+    <text transform="translate(189.23131 404.52101) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">上
+      <tspan x="0" y="9.6001">冶</tspan> 
+    </text>  
+    <text transform="translate(199.7583 422.58017) rotate(17.54892)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">石
+      <tspan x="0" y="9.6001">岚</tspan> 
+    </text>  
+    <text transform="translate(219.27442 412.63774) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">古
+      <tspan x="0" y="9.6001">城</tspan> 
+    </text>  
+    <text transform="translate(121.41561 467.5743) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">王家邵庄</text>  
+    <text transform="translate(135.27257 490.39505) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">书房</text>  
+    <text transform="translate(173.61169 443.30762) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">龙
+      <tspan x="0" y="9.6001">王</tspan>  
+      <tspan x="0" y="19.2002">口</tspan> 
+    </text>  
+    <text transform="translate(139.47559 432.71277) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">昌
+      <tspan x="0" y="9.6001">里</tspan> 
+    </text>  
+    <text transform="translate(143.88819 632.51018) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">长新桥</text>  
+    <text transform="translate(150.43826 594.02379) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">小马庄</text>  
+    <text transform="translate(108.06418 627.14803) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">双河</text>  
+    <text transform="translate(130.67938 660.66741) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">考村</text>  
+    <text transform="translate(95.94951 676.30357) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">会宝岭</text>  
+    <text transform="translate(78.18561 688.24061) rotate(-38.63592)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">周村</text>  
+    <text transform="translate(167.32171 506.09685) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">棠梨树</text>  
+    <text transform="translate(150.44075 434.21417) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">地
+      <tspan x="0" y="9.6001">方</tspan> 
+    </text>  
+    <text transform="translate(206.81563 610.59474) rotate(-39.5023)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">大
+      <tspan x="0" y="9.6001">兴</tspan>  
+      <tspan x="0" y="19.2002">屯</tspan> 
+    </text>  
+    <text transform="translate(225.74458 594.65822) rotate(-39.5023)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">老
+      <tspan x="0" y="9.6001">屯</tspan> 
+    </text>  
+    <text transform="translate(230.07094 460.37098) rotate(18.49547)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">53 (6-11)</text>  
+    <text transform="translate(102.50091 418.87511) rotate(18.49547)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">81 (11-16)</text>  
+    <text transform="translate(189.97363 442.93298) rotate(108.49547)" style="font-size:6px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">30 (2-4)</text>  
+    <polygon points="184.921 436.071 186.159 437.049 184.581 437.086 184.921 436.071" style="fill:#f7f5ae"/>  
+    <line x1="177.65178" y1="434.20376" x2="185.02781" y2="436.67113" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <polygon points="236.945 453.28 238.183 454.259 236.605 454.296 236.945 453.28" style="fill:#f7f5ae"/>  
+    <line x1="229.67574" y1="451.41313" x2="237.05178" y2="453.8805" style="fill:none;stroke:#f7f5ae;stroke-miterlimit:10;stroke-width:0.5px"/>  
+    <text transform="matrix(0.77451, -0.63256, 0.63256, 0.77451, 261.3549, 620.16192)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">江风口闸</text>  
+    <text transform="matrix(0.77451, -0.63256, 0.63256, 0.77451, 247.90092, 603.47475)" style="font-size:4.969779968261719px;fill:#231815;stroke:#fdfbfb;stroke-miterlimit:10;stroke-width:0.5px;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">10 (3-4)</text>  
+    <text transform="matrix(0.77451, -0.63256, 0.63256, 0.77451, 206.45315, 657.26052)" style="font-size:4.9697699546813965px;fill:#231815;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">57 (9-14)</text>  
+    <text transform="matrix(0.96449, 0.26411, -0.26411, 0.96449, 249.73282, 478.56195)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">角沂</text>  
+    <text transform="matrix(0.96449, 0.26411, -0.26411, 0.96449, 78.15817, 419.78583)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">唐
+      <tspan x="0" y="9.6001">村</tspan> 
+    </text>  
+    <text transform="translate(147.80639 280.24089) rotate(24.76137)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">岸堤</text>  
+    <text transform="translate(248.75972 111.22784)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">红旗</text>  
+    <text transform="translate(188.1257 469.64853) rotate(18.49547)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">许
+      <tspan x="0" y="9.6001">家</tspan>  
+      <tspan x="0" y="19.2002">崖</tspan> 
+    </text>  
+    <text transform="translate(241.75183 321.54692) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">高里</text>  
+    <text transform="matrix(0.96449, 0.26411, -0.26411, 0.96449, 260.33934, 429.26292)" style="font-size:8px;fill:#3662a6;font-family:FZHTJW--GB1-0, FZHei-B01S">南坊</text>  
+    <text transform="translate(246.51138 196.37198) rotate(28.03292)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">寨子山</text>  
+    <text transform="translate(239.68848 235.82458) rotate(28.97591)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">寨子</text>  
+    <text transform="translate(257.29971 352.81934) rotate(22.85372)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">施
+      <tspan x="0" y="9.6001">庄</tspan> 
+    </text>  
+    <text transform="translate(185.3928 321.54655) rotate(21.99335)" style="font-size:8px;fill:#3662a6;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">黄
+      <tspan x="0" y="9.6001">仁</tspan> 
+    </text> 
+  </g> 
+  <g id="rainImage"></g>
+  <g id="Info_RAIN"></g>
+  <g id="Icon_RAIN"></g>
+  <g id="g_RR_State"></g>
+  <g id="g_RR_Active"></g>
+</svg>

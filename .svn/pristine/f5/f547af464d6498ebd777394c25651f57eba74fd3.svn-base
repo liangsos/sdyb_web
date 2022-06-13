@@ -1,0 +1,309 @@
+<svg id="svg_5" data-name="图层 1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 749.02002 553.7515" onclick="onSvgclick(evt)" onmouseover="onSvgonmouseover(evt)" onmouseout="onSvgonmouseout(evt)" onload="init(this)">
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/svg-pan-zoom.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/svg.min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/svg/snap.svg-min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Jquery/jquery-3.3.1.min.js"></script>
+  <script  type="text/javascript" xlink:href="../../Script/ybdd/svg/svg_innerop_ght.js"></script>
+  <title></title>
+  <path id="中运河" d="M97.47819,206.78723c-2.30406,0-4.17188-.67353-4.17188-1.91654V79.74229c0-1.1788,1.86782-2.1891,4.17188-2.1891h0c2.30407,0,4.17188,1.06643,4.17188,2.1891v125.1284c0,1.39736-1.86781,1.91654-4.17188,1.91654Z" transform="translate(-67.82471 -27.74072)" style="fill:#2c70a5"/>
+  <path id="中运河-2" data-name="中运河" d="M97.3981,340.7019c-2.34829,0-4.252-.725-4.252-2.063V203.95123c0-1.26885,1.90367-2.35634,4.252-2.35634h0c2.3483,0,4.252,1.1479,4.252,2.35634V338.639c0,1.50411-1.90367,2.063-4.252,2.063Z" transform="translate(-67.82471 -27.74072)" style="fill:#2c70a5"/>
+  <path id="中运河-3" data-name="中运河" d="M688.56367,318.80851a3.82489,3.82489,0,0,1-4.09294-4.00947V53.02647a4.39739,4.39739,0,0,1,4.09294-4.57966h0c2.26047,0,4.09294,2.231,4.09294,4.57966V314.799c0,2.92332-1.83247,4.00947-4.09294,4.00947Z" transform="translate(-67.82471 -27.74072)" style="fill:#2c70a5"/>
+  <path id="中运河-4" data-name="中运河" d="M543.526,581.49223c-2.3483,0-4.252-1.04321-4.252-2.96846V384.71732c0-1.82579,1.90367-3.3906,4.252-3.3906h0c2.3483,0,4.252,1.65174,4.252,3.3906V578.52377c0,2.16432-1.90367,2.96846-4.252,2.96846Z" transform="translate(-67.82471 -27.74072)" style="fill:#2c70a5"/>
+  <path id="中运河-5" data-name="中运河" d="M611.3269,353.20143c-1.17415,0-2.126-1.18411-2.126-3.3694V129.84856c0-2.0724.95183-3.84857,2.126-3.84857h0c1.17415,0,2.126,1.87485,2.126,3.84857V349.832c0,2.45664-.95184,3.3694-2.126,3.3694Z" transform="translate(-67.82471 -27.74072)" style="fill:#2c70a5"/>
+  <path id="盐河" d="M96.14214,335.59668l175.65059,41.20737c3.625.85043,6.31024,2.62033,5.99756,3.95317s-3.50485,1.72392-7.12989.87349L95.00981,340.42334Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-2" data-name="盐河" d="M544.50544,389.81049l144.22868-70.1406c2.97656-1.44755,4.557-4.333,3.53-6.4448s-4.27255-2.6503-7.24911-1.20275L540.78632,382.16293Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-3" data-name="盐河" d="M690.85321,318.05713l100.6706-126.61951c1.12514-1.41515,1.18981-2.54863.55758-3.0513s-1.80214-.08335-2.84711,1.231L688.56367,316.2368Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-4" data-name="盐河" d="M222.31014,225.31941l190.1519,44.707c2.12522.49966,2.925,1.99143,2.56671,3.5154s-1.89046,2.46747-3.86425,2.0034l-190.1519-44.707Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-5" data-name="盐河" d="M98.02543,196.08572,222.20378,225.2816c1.38786.3263,1.80939,1.72913,1.45109,3.2531s-1.45965,2.56876-2.74863,2.26571L96.72789,201.60453Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-6" data-name="盐河" d="M543.5269,425.31025l224.63136.01907c2.51057.00022,3.79831.63139,3.79806,1.40983s-1.4673,1.40938-3.799,1.40918L543.526,428.12926Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-7" data-name="盐河" d="M589.60365,364.48928l202.52422.01564c2.26349.00017,3.42449.63132,3.42425,1.40977s-1.32292,1.4094-3.42513,1.40924l-202.52422-.01564Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-8" data-name="盐河" d="M210.66544,365.07172,86.04381,441.32259c-1.39282.85221-1.721,1.92078-1.24451,2.69961s1.67662.91229,2.9702.1208l124.62164-76.25087Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-9" data-name="盐河" d="M283.71615,488.91813l-128.73057,78.765c-1.43875.88031-1.811,1.92978-1.3598,2.66726s1.65765.821,2.99388.00343l128.73057-78.765Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-10" data-name="盐河" d="M411.18828,410.93987l-127.616,78.083c-1.42629.87268-1.79218,1.91824-1.34095,2.65573s1.65037.82546,2.975.01495l127.616-78.083Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-11" data-name="盐河" d="M159.08511,213.05311V106.22393c0-1.48834-.63456-2.05372-1.41733-2.05372s-1.41732.56538-1.41732,2.05372V213.05311Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-12" data-name="盐河" d="M673.38561,427.73544l85.34533,51.64512c1.189.71952,1.81352.70726,2.0267.355s-.06569-.91118-1.25472-1.6307l-85.34533-51.64512Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-13" data-name="盐河" d="M540.78632,543.24107,443.5318,521.04645c-1.35495-.30922-2.01084.192-2.185.95512s.19936,1.49925,1.55431,1.80847l97.25453,22.19462Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-14" data-name="盐河" d="M612.11728,285.16886,478.55947,188.27338c-1.86073-1.34994-2.94019-1.34912-3.39985-.71554s-.12547,1.66,1.73526,3.01l133.55781,96.89548Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-15" data-name="盐河" d="M612.11728,233.08375l-98.35444-71.35562c-1.37028-.99412-2.26343-.85813-2.72309-.22455s-.31177,1.52485,1.0585,2.519l98.35444,71.35562Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-16" data-name="盐河" d="M688.56367,115.315,624.7501,69.01861a1.42051,1.42051,0,1,0-1.66459,2.29442l63.81357,46.2964Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-17" data-name="盐河" d="M543.526,543.749l90.863-69.15343c1.2659-.96344,2.13108-.82447,2.60514-.20159s.37749,1.49382-.88841,2.45726l-90.863,69.15343Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-18" data-name="盐河" d="M609.20092,173.26178,655.678,137.88933c.64752-.49281,1.2778-.17506,1.75186.44782s.61239,1.315-.03513,1.80785l-46.47711,35.37245Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-19" data-name="盐河" d="M213.35938,224.04255V123.90382c0-1.39513-.63456-1.9251-1.41732-1.9251s-1.41733.53-1.41733,1.9251V224.04255Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-20" data-name="盐河" d="M306.82518,248.84353V160.798c0-1.22665-.63456-1.69261-1.41733-1.69261s-1.41732.466-1.41732,1.69261v88.04554Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <polygon id="东里店" points="405.368 400.404 397.282 416.446 405.783 418.364 405.368 400.404" style="fill:#c91e1d"/>
+  <polygon id="东里店-2" data-name="东里店" points="155.84 501.983 161.682 518.971 168.989 514.223 155.84 501.983" style="fill:#c91e1d"/>
+  <polygon id="东里店-3" data-name="东里店" points="25.482 236.364 8.071 231.936 8.036 240.65 25.482 236.364" style="fill:#c91e1d"/>
+  <polygon id="东里店-4" data-name="东里店" points="117.075 194.389 112.648 211.8 121.362 211.835 117.075 194.389" style="fill:#c91e1d"/>
+  <text transform="translate(390.03926 431.91973)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">闸子</text>
+  <text transform="translate(151.57265 531.87718)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">红旗</text>
+  <polygon id="东里店-5" data-name="东里店" points="479.953 379.705 497.381 384.063 497.382 375.349 479.953 379.705" style="fill:#c91e1d"/>
+  <text transform="translate(501.17288 383.19874)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">南村</text>
+  <text transform="translate(-0.00005 254.9232)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">流河</text>
+  <text transform="translate(104.74463 223.91545)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">郑家</text>
+  <polygon id="东里店-6" data-name="东里店" points="602.247 338.823 597.82 356.233 606.534 356.268 602.247 338.823" style="fill:#c91e1d"/>
+  <text transform="translate(584.17178 368.40309)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">岚西头</text>
+  <path id="盐河-21" data-name="盐河" d="M272.2995,376.93632l141.88861,33.28686c2.92827.687,5.04862,2.32436,4.73594,3.65719s-2.94,1.85643-5.86827,1.16947L271.16717,381.763Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <path id="盐河-22" data-name="盐河" d="M413.37745,410.04116l125.97019,29.55243c2.59974.6099,4.45378,2.18481,4.1411,3.51765s-2.67368,1.9189-5.27343,1.309L412.24513,414.86782Z" transform="translate(-67.82471 -27.74072)" style="fill:#2b6b9d"/>
+  <g id="华村">
+    <circle cx="222.18943" cy="458.19386" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="213.99123" y1="458.19386" x2="230.38763" y2="458.19386" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="215.14472" y1="460.39766" x2="221.87212" y2="460.39766" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="216.2944" y1="462.39634" x2="219.28628" y2="462.39634" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="220.37618" y1="462.39634" x2="223.36806" y2="462.39634" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="218.69433" y1="464.2619" x2="221.68621" y2="464.2619" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="223.04336" y1="464.2619" x2="226.03524" y2="464.2619" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="224.45958" y1="462.39634" x2="227.45146" y2="462.39634" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="222.81498" y1="460.39766" x2="229.31304" y2="460.39766" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M282.33724,485.35564h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-2" data-name="华村">
+    <circle cx="423.22189" cy="505.73847" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="415.02369" y1="505.73847" x2="431.42009" y2="505.73847" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="416.17718" y1="507.94227" x2="422.90458" y2="507.94227" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="417.32686" y1="509.94096" x2="420.31874" y2="509.94096" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="421.40865" y1="509.94096" x2="424.40052" y2="509.94096" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="419.72679" y1="511.80651" x2="422.71867" y2="511.80651" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="424.07582" y1="511.80651" x2="427.0677" y2="511.80651" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="425.49204" y1="509.94096" x2="428.48392" y2="509.94096" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="423.84744" y1="507.94227" x2="430.3455" y2="507.94227" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M483.3697,532.90025h15.30485a7.67663,7.67663,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-3" data-name="华村">
+    <circle cx="544.29257" cy="466.59213" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="536.09437" y1="466.59213" x2="552.49077" y2="466.59213" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="537.24786" y1="468.79593" x2="543.97527" y2="468.79593" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="538.39755" y1="470.79462" x2="541.38943" y2="470.79462" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="542.47933" y1="470.79462" x2="545.47121" y2="470.79462" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="540.79748" y1="472.66017" x2="543.78936" y2="472.66017" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="545.14651" y1="472.66017" x2="548.13839" y2="472.66017" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="546.56273" y1="470.79462" x2="549.55461" y2="470.79462" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="544.91813" y1="468.79593" x2="551.41619" y2="468.79593" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M604.44039,493.75391h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-4" data-name="华村">
+    <circle cx="667.22874" cy="435.9491" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="659.03054" y1="435.9491" x2="675.42694" y2="435.9491" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="660.18403" y1="438.15289" x2="666.91144" y2="438.15289" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="661.33372" y1="440.15158" x2="664.3256" y2="440.15158" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="665.4155" y1="440.15158" x2="668.40738" y2="440.15158" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="663.73365" y1="442.01714" x2="666.72553" y2="442.01714" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="668.08268" y1="442.01714" x2="671.07456" y2="442.01714" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="669.4989" y1="440.15158" x2="672.49078" y2="440.15158" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="667.8543" y1="438.15289" x2="674.35236" y2="438.15289" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M727.37656,463.11087h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73758,7.73758,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-5" data-name="华村">
+    <circle cx="571.10108" cy="125.06609" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="562.90288" y1="125.06609" x2="579.29928" y2="125.06609" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="564.05637" y1="127.26989" x2="570.78378" y2="127.26989" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="565.20606" y1="129.26857" x2="568.19794" y2="129.26857" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="569.28784" y1="129.26857" x2="572.27972" y2="129.26857" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="567.60599" y1="131.13413" x2="570.59787" y2="131.13413" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="571.95502" y1="131.13413" x2="574.9469" y2="131.13413" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="573.37124" y1="129.26857" x2="576.36312" y2="129.26857" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="571.72664" y1="127.26989" x2="578.2247" y2="127.26989" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M631.2489,152.22787h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-6" data-name="华村">
+    <circle cx="620.70764" cy="54.53365" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="612.50944" y1="54.53365" x2="628.90584" y2="54.53365" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="613.66293" y1="56.73745" x2="620.39034" y2="56.73745" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="614.81262" y1="58.73614" x2="617.8045" y2="58.73614" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="618.8944" y1="58.73614" x2="621.88628" y2="58.73614" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="617.21255" y1="60.6017" x2="620.20443" y2="60.6017" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="621.56158" y1="60.6017" x2="624.55346" y2="60.6017" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="622.9778" y1="58.73614" x2="625.96968" y2="58.73614" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="621.3332" y1="56.73745" x2="627.83126" y2="56.73745" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M680.85546,81.69543h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-7" data-name="华村">
+    <circle cx="584.17178" cy="63.3108" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="575.97358" y1="63.3108" x2="592.36998" y2="63.3108" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="577.12707" y1="65.5146" x2="583.85448" y2="65.5146" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="578.27676" y1="67.51328" x2="581.26864" y2="67.51328" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="582.35854" y1="67.51328" x2="585.35042" y2="67.51328" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="580.67669" y1="69.37884" x2="583.66857" y2="69.37884" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="585.02572" y1="69.37884" x2="588.0176" y2="69.37884" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="586.44194" y1="67.51328" x2="589.43382" y2="67.51328" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="584.79734" y1="65.5146" x2="591.2954" y2="65.5146" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M644.3196,90.47258h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-8" data-name="华村">
+    <circle cx="543.78936" cy="165.65597" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="535.59116" y1="165.65597" x2="551.98756" y2="165.65597" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="536.74465" y1="167.85977" x2="543.47205" y2="167.85977" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="537.89433" y1="169.85846" x2="540.88621" y2="169.85846" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="541.97611" y1="169.85846" x2="544.96799" y2="169.85846" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="540.29426" y1="171.72401" x2="543.28614" y2="171.72401" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="544.64329" y1="171.72401" x2="547.63517" y2="171.72401" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="546.05951" y1="169.85846" x2="549.05139" y2="169.85846" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="544.41491" y1="167.85977" x2="550.91297" y2="167.85977" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M603.93717,192.81775H619.242a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-9" data-name="华村">
+    <circle cx="701.19665" cy="190.25057" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="692.99845" y1="190.25057" x2="709.39484" y2="190.25057" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="694.15194" y1="192.45437" x2="700.87934" y2="192.45437" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="695.30162" y1="194.45305" x2="698.2935" y2="194.45305" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="699.3834" y1="194.45305" x2="702.37528" y2="194.45305" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="697.70155" y1="196.31861" x2="700.69343" y2="196.31861" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="702.05058" y1="196.31861" x2="705.04246" y2="196.31861" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="703.4668" y1="194.45305" x2="706.45868" y2="194.45305" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="701.8222" y1="192.45437" x2="708.32026" y2="192.45437" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M761.34446,217.41235h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-10" data-name="华村">
+    <circle cx="497.38154" cy="173.85417" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="489.18334" y1="173.85417" x2="505.57974" y2="173.85417" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="490.33683" y1="176.05797" x2="497.06424" y2="176.05797" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="491.48652" y1="178.05665" x2="494.4784" y2="178.05665" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="495.5683" y1="178.05665" x2="498.56018" y2="178.05665" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="493.88645" y1="179.92221" x2="496.87833" y2="179.92221" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="498.23548" y1="179.92221" x2="501.22736" y2="179.92221" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="499.6517" y1="178.05665" x2="502.64357" y2="178.05665" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="498.00709" y1="176.05797" x2="504.50516" y2="176.05797" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M557.52936,201.016h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-11" data-name="华村">
+    <circle cx="89.84308" cy="102.4362" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="81.64488" y1="102.4362" x2="98.04128" y2="102.4362" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="82.79837" y1="104.64" x2="89.52577" y2="104.64" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="83.94805" y1="106.63868" x2="86.93993" y2="106.63868" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="88.02983" y1="106.63868" x2="91.02171" y2="106.63868" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="86.34798" y1="108.50424" x2="89.33986" y2="108.50424" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="90.69701" y1="108.50424" x2="93.68889" y2="108.50424" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="92.11323" y1="106.63868" x2="95.10511" y2="106.63868" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="90.46863" y1="104.64" x2="96.96669" y2="104.64" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M149.99089,129.598h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-12" data-name="华村">
+    <circle cx="89.52577" cy="153.46811" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="81.32757" y1="153.46811" x2="97.72397" y2="153.46811" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="82.48106" y1="155.67191" x2="89.20847" y2="155.67191" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="83.63075" y1="157.6706" x2="86.62263" y2="157.6706" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="87.71253" y1="157.6706" x2="90.70441" y2="157.6706" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="86.03068" y1="159.53616" x2="89.02256" y2="159.53616" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="90.37971" y1="159.53616" x2="93.37159" y2="159.53616" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="91.79593" y1="157.6706" x2="94.78781" y2="157.6706" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="90.15133" y1="155.67191" x2="96.64939" y2="155.67191" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M149.67359,180.62989h15.30485a7.67665,7.67665,0,0,0-7.628-7.08926,7.73758,7.73758,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-13" data-name="华村">
+    <circle cx="144.11735" cy="133.26429" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="135.91915" y1="133.26429" x2="152.31555" y2="133.26429" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="137.07264" y1="135.46809" x2="143.80005" y2="135.46809" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="138.22233" y1="137.46677" x2="141.21421" y2="137.46677" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="142.30411" y1="137.46677" x2="145.29599" y2="137.46677" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="140.62226" y1="139.33233" x2="143.61414" y2="139.33233" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="144.97129" y1="139.33233" x2="147.96317" y2="139.33233" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="146.3875" y1="137.46677" x2="149.37938" y2="137.46677" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="144.7429" y1="135.46809" x2="151.24097" y2="135.46809" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M204.26516,160.42607H219.57a7.67663,7.67663,0,0,0-7.628-7.08926,7.73758,7.73758,0,0,0-7.67689,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-14" data-name="华村">
+    <circle cx="237.58315" cy="165.07703" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="229.38495" y1="165.07703" x2="245.78135" y2="165.07703" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="230.53844" y1="167.28083" x2="237.26584" y2="167.28083" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="231.68812" y1="169.27951" x2="234.68" y2="169.27951" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="235.7699" y1="169.27951" x2="238.76178" y2="169.27951" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="234.08805" y1="171.14507" x2="237.07993" y2="171.14507" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="238.43708" y1="171.14507" x2="241.42896" y2="171.14507" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="239.8533" y1="169.27951" x2="242.84518" y2="169.27951" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="238.2087" y1="167.28083" x2="244.70676" y2="167.28083" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M297.731,192.23881h15.30485a7.67663,7.67663,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-15" data-name="华村">
+    <circle cx="301.06102" cy="235.20948" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="292.86282" y1="235.20948" x2="309.25922" y2="235.20948" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="294.01631" y1="237.41328" x2="300.74372" y2="237.41328" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="295.166" y1="239.41196" x2="298.15788" y2="239.41196" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="299.24778" y1="239.41196" x2="302.23966" y2="239.41196" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="297.56593" y1="241.27752" x2="300.55781" y2="241.27752" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="301.91496" y1="241.27752" x2="304.90684" y2="241.27752" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="303.33117" y1="239.41196" x2="306.32305" y2="239.41196" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="301.68657" y1="237.41328" x2="308.18464" y2="237.41328" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M361.20883,262.37126h15.30485a7.67661,7.67661,0,0,0-7.628-7.08926,7.73758,7.73758,0,0,0-7.67689,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="华村-16" data-name="华村">
+    <circle cx="50.35836" cy="395.80958" r="8.1982" style="fill:#24adde;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="42.16016" y1="395.80958" x2="58.55656" y2="395.80958" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="43.31365" y1="398.01338" x2="50.04106" y2="398.01338" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="44.46333" y1="400.01206" x2="47.45521" y2="400.01206" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="48.54512" y1="400.01206" x2="51.537" y2="400.01206" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="46.86326" y1="401.87762" x2="49.85514" y2="401.87762" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="51.21229" y1="401.87762" x2="54.20417" y2="401.87762" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="52.62851" y1="400.01206" x2="55.62039" y2="400.01206" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <line x1="50.98391" y1="398.01338" x2="57.48197" y2="398.01338" style="fill:#fff;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M110.50617,422.97136H125.811a7.67661,7.67661,0,0,0-7.628-7.08926,7.73756,7.73756,0,0,0-7.67688,7.08926Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <text transform="translate(209.87213 479.65768)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">王吴</text>
+  <text transform="translate(410.90465 527.14705)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">青年</text>
+  <text transform="translate(532.91798 488.84917)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">挪城</text>
+  <text transform="translate(649.22864 458.39394)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">宋化泉</text>
+  <text transform="translate(38.33395 418.36385)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">马旺</text>
+  <g id="峡山">
+    <circle cx="479.95323" cy="211.85999" r="10.49369" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M537.95151,238.85966h19.59021a9.82608,9.82608,0,0,0-9.7638-9.07425,9.9041,9.9041,0,0,0-9.82641,9.07425Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <g id="峡山-2" data-name="峡山">
+    <circle cx="620.39034" cy="206.58181" r="10.49369" style="fill:#2e6bb4;stroke:#1a699f;stroke-miterlimit:10;stroke-width:0.25px"/>
+    <path d="M678.38862,233.58149h19.59021a9.82608,9.82608,0,0,0-9.7638-9.07426,9.9041,9.9041,0,0,0-9.82641,9.07426Z" transform="translate(-67.82471 -27.74072)" style="fill:#fff"/>
+  </g>
+  <text transform="translate(100.58786 107.63861)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">大泽山</text>
+  <text transform="translate(100.64745 158.98769)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">淄阳</text>
+  <text transform="translate(154.73349 138.46669)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">双山</text>
+  <text transform="translate(248.60068 170.27943)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">双庙</text>
+  <text transform="translate(289.0611 256.19972)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">黄山</text>
+  <text transform="translate(493.64343 217.07542)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">尹府</text>
+  <text transform="translate(507.45689 178.05658)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">黄同</text>
+  <text transform="translate(554.05623 170.27936)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">北墅</text>
+  <text transform="translate(553.60583 147.77664)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">庙埠河</text>
+  <text transform="translate(571.7972 84.64706)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">勾山</text>
+  <text transform="translate(630.96753 60.60162)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">城子</text>
+  <text transform="translate(633.26541 211.11887)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">产芝</text>
+  <text transform="translate(713.01984 194.45309)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">高格庄</text>
+  <polygon id="东里店-7" data-name="东里店" points="539.995 286.712 522.567 282.354 522.567 291.068 539.995 286.712" style="fill:none;stroke:#be2120;stroke-miterlimit:10"/>
+  <polygon id="东里店-8" data-name="东里店" points="625.935 134.363 643.363 138.721 643.363 130.007 625.935 134.363" style="fill:none;stroke:#be2120;stroke-miterlimit:10"/>
+  <text transform="translate(503.75491 306.85598)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">葛家埠</text>
+  <text transform="translate(625.96991 155.67213)" style="font-size:12px;fill:#1a76b5;font-family:FZHTJW--GB1-0, FZHei-B01S">张家院</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 556.10021, 352.58635)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">
+    <tspan xml:space="preserve">河                  沽                  五</tspan>
+  </text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 503.5122, 412.48003)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">
+    <tspan xml:space="preserve">河          浩          流</tspan>
+  </text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 499.84692, 250.47655)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 508.57055, 203.11211)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 455.14526, 220.10296)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">洞</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 479.27319, 185.31231)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">同</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 411.53075, 186.12719)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">猪</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 449.97509, 159.53637)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">黄</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 551.34277, 293.84734)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 651.23412, 271.16649)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 551.34277, 244.40758)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">沽</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 551.34277, 197.5786)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">小</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 682.93212, 230.08587)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">潴</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 485.95531, 466.01311)" style="font-size:14px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 593.08056, 322.76958)" style="font-size:14px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">沽</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 67.64062, 199.3662)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 244.4414, 240.64989)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">泽</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 630.09264, 114.42949)" style="font-size:14px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">大</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 310.21508, 421.86297)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 424.54882, 396.56975)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 380.15112, 386.06328)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">莱</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 331.32128, 373.34942)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">胶</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 278.47045, 361.06975)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">南</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 125.64062, 534.19512)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">胶</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 130.12328, 327.6209)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">北</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 74.87157, 397.56987)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">五</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 71.08739, 312.96111)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">胶</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 102.6831, 379.70696)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">龙</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 40.16283, 282.35357)" style="font-size:12px;fill:#127dc2;font-family:AdobeSongStd-Light-GBpc-EUC-H, Adobe Song Std">莱</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 40.16283, 223.91552)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">河</text>
+  <text transform="matrix(0.96593, 0, 0.25882, 0.96593, 130.12304, 361.06975)" style="font-size:12px;fill:#127dc2;font-family:FZSSJW--GB1-0, FZShuSong-Z01S">河</text>
+  <g id="rainImage"></g>
+  <g id="Info_RAIN"></g>
+  <g id="Icon_RAIN"></g>
+  <g id="g_RR_State"></g>
+  <g id="g_RR_Active"></g>
+</svg>

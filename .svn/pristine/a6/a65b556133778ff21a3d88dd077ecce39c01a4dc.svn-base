@@ -1,0 +1,75 @@
+﻿ <html lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/Images/logo.ico">
+    <title>
+        水情中心改造提升工程大中型水库与骨干河道洪水预报系统
+    </title>
+    <link href="Css/login.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <input id="verCode" type="hidden">
+
+    <div class="main1 flex-row justify-between">
+        <img class="icon1" referrerpolicy="no-referrer" src="./img/Images/logo.png">
+        <div class="group1 flex-col justify-between">
+
+            <span class="txt1">
+                水情中心改造提升工程大中型水库与骨干河道洪水预报系统
+            </span>
+            <span class="txt2">
+                Flood&nbsp;Forecasting&nbsp;System&nbsp;for&nbsp;Large&nbsp;and&nbsp;Medium-Sized&nbsp;Reservoirs&nbsp;and&nbsp;River&nbsp;courses&nbsp;in&nbsp;Reconstruction&nbsp;and&nbsp;Upgrading&nbsp;Project&nbsp;of&nbsp;Shandong&nbsp;Hydrological&nbsp;Center
+            </span>
+        </div>
+    </div>
+    <div class="main2 flex-row">
+        <div class="mod1 flex-col">
+            <div class="wrap1 flex-col">
+                <span class="txt3">用户登陆</span>
+                <div class="main3 flex-row">
+                    <img class="icon2" referrerpolicy="no-referrer" src="./img/Images/login_form_account.png">
+                    <span class="word1">账号</span>
+                    <input id="userName" class="wrap2 flex-col " placeholder="请输入账号" />
+                </div>
+                <div class="main4 flex-row">
+                    <img class="label1" referrerpolicy="no-referrer" src="./img/Images/login_form_password.png">
+                    <span class="word2">密码&nbsp;&nbsp;&nbsp;</span>
+                    <input id="password" placeholder="请输入密码" oninput="changePassword(this)" value="" type="password" class="wrap3 flex-col" />
+                    <input id="password_see" placeholder="请输入密码" oninput="changePassword(this)" value="" style="display:none" class="wrap3 flex-col" />
+                    <img class="icon3 password_control" referrerpolicy="no-referrer" src="./img/Images/login_form_password_noeye.png">
+                </div>
+                <div class="main5 flex-row">
+                    <img class="icon4" referrerpolicy="no-referrer" src="./img/Images/login_form_validcode.png">
+                    <span class="info1">验证码&nbsp;&nbsp;&nbsp;</span>
+                    <input id="yanzm" placeholder="请输入验证码" class="block1 flex-col">
+                    <div class="yam fr img1">
+                        <canvas id="canvas"></canvas>
+                    </div>
+
+                </div>
+                <span class="word4" style="">忘记密码</span>
+
+                <button class="main6 flex-col" onclick="userLogin()">
+                    <span class="txt4">登&nbsp;录</span>
+                </button>
+                <label class="error_info"></label>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="Jquery/jquery.min-1.11.1.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+    <script src="Script/login/login.js" type="text/javascript"></script>
+    <script src="Script/common/apiLogin.js" type="text/javascript"></script>
+    <script src="Script/common/cookieMgr.js" type="text/javascript"></script>
+</body>
+</html>

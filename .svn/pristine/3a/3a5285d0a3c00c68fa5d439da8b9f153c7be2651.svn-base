@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from 60.216.119.102:10086/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Sep 2021 07:04:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Css/common.css" />
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link href="Jquery/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Jquery/jQuery.min.js" type="text/javascript"></script>
+    <script src="Jquery/echarts.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="Jquery/bootstrap/css/bootstrap.css">
+    <link href="Jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <link href="Jquery/jquery-dataTables/datatables.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="static/css/index.css">
+
+
+    <link rel="stylesheet" href="Css/indexNew.css">
+    <link rel="stylesheet" href="Css/addnew.css">
+    <link rel="stylesheet" href="Css/shikuang.css">
+    <link rel="stylesheet" href="Css/home.css">
+</head>
+<body style="background-color:black">
+
+    <div class="top flex-row">
+        <div class="header header-dark">
+            <img class="icon1"
+                 referrerpolicy="no-referrer"
+                 src="img/temp_9.png" />
+
+            <div class="ant-radio-group ant-radio-group-outline">
+                <label id="menu_shikuang" _pageindex="1" class="arr_menu shikuang ant-radio-button-wrapper ">
+                    <span class="ant-radio-button ">
+                        <input type="radio" class="ant-radio-button-input" value="yubao" checked="">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yubao" src="./img/indexHeader/menu_fhxs.png">实况
+                    </span>
+                </label>
+                <label id="menu_yubao" _pageindex="2" class="arr_menu yubao ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yujing">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yujing" src="./img/indexHeader/menu_ybdd.png">预报
+                    </span>
+                </label>
+                <label id="menu_huishang" _pageindex="3" class="arr_menu huishang ant-radio-button-wrapper-checked">
+                    <span class="ant-radio-button ant-radio-button-checked">
+                        <input type="radio" class="ant-radio-button-input" value="yuyan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color:orange">
+                        <img class="icon-yuyan" src="./img/indexHeader/menu_hs_selected.png">会商
+                    </span>
+                </label>
+                <label id="menu_fagl" _pageindex="4" class="arr_menu fagl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_fagl.png">方案管理
+                    </span>
+                </label>
+                <label id="menu_mxgj" _pageindex="5" class="arr_menu mxgj ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_msgj.png">模型构建
+                    </span>
+                </label>
+                <label id="menu_xtgl" _pageindex="6" class="arr_menu xtgl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_xt.png">系统管理
+                    </span>
+                </label>
+
+                <div class="gly" style="display:block">
+                    <img src="img/indexHeader/menu_gly.png" style="height: 24px; width: 24px; " />
+                    <label class="menu-btn" style="margin-left: 5px;"><span id="username"></span></label>
+                    <img class="sjx" src="img/arrow_down.png" />
+                    <div id="gly_menu">
+                        <ul>
+                            <li class="password_change">修改密码</li>
+                            <li class="login_out">退出登录</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <span class="header-title">洪水预报系统</span>
+            <img src="img/lyx/menu_help.png" class="header-help" />
+        </div>
+
+
+
+    </div>
+    <div class="container flex-col" style="position:absolute;top:0px;left:0px;height:100%;width:100%;margin:0px;padding:0px;background-color:black">
+
+        <iframe id="frame_huishang" style="width: 100%; height: 100%; top: 0px; position: absolute; border: 0px; background-color: black" src="http://10.37.1.73:32620/seoss/#"> </iframe>
+
+    </div>
+    <!--等待loading-->
+    <div class="loading-layer" style="display: none;">
+        <div class="loading-content">
+            <i class="loading-layer-close"></i>
+            <img src="img/Images/loading.gif" />
+            <span id="span_loading">查询中。。。</span>
+        </div>
+    </div>
+
+    <div id="popup_move_svg" style="position: absolute;left: 418px;top: 364px;display:none;z-index:300; ">
+
+        <div id="popup_move_svg_content" class="ol-popup-move  clearfix" style="width:260px;">
+            <div class="ol-popup-move-title">
+                <span class="span-title"></span>
+                <img class="close" style="display:none" src="Images/close.png">
+            </div>
+            <div style="display:inline;float:left">
+
+                <ul></ul>
+            </div>
+            <div id="div_pop_yzt" style="margin-top: 10px; float: right; height: 80px; display: none; background-color: transparent;">
+                <canvas id="pop_canvas" width="108" style="margin-left:-10px"></canvas>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+<script src="Script/common/common_fun.js" type="text/javascript"></script>
+<script type="text/javascript" src="Script/huishang/huishang_tools.js"></script>
+<script src="Script/common/cookieMgr.js" type="text/javascript"></script>
+<script src="Script/common/apiLogin.js" type="text/javascript"></script>
+<script src="Script/common/checkrole.js" type="text/javascript"></script>
+<script type="text/javascript" src="Script/common/manger.js"></script>
+<script src="Script/common/subframe_fuc.js" type="text/javascript"></script>
+<script src="Script/huishang/huishang.js" type="text/javascript"></script>
+<!-- Mirrored from 60.216.119.102:10086/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Sep 2021 07:04:14 GMT -->
+</html>

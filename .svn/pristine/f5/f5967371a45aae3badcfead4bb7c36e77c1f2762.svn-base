@@ -1,0 +1,24 @@
+﻿.table-bordered th, .table-bordered td {
+    text-align: center;
+}
+
+.form-horizontal .form-label {
+    text-align: center;
+}
+
+.dataTables_scrollBody{
+    overflow-x:hidden !important;
+}
+.ztree li span.button.noline_open {
+   
+    display: none !important;
+}
+.ztree li span.button.noline_close {
+    display: none !important;
+}
+.ztree li   {
+    border: none !important;
+}
+.layui-layer-min, .layui-layer-max {
+    display: none !important;
+}
