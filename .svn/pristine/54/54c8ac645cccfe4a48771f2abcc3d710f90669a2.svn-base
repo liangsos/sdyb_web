@@ -1,0 +1,29 @@
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    width: 300px;
+    padding: 10px;
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #5da4d7;
+    color: #FFF;
+    /* -webkit-box-shadow: inset 0 0 5px 5px #222; */
+    /* -moz-shadow: inset 0 0 5px 5px #222; */
+    box-shadow: inset 0 0 5px 5px #b2e3ef;
+    opacity: 0.8;
+    height: calc(100% - 40px);
+    top: 88px;
+}
+.ssybhsDiv{
+    border: solid 1px;padding: 9px;margin: 6px;
+    box-shadow: inset 0 0 5px 5px #bcd7ff7a;
+    border-radius: 8px;
+    margin-top: 15px;
+}

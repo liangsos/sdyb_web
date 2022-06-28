@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head id="head">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <title>文档展示</title>
+    <link href="Jquery/jquery.pagination/pagination.css" rel="stylesheet" />
+    <link href="Jquery/toastr/toastr.css" rel="stylesheet" />
+    <link href="css/font/iconfont.css" rel="stylesheet" />
+    <link href="Css/weather.css" rel="stylesheet" />
+</head>
+
+<body style="overflow: hidden;">
+
+
+    <div class="main">
+        <div class="right" style="width: 0px;height: 0px;display: none;">
+
+        </div>
+        <div class="left" style="margin: 0px 5px 0px 0px;">
+            <iframe id="framePdf" allowfullscreen='allowfullscreen'
+                sandbox="allow-forms allow-modals allow-popups allow-same-origin allow-scripts allow-downloads"
+                style="width: 100%; height: 95%;"></iframe>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Jquery/jquery.min-1.11.1.js"></script>
+    <!--[if lte IE 9]>
+<script type="text/javascript" src="jquery/respond.js}"></script>
+<script type="text/javascript" src="jquery/html5.js}"></script>
+<![endif]-->
+    <script type="text/javascript" src="Jquery/jquery.pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="Script/shikuang/doc.js"></script>
+</body>
+
+</html>

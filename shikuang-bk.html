@@ -1,0 +1,586 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from 60.216.119.102:10086/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Sep 2021 07:04:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Css/common.css" />
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link href="Jquery/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="Jquery/jQuery.min.js" type="text/javascript"></script>
+    <script src="Jquery/echarts.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="Jquery/bootstrap/css/bootstrap.css">
+    <link href="Jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <link href="Jquery/jquery-dataTables/datatables.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="static/css/index.css">
+
+
+    <link rel="stylesheet" href="Css/indexNew.css">
+    <link rel="stylesheet" href="Css/addnew.css">
+    <link rel="stylesheet" href="Css/shikuang.css">
+    <link rel="stylesheet" href="Css/home.css">
+</head>
+<body style="background-color:black">
+    <input type="hidden" id="_hid_userid" />
+    <input type="hidden" id="_hid_token" />
+    <input type="hidden" id="_hid_roleid" />
+    <input type="hidden" id="_hid_username" />
+    <div class="top flex-row">
+        <div class="header header-dark">
+            <img class="icon1"
+                 referrerpolicy="no-referrer"
+                 src="img/temp_9.png" />
+
+            <div class="ant-radio-group ant-radio-group-outline">
+                <label id="menu_shikuang" _pageindex="1" class="arr_menu shikuang ant-radio-button-wrapper-checked ">
+                    <span class="ant-radio-button ant-radio-button-checked">
+                        <input type="radio" class="ant-radio-button-input" value="yubao" checked="">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color:orange">
+                        <img class="icon-yubao" src="./img/indexHeader/menu_fhxs_selected.png">实况
+                    </span>
+                </label>
+                <label id="menu_yubao" _pageindex="2" class="arr_menu yubao ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yujing">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yujing" src="./img/indexHeader/menu_ybdd.png">预报
+                    </span>
+                </label>
+                <label id="menu_huishang" _pageindex="3" class="arr_menu huishang ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuyan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuyan" src="./img/indexHeader/menu_hs.png">会商
+                    </span>
+                </label>
+                <label id="menu_fagl" _pageindex="4" class="arr_menu fagl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_fagl.png">方案管理
+                    </span>
+                </label>
+                <label id="menu_mxgj" _pageindex="5" class="arr_menu mxgj ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_msgj.png">模型构建
+                    </span>
+                </label>
+                <label id="menu_xtgl" _pageindex="6" class="arr_menu xtgl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span>
+                        <img class="icon-yuan" src="./img/indexHeader/menu_xt.png">系统管理
+                    </span>
+                </label>
+
+
+
+                <div class="gly" style="display:block">
+                    <img src="img/indexHeader/menu_gly.png" style="height: 24px; width: 24px; " />
+                    <label class="menu-btn" style="margin-left: 5px;"><span id="username"></span></label>
+                    <img class="sjx" src="img/arrow_down.png" />
+                    <div id="gly_menu">
+                        <ul>
+                            <li class="password_change">修改密码</li>
+                            <li class="login_out">退出登录</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="header-title">洪水预报系统</span>
+            <img src="img/lyx/menu_help.png" class="header-help" />
+        </div>
+
+
+
+    </div>
+    <div class="container flex-col" style="position:absolute;top:0px;left:0px;height:100%;width:100%;margin:0px;padding:0px;">
+
+
+        <div class="pg-main flex-row div_fhxs div_menu">
+            <div class="box-left flex-col" >
+                <div style="height:93%">
+                    <div>
+                        <span class="txt1" style="margin-left:30px;margin-top:0px;">实况降水:</span>
+                        <div class="yqxx" style=" height: 30px; display: inline; position: absolute; left: 120px; top: 0px; ">
+
+                            <button type="button" style="height:26px;" class="yb_btn_active yqxx_btn left_radius tm_skjs">今日</button>
+                            <button type="button" style="height:26px;" class="yb_btn yqxx_btn tm_skjs">昨日</button>
+                            <button type="button" style="height:26px;" class="yb_btn yqxx_btn tm_skjs">近3日</button>
+                            <button type="button" style="height: 26px; width: 60px;" id="zdy_skjs"  class="yb_btn yqxx_btn right_radius  tm_skjs">自定义</button>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="txt1" style="margin-left:30px;margin-top:16px;">预报降水:</span>
+                        <div class="yqxx" style=" height: 30px; display: inline; position: absolute; left: 120px; top: 36px; ">
+
+                            <button type="button" style="height:26px;" class="yb_btn yqxx_btn left_radius tm_ybjs">今日</button>
+                            <button type="button" style="height:26px;" class="yb_btn yqxx_btn tm_ybjs">未来3日</button>
+                            <button type="button" style="height:26px;" class="yb_btn yqxx_btn tm_ybjs">未来6日</button>
+                            <button type="button" style="height: 26px; width: 60px;" id="zdy_ybjs" class="yb_btn yqxx_btn right_radius tm_ybjs">自定义</button>
+                        </div>
+                    </div>
+
+                    <div class="section2 flex-row" style="margin-top:20px;">
+                        <img class="label3"
+                             referrerpolicy="no-referrer"
+                             src="img/icon_rain.png" />
+                        <span class="txt1">水情摘要</span>
+                        <img class="icon3"
+                             referrerpolicy="no-referrer"
+                             src="img/arrow.png" />
+
+                    </div>
+                    <div class="sqzy2" style="margin-left:20px;width:350px;min-height:110px;border:0px solid #0373FF;border-radius: 0px;">
+
+                        <div style="margin-top:10px;display:inline-block">
+                            <div id="sq_chart" style="width:280px;height:100px;margin-left:-10px;">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sqzy_info" style="margin-top: 10px; margin-left: 10px; display: inline-block; font-size: 10px; margin-top: -3px; ">
+                        <div>
+                            <img src="img/lyx/sqzy_hd.png" style="width:28px;height:32px;margin-left:30px;" />
+                            <span style="margin-left:0px;">&nbsp;大中型水库&nbsp;&nbsp;</span>
+                            <span style="margin-left:5px;">&nbsp;&nbsp;超校核</span>
+                            <span id="sq_sk_cjh" style="color: #0DB6F6 "></span>
+                            <span>个</span>
+
+                            <span style="margin-left:8px;">超汛限</span>
+                            <span id="sq_sk_cxx" style="color: #FFB44E"></span>
+                            <span>个</span>
+                            <div>
+                                <span style="margin-left:160px;">超兴利</span>
+                                <span id="sq_sk_czc" style="color: #FFB44E"></span>
+                                <span>个</span>
+
+                                <span style="margin-left:8px;">超历史</span>
+                                <span id="sq_sk_cls" style="color: #07D79B"></span>
+                                <span>个</span>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-top:10px;">
+                            <img src="img/lyx/sqzy_sk.png" style="width: 28px; height: 32px; margin-left: 30px; margin-top: -3px;" />
+                            <span style="margin-left:0px;">&nbsp;湖泊站&nbsp;&nbsp;</span>
+                            <span style="margin-left: 41px;">超设计</span>
+                            <span id="sq_hp_csj" style="color: #07D79B"></span>
+                            <span>个</span>
+                        </div>
+
+                    </div>
+                    <div class="section2 flex-row" style="margin-top:10px;">
+                        <img class="label3"
+                             referrerpolicy="no-referrer"
+                             src="img/icon_info.png" />
+                        <span class="txt1">雨情摘要</span>
+                        <img class="icon3"
+                             referrerpolicy="no-referrer"
+                             src="img/arrow.png" />
+
+                    </div>
+                    <div class="sqzy" style="margin-left:20px;width:350px;min-height:110px;border:0px solid #0373FF;border-radius: 4px;">
+
+                        <div style="margin-top:10px;margin-left:5px;" class="yq_detail">
+                            <div class="yq_left_up">
+
+                                <img src="img/lyx/yq_bl.png" style="width: 40px; height: 40px; position: absolute; top: 6px; left: 16px; display: inline-block " />
+                                <div style="position:absolute;top:5px;left:56px;display:inline-block">
+                                    <span style="color: white; margin-left: 8px;">省面雨量</span>
+                                    <div>
+                                        <span id="yq_smyl" style="color: #B4EAFC; margin-left: 12px;"></span>
+                                        <span style="color: #B4EAFC; font-weight: bold">毫米</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="yq_right_up">
+                                <img src="img/lyx/yq_bl.png" style="width: 40px; height: 40px; position: absolute; top: 6px; left: 16px; display: inline-block " />
+                                <div style="position: absolute; top: 5px; left: 56px; display: inline-block">
+
+                                    <span style="color: white; margin-left: 6px;">最大降水量站</span>
+                                    <span id="yq_zdjslz_name" style="color: white; font-weight: bold; width: fit-content; margin-left: 12px;" class="word2"></span>
+                                    <div>
+                                        <span id="yq_zdjslz_value" style="color: #B4EAFC; margin-left: 12px;"></span>
+
+                                        <span style="color: #B4EAFC; font-weight: bold">毫米</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="yq_left_down">
+                                <img src="img/lyx/yq_bl.png" style="width: 40px; height: 40px; position: absolute; top: 12px; left: 16px; display: inline-block " />
+                                <div style="position: absolute; top: 10px; left: 56px; display: inline-block">
+                                    <span style="color: white; margin-left: 8px;" id="sx_1_name"></span>
+                                    <div>
+                                        <span id="sx_1_value" style="color: #B4EAFC; margin-left: 8px;"></span>
+                                        <span style="color: #B4EAFC; font-weight: bold">毫米</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="yq_right_down">
+                                <img src="img/lyx/yq_bl.png" style="width: 40px; height: 40px; position: absolute; top: 12px; left: 16px; display: inline-block " />
+                                <div style="position: absolute; top: 10px; left: 56px; display: inline-block ">
+                                    <span style="color: white; margin-left: 8px;" id="sx_2_name"></span>
+                                    <div>
+                                        <span id="sx_2_value" style="color: #B4EAFC; margin-left: 8px;"></span>
+                                        <span style="color: #B4EAFC; font-weight: bold">毫米</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="section2 flex-row" style="margin-top:0px;">
+                        <img class="label3"
+                             referrerpolicy="no-referrer"
+                             src="img/icon_yqxx.png" />
+                        <span class="txt1">雨情信息</span>
+                        <img class="icon3"
+                             referrerpolicy="no-referrer"
+                             src="img/arrow.png" />
+
+                    </div>
+                    <div class="yqxx" style="margin-left:20px;width:330px;border:0px solid #0373FF;border-radius: 4px;position:relative">
+                        <!--   <div style=" height: 30px; display: inline; position: relative; left: 135px; top: -26px;display:none">
+            <button type="button" class="yb_btn_active yqxx_btn left_radius">实时</button>
+            <button type="button" class="yb_btn yqxx_btn">3天</button>
+            <button type="button" class="yb_btn yqxx_btn">9天</button>
+            <button type="button" class="yb_btn yqxx_btn right_radius" style="width:60px;">自定义</button>
+
+
+        </div>-->
+
+
+
+
+                        <div>
+                            <img id="yq_ylt" src="" style="width:88%;height:160px;margin-left:25px;" />
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="section2 flex-row" style="margin-top:10px;">
+                        <img class="label3"
+                             referrerpolicy="no-referrer"
+                             src="img/icon_file.png" />
+                        <span class="txt1">重要文件</span>
+                        <img class="icon3"
+                             referrerpolicy="no-referrer"
+                             src="img/arrow.png" />
+
+                    </div>
+
+                    <hr class="style-one" style="margin-bottom:10px;" />
+                    <div class="sqzy  " style="margin-top: 0px; margin-left: 8px; width: 340px; border: 0px solid #0373FF; border-radius: 4px; overflow-y: auto; height: calc(100% - 735px)">
+
+
+                        <ul>
+                            <li>
+                                <span onclick="showDocList(1)">重要水情表</span>
+                                <img src="img/file/p.png" />
+                            </li>
+                            <li>
+                                <span onclick="showDocList(2)">水库水情表</span>
+                                <img src="img/file/w.png" />
+                            </li>
+                            <li>
+                                <span onclick="showDocList(3)">重要水情表</span>
+                                <img src="img/file/p.png" />
+                            </li>
+                
+
+
+                        </ul>
+
+
+                    </div>
+                    <hr class="style-one" style="margin-top:2px;" />
+                </div>
+
+            </div>
+
+            <div id="icon_bar" class="group32 flex-col " style="">
+                <div class="section42 flex-col">
+                    <!-- <span class="infoBox2">
+                        收
+                        <br />
+                        起
+                    </span>-->
+                    <img class="label47"
+                         referrerpolicy="no-referrer"
+                         src="img/icon_bar_left_on.png" />
+                </div>
+            </div>
+
+
+            <div class="box-center flex-col">
+                <div class="center02">
+                    <div id="map" class="map" style="background-color:transparent;">
+                           <iframe src="http://10.37.1.73:32618/" style="width:100%;height:100%;border:0px;" id="home_earth" name="home_earth"></iframe>
+                   <!--      <iframe src="http://localhost:29999/" style="width:100%;height:100%;border:0px;" id="home_earth" name="home_earth"></iframe>-->
+                      </div>
+      <div class="center03"  >
+          <div style="height:30px " class="yqxx">
+              <img src="img/icon_rank.png" style="float:left;height:14px;width:14px;    margin-top: 5px;margin-left:20px;" />
+              <label style="float: left; font-size: 16px; color: #B4EAFC; font-family: SimHei">各地市超警站点信息</label>
+              <!--   <div style="display:none">
+                  <button type="button" class="yb_btn_active cj_btn left_radius" style="margin-left:30px;">实时</button>
+                  <button type="button" class="yb_btn cj_btn">3天</button>
+                  <button type="button" class="yb_btn cj_btn right_radius">9天</button>
+              </div>-->
+
+
+                    </div>
+                        <div style="height:calc(100% - 30px);">
+                            <div class="echart-left" style="width:20px;float:left;height:100%;visibility:hidden;margin-left:5px;">
+                                <img src="img/left.png" style="width:20px;height:30px;margin-top:50px;" />
+                            </div>
+                            <div class="echart-group" style="width:calc(100% - 45px);float:left;background-color:transparent;height:100%;white-space:nowrap;    overflow: hidden;font-size:0">
+
+                            </div>
+                            <div class="echart-right" style="width:20px;float:left;background-color:transparent;height:100%;visibility:hidden;margin-right:0px;">
+                                <img src="img/right.png" style="width:20px;height:30px;margin-top:50px;" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="icon_bar3" class="group32 flex-col "  >
+                        <div class="section42 flex-col">
+                            <!--   <span class="word110">
+                                收
+                                起
+                            </span>-->
+                            <img class="label48"
+                                 referrerpolicy="no-referrer"
+                                 src="img/icon_bar_down_on.png" />
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="box-right flex-col"  >
+                <div class="list_right_03" id="rainInfo">
+
+
+                    <div class="section2 flex-row" style="margin-left:0px">
+                        <img class="label3"
+                             referrerpolicy="no-referrer"
+                             src="img/icon_rain.png" />
+                        <span class="txt1">实时预报</span>
+                        <img class="icon3"
+                             referrerpolicy="no-referrer"
+                             src="img/arrow.png" />
+                    </div>
+                    <div>
+                        <div id="tj_info" style="width: 280px; height: 140px;margin-left:4px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="list_right_02" id="importanthaha">
+                    <!-- <div class="wrap1_1 flex-col"> -->
+                    <div class="section66 flex-row">
+
+                        <div class="title-list">
+                            <img src="img/lyx/hd.png" style="width:12px ;height:13.1px;display:inline-block;margin-left: -90px;    margin-top: -3px;display:none">
+                            <span class="info8">河道超警戒超保证站点</span>
+                        </div>
+
+                    </div>
+                    <div class="section7 flex-col" id="rainW">
+
+                        <div class="section7-1 flex-row">
+                            <span class="title01">站名</span>
+                            <span class="title01">水位</span>
+                            <span class="title01">差值</span>
+                            <!-- <span class="title01">水量(亿m3)</span> -->
+                        </div>
+                        <div class="section7-2" id="rainWW">
+                            <ul style="overflow-y: hidden;margin-bottom:0px;" class="rainData" id="rainData"></ul>
+                            <ul style="overflow-y: hidden;" class="rainData_bk" id="rainData_bk"></ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="list_right_02" id="rainInfo" style="    margin-top: 10px;">
+                    <!-- <div class="wrap1_1 flex-col"> -->
+                    <div class="section66 flex-row">
+                        <div class="title-list">
+                            <img src="img/lyx/sk.png" style="width: 15.9px; height: 16.9px; display: inline-block; margin-left: -90px; display: none">
+                            <span class="info8">水库超汛限超设计站点</span>
+                        </div>
+
+                    </div>
+                    <div class="section7 flex-col" id="rainW2">
+
+                        <div class="section7-1 flex-row">
+                            <span class="title01">站名</span>
+                            <span class="title01">水位</span>
+                            <span class="title01">差值</span>
+                            <!-- <span class="title01">水量(亿m3)</span> -->
+                        </div>
+                        <div class="section7-2" id="rainWW_2">
+                            <ul style="overflow-y: hidden; margin-bottom: 0px;" class="rainData_2" id="rainData_2"></ul>
+                            <ul style="overflow-y: hidden;" class="rainData_2_bk" id="rainData_2_bk"></ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="icon_bar2" class="group32 flex-col "  >
+                <div class="section42 flex-col">
+                    <!--   <span class="infoBox2">
+                        收
+                        <br />
+                        起
+                    </span>-->
+                    <img class="label47"
+                         referrerpolicy="no-referrer"
+                         src="img/icon_bar_right_on.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--面板-->
+    <div id="content_panel"></div>
+
+
+    <!--等待loading-->
+    <div class="loading-layer" style="display: none;">
+        <div class="loading-content">
+            <i class="loading-layer-close"></i>
+            <img src="img/Images/loading.gif" />
+            <span id="span_loading">查询中。。。</span>
+        </div>
+    </div>
+
+    <div id="popup_move_svg" style="position: absolute;left: 418px;top: 364px;display:none;z-index:300; ">
+
+        <div id="popup_move_svg_content" class="ol-popup-move  clearfix" style="width:260px;">
+            <div class="ol-popup-move-title">
+                <span class="span-title"></span>
+                <img class="close" style="display:none" src="Images/close.png">
+            </div>
+            <div style="display:inline;float:left">
+
+                <ul></ul>
+            </div>
+            <div id="div_pop_yzt" style="margin-top: 10px; float: right; height: 80px; display: none; background-color: transparent;">
+                <canvas id="pop_canvas" width="108" style="margin-left:-10px"></canvas>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="home_time_select" class="loading-layer-home-select-tm" style="display: none;">
+        <div class="loading-content-home-select-tm">
+            <label style="    position: absolute;
+    left: 3px;
+">请选择时间:</label>
+            <i id="home_time_select_colse" class="loading-layer-close"></i>
+            <div style="margin-top:30px;">
+
+                <div>
+                    <label style="display:inline;position: absolute;
+    left: 40px;margin-top:5px">开始时间:</label>
+                    <input id="tm_home_rain_start" class="form-control form-date" style="width: 180px; display: inline; margin-left: 100px" />
+                    <select style="height: 28px; display: inline; width: 60px; border-radius: 4px; color: #555555; border: 1px solid #cadde9" class="select-hour sHours select" id="startdate_xs" name="startdate_xs"></select>
+                </div>
+                <div style="margin-top:20px;">
+
+                    <label style="display:inline;position: absolute;
+     left: 40px;margin-top:5px">结束时间:</label>
+                    <input id="tm_home_rain_end" class="form-control form-date" style="width: 180px; display: inline; margin-left: 100px" />
+                    <select style="height:28px;display: inline;width:60px;border-radius: 4px;color:#555555;
+    border: 1px solid #cadde9" class="select-hour sHours select" id="enddate_xs" name="enddate_xs"></select>
+                </div>
+                <div style="margin-top:20px;">
+
+                    <label style="display:inline;position: absolute;
+     left: 40px;margin-top:5px">雨量级别:</label>
+                    <select style="height:28px;display: inline;width:244px;border-radius: 4px;color:#555555;margin-left:100px;
+    border: 1px solid #cadde9" class="" id="tm_home_rain_yljb"  name="tm_home_rain_yljb">
+                        <option value="1" selected>1,10,25,50,100,200</option>
+                        <option value="2">25,50,100,200,300,400</option>
+                        <option value="3">50,100,200,400,600,800</option>
+                        <option value="4">100,200,400,600,800,1000</option>
+                 
+                    </select>
+                </div>
+                <div style="margin-top:20px;">
+                    <button type="button" class="time_select_btn " id="time_select_btn_ok">确定</button>
+                    <button type="button" class="time_select_btn " id="time_select_btn_cancle" style="margin-left: 40px;">取消</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+<script src="Jquery/jquery-autocomplete/jquery.autocomplete.min.js" type="text/javascript"></script>
+<script src="Jquery/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="Jquery/jquery-dataTables/datatables.min.js" type="text/javascript"></script>
+<script src="Jquery/jquery-dataTables/datatables-sort.js" type="text/javascript"></script>
+<script src="Jquery/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="Jquery/moment.min.js" type="text/javascript"></script>
+<script src="Jquery/jquery.drag.js" type="text/javascript"></script>
+<script src="Jquery/openlayers/ol.js" type="text/javascript"></script>
+<script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript" src="Jquery/daterangepicker-1.3.23/daterangepicker.min.js"></script>
+
+<script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+<script src="Script/common/common_fun.js" type="text/javascript"></script>
+
+<script src="Script/common/cookieMgr.js" type="text/javascript"></script>
+<script src="Script/common/apiLogin.js" type="text/javascript"></script>
+<script src="Script/common/checkrole.js" type="text/javascript"></script>
+<script type="text/javascript" src="Script/common/manger.js"></script>
+<script src="Script/common/subframe_fuc.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="Script/ybdd/tools.js"></script>
+
+<script src="Script/shikuang/shikuang-map.js" type="text/javascript"></script>
+<script src="Script/shikuang/shikuang-panel.js" type="text/javascript"></script>
+
+<script src="Script/shikuang/shikuang-scroll.js" type="text/javascript"></script>
+<script src="Script/shikuang/shikuang-echarts.js" type="text/javascript"></script>
+<script src="Script/shikuang/shikuang-abstract.js" type="text/javascript"></script>
+
+<script src="Script/shikuang/shikuang.js" type="text/javascript"></script>
+<!-- Mirrored from 60.216.119.102:10086/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Sep 2021 07:04:14 GMT -->
+</html>

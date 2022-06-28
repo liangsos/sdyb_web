@@ -1,0 +1,36 @@
+
+$(document).ready(function () {
+    //列表点击事件
+    $("#panel_showPdfList ul li a").click(function () {
+        showPdfContent($(this).html().substr(2, ($(this).html().length - 2)));
+    })
+    //列表点击事件
+    $("#panel_showPdfList #AddDoc").click(function () {
+       showuploadPdf();
+    })
+    
+});
+/**
+ * 显示PDF
+ */
+function showPdfList() {
+    $("#panel_showPdfList").show();
+}
+/**
+ * 隐藏PDF
+ */
+function hidePdfList() {
+    $("#panel_showPdfList").hide();
+}
+/**
+ * 拖拽PDF
+ */
+$("#panel_showPdfList").draggable({
+    handle: '.panel-header',
+    cursor: "move",
+    opacity: 0.7
+});
+//关闭按钮事件
+$("#panel_showPdfList .icon-close").click(function () {
+    $("#panel_showPdfList").hide();
+});

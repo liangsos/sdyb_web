@@ -1,0 +1,650 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="page_h/common.css" />
+    <link rel="stylesheet" type="text/css" href="page_h/index.css" />
+    <link rel="stylesheet" type="text/css" href="page_h/indexShu.css" />
+
+    <link href="Jquery/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="Jquery/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="Jquery/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <link href="Jquery/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Jquery/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="Jquery/openlayers/ol.min.css" rel="stylesheet" />
+    <link href="Jquery/jquery-dataTables/datatables.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/progress/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/BootstrapWizard/Bootstrap-Wizard-master20160112/css/bwizard.min.css" rel="stylesheet" />
+
+    <link href="Css/site.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/toastr/toastr.css" rel="stylesheet" type="text/css" />
+
+    <link href="Jquery/radialindicator/css/radialindicator.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/RightMenu/smartMenu.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Jquery/jquery.min-1.11.1.js"></script>
+
+    <link href="Jquery/jquery.pagination/pagination.css" rel="stylesheet" type="text/css" />
+    <link href="Css/step.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Jquery/zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/jquery.pageslide.css">
+</head>
+
+<body class="body-light">
+    <input type="hidden" id="_hid_userid" />
+    <input type="hidden" id="_hid_token" />
+    <input type="hidden" id="_hid_roleid" />
+    <input type="hidden" id="_hid_username" />
+    <div class="top flex-row">
+        <div class="header header-light" style=" background-color: rgba(180,234,252,0.3) ">
+            <img class="icon1" referrerpolicy="no-referrer" src="img/temp_9.png" />
+
+            <div class="ant-radio-group ant-radio-group-outline">
+                <label id="menu_shikuang" _pageindex="1" class="arr_menu shikuang ant-radio-button-wrapper ">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yubao" checked="">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color: #11A2FE">
+                        <img class="icon-yubao" src="./img/indexHeader/menu_fhxs_light.png">实况
+                    </span>
+                </label>
+                <label id="menu_yubao" _pageindex="2" class="arr_menu yubao ant-radio-button-wrapper-checked">
+                    <span class="ant-radio-button  ant-radio-button-checked">
+                        <input type="radio" class="ant-radio-button-input" value="yujing">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color:white">
+                        <img class="icon-yujing" src="./img/indexHeader/menu_ybdd_selected_light.png">预报
+                    </span>
+                </label>
+                <label id="menu_huishang" _pageindex="3" class="arr_menu huishang ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuyan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color: #11A2FE">
+                        <img class="icon-yuyan" src="./img/indexHeader/menu_hs_light.png">会商
+                    </span>
+                </label>
+                <label id="menu_fagl" _pageindex="4" class="arr_menu fagl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color: #11A2FE">
+                        <img class="icon-yuan" src="./img/indexHeader/menu_fagl_light.png">方案管理
+                    </span>
+                </label>
+                <label id="menu_mxgj" _pageindex="5" class="arr_menu mxgj ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color: #11A2FE">
+                        <img class="icon-yuan" src="./img/indexHeader/menu_msgj_light.png">模型构建
+                    </span>
+                </label>
+                <label id="menu_xtgl" _pageindex="6" class="arr_menu xtgl ant-radio-button-wrapper">
+                    <span class="ant-radio-button">
+                        <input type="radio" class="ant-radio-button-input" value="yuan">
+                        <span class="ant-radio-button-inner"></span>
+                    </span>
+                    <span style="color: #11A2FE">
+                        <img class="icon-yuan" src="./img/indexHeader/menu_xt_light.png">系统管理
+                    </span>
+                </label>
+
+                <div class="gly" style="display:block">
+                    <img src="img/indexHeader/menu_gly.png" style="height: 24px; width: 24px; " />
+                    <label class="menu-btn" style="margin-left: 5px; color: black;"><span id="username"></span></label>
+                    <img class="sjx" src="img/arrow_down_light.png" />
+                    <div id="gly_menu">
+                        <ul>
+                            <li class="password_change">修改密码</li>
+                            <li class="login_out">退出登录</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <span class="header-title">洪水预报系统</span>
+            <img src="img/lyx/menu_help.png" class="header-help" />
+        </div>
+
+
+
+    </div>
+    <div class="page flex-col ybdd_bk">
+        <div class="serach-tm">
+            <input id="beginTime" class="form-control form-date" size="16" type="text"
+                style="display: inline-block;margin-left:20px;width:188px;display:none" />
+            <input id="endTime" class="form-control form-date" size="16" type="text"
+                style="display: none; margin-left: 20px; width: 188px; display: none" />
+
+        </div>
+
+        <div class="section1 flex-col justify-between">
+
+            <div class="box7 flex-row">
+                <div class="main" id="content_main" style="height:100%">
+                    <!--  <object data="img/map/shandong.svg" type="image/svg+xml" class="show-style" style="pointer-events: auto;margin-top:-5px;" id="SVGDoc"></object>
+    -->
+                    <object data="" type="image/svg+xml" class="show-style"
+                        style="pointer-events: auto;margin-top:-5px;" id="SVGDoc"></object>
+
+                    <object data="" type="image/svg+xml" class="show-style"
+                        style="pointer-events: auto;margin-top:-5px;display:none" id="SVGDoc_ght"></object>
+
+                    <div id="popup_move_svg"
+                        style="position: absolute;left: 418px;top: 364px;display:none;z-index:300; ">
+
+                        <div id="popup_move_svg_content" class="ol-popup-move  clearfix" style="width:260px;">
+                            <div class="ol-popup-move-title">
+                                <span class="span-title"></span>
+                                <img class="close" style="display:none" src="Images/close.png">
+                            </div>
+                            <div style="display:inline;float:left">
+
+                                <ul></ul>
+                            </div>
+                            <div id="div_pop_yzt"
+                                style="margin-top: 10px; float: right; height: 80px; display: none; background-color: transparent;">
+                                <canvas id="pop_canvas" width="108" style="margin-left:-10px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="popup_svg" class="ol-popup" style="display: none;z-index:400;">
+                        <div class="ol-popup-title">
+                            <span class="span-title">请选择</span>
+                            <img class="close" src="img/Images/close.png">
+                        </div>
+                        <ul>
+                            <li>
+                                <button id="btnShowYb_svg" type="button" class="btn btn-color"
+                                    style="width: 100%;"><span class='fa fa-line-chart'></span>&nbsp;&nbsp;预报结果</button>
+                            </li>
+                            <li>
+                                <button id="btnShowDd_svg" type="button" class="btn btn-color"
+                                    style="width: 100%;"><span class='fa fa-bookmark-o'></span>&nbsp;&nbsp;调度计算</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="maptools">
+                        <div class="bar_title">
+                            <div class="bd32 flex-col justify-center bar_rlt_text" style="display:none">
+                                <span class="txt12_2">雨量图</span>
+                            </div>
+                            <div class="bd33 flex-col justify-center bar_tckz_text" style="display:none">
+                                <span class="word17_2">预报列表</span>
+                            </div>
+                            <div class="bd34 flex-col justify-center bar_tl_text" style="display:none">
+                                <span class="word18_2">图例</span>
+                            </div>
+                            <div class="bd37 flex-col justify-center bar_clearCache_text" style="display:none">
+                                <span class="word18_2">清除缓存</span>
+                            </div>
+                            <div class="bd39 flex-col justify-center bar_yscz_text" style="display:none">
+                                <span class="word18_2">要素插值</span>
+                            </div>
+                            <div class="bd40 flex-col justify-center bar_sdl_text" style="display:none">
+                                <span class="word18_2">水动力预报</span>
+                            </div>
+                            <div class="bd41 flex-col justify-center bar_hsyj_text" style="display:none">
+                                <span class="word18_2">洪水演进</span>
+                            </div>
+                            <div class="bd42 flex-col justify-center bar_dsyb_text" style="display:none">
+                                <span class="word18_2">定时预报</span>
+                            </div>
+                            <div class="bd43 flex-col justify-center bar_sshsyb_text" style="display:none">
+                                <span class="word18_2">实时洪水预报</span>
+                            </div>
+                        </div>
+
+                        <div class="main12_2 flex-col align-center">
+                            <div class="bar_edge_active ">
+                                <img id="bar_rlt" class="bar_rlt flex-col" src="./page_h/img/bar_rlt.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_tckz" class="bar_tckz flex-col" src="./page_h/img/bar_tckz.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_tl" class="bar_tl flex-col" src="./page_h/img/bar_tl.png" />
+
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_clearCache" class="bar_clearCache flex-col"
+                                    src="./page_h/img/bar_clearCache.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_yscz" class="bar_yscz flex-col" src="./page_h/img/bar_yscz.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_sdl" class="bar_yscz flex-col" src="./img/revr.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_hsyj" class="bar_yscz flex-col" src="./page_h/img/bar_hsyj.png" />
+                            </div>
+                            <div class="bar_edge">
+                                <img id="bar_dsyb" class="bar_yscz flex-col bar_dsyb" src="./img/timing.png" /></a>
+                            </div>
+                        </div>
+
+                        <div class="main12_3 flex-col align-center" style="z-index: 9999;">
+                            <a href="#modal" class="bar_sshsyb_1 sshsyb" style="margin: 0px;">
+                                <div id="sshsyb" class="bar_edge_active_2 " >
+                                    <img id="bar_sshsyb" class="bar_sshsyb flex-col" src="./page_h/img/left.png" />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="layer1 flex-col main-left" style="display:block">
+                    <div id="area_list" class="foot_tuli "
+                        style="top:89px;left:0px; height:93%;   width: 240px; margin-left:-1px;margin-top:-1px;">
+                        <div class="tuli_body qu_show qy_area"
+                            style="float: left; bottom: 0px; height: 100%; width: 208px; padding: 0px; background-color: rgba(248, 248, 248, 1);">
+                            <div
+                                style=" bottom:0px;height:calc(100% - 40px);    overflow-x: hidden; overflow-y: auto; ">
+                                <div id="menuContent" class="menuContent"
+                                    style="width:100%;border:0px solid rgb(170,170,170);z-index:10;margin-top: 0px;">
+                                    <ul id="areaDemo" class="ztree"
+                                        style="margin-top: 15px; height: 100%; margin-left: 0px;"></ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="icon_bar5" class="newico newico_r hover" style="float: left; margin-top: 300px">
+                            <div class="section2 flex-col align-center">
+                                <div class="section3 flex-col justify-between">
+                                    <span class="infoBox1 qy_bar_txt">
+                                        收
+                                        <br />
+                                        起
+                                    </span>
+                                    <img class="icon9 qy_bar_img" referrerpolicy="no-referrer"
+                                        src="./page_h/img/row_sq.png" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="yb_menu_left" style="position: absolute; top: 95px; left: 240px; display: inline-flex; ">
+                    <div class="block1 sy_yb sy_btn_1 flex-col active">
+                        <div class="box10 flex-row justify-between" id="step_yb">
+                            <img class="label11" referrerpolicy="no-referrer"
+                                src="./page_h/img/SketchPnge04d4973f1f564ac107f62aeab7dc184b28a7c4e4ac51868d2a09a438d4514d6.png" />
+                            <span class="word15">预报</span>
+                        </div>
+                    </div>
+                    <div class="block1 sy_yj sy_btn_2 flex-col">
+                        <div class="box10 flex-row justify-between" id="step_yj">
+                            <img class="label11" referrerpolicy="no-referrer" src="./page_h/img/temp_h_3.png" />
+                            <span class="word15">预警</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="yb_menu_right" style="position: absolute; top: 95px; right: 0px; display: inline-flex; ">
+                    <div class="block1 sy_yy sy_btn_3 flex-col" style=" position:absolute;right:190px;">
+                        <div class="box10 flex-row justify-between" id="step_yy">
+                            <img class="label11" referrerpolicy="no-referrer"
+                                src="./page_h/img/SketchPngfefc9dc433435d1c7ae32446af1dbd6aa8d6cf051d6251b70c1d42bef3e24be9.png" />
+                            <span class="word15">预演</span>
+                        </div>
+                    </div>
+                    <div class="block1 sy_ya sy_btn_4 flex-col" style="position:absolute;right:10px;">
+                        <div class="box10 flex-row justify-between" id="step_ya">
+                            <img class="label11" referrerpolicy="no-referrer"
+                                src="./page_h/img/SketchPng5f885ca5deb22822e1d0ab4db63c6c9ac7b0959cf5f78204c105e44319429271.png" />
+                            <span class="word15">预案</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img id="jysz_bg" style="position: relative; left: 90px; top: 2px; "  src="./page_h/img/yb_step_bg_over.png" />
+                        <img id="mxxz_bg" style="position: relative; left: 171px; top: 2px; "  src="./page_h/img/yb_step_bg_over.png" />
+                        <img id="ybjs_bg" style="position: relative; left: 252px; top: 2px; "  src="./page_h/img/yb_step_bg_over.png" />
+                        <img id="cgxz_bg" style="position: relative; left: 334px; top: 2px; "  src="./page_h/img/yb_step_bg_over.png" />
+                        <img id="fbbc_bg" style="position: relative; left: 416px; top: 2px; " src="./page_h/img/yb_step_bg_over.png" />
+                -->
+                <div id="yb_menu_center" class="yb-pa-h">
+                    <div id="btn_sjsz" class="yb_step_1" style="position: absolute; left: 2px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_sjsz.png" />
+                        <img class="progress_over_1" s src="./page_h/img/yb_step_progress_over_h.png" />
+                        <img class="progress_ready_1" src="./page_h/img/yb_step_progress_ready_h.png" />
+                        <div id="btn_sjsz_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">时间设置</span>
+                        </div>
+                    </div>
+
+                    <div id="btn_jysz" class="yb_step_2" style="position: absolute; left: 124px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_jysz.png" />
+                        <img class="progress_over_2" s src="./page_h/img/yb_step_progress_over_h.png" />
+                        <img class="progress_ready_2" src="./page_h/img/yb_step_progress_ready_h.png" />
+                        <div id="btn_jysz_text">
+                            <img src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">预报情景</span>
+                        </div>
+                    </div>
+
+                    <div id="btn_mxxz" class="yb_step_3" style="position: absolute; left: 248px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+
+                        <img class="icon_img" src="./page_h/img/yb_step_mxxz.png" />
+                        <img class="progress_over_3" s src="./page_h/img/yb_step_progress_over_h.png" />
+                        <img class="progress_ready_3" src="./page_h/img/yb_step_progress_ready_h.png" />
+                        <div id="btn_mxxz_text" style="">
+                            <img x- src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">预报模型</span>
+                        </div>
+                    </div>
+                    <div id="btn_ybjs" class="yb_step_4" style="position: absolute; left: 370px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_ybjs.png" />
+                        <img class="progress_over_4" s src="./page_h/img/yb_step_progress_over_h.png" />
+                        <img class="progress_ready_4" src="./page_h/img/yb_step_progress_ready_h.png" />
+                        <div id="btn_ybjs_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">预报计算</span>
+                        </div>
+                    </div>
+                    <div id="btn_cgxz" class="yb_step_5" style="position: absolute; left: 493px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+
+                        <img class="icon_img" src="./page_h/img/yb_step_cgxz.png" />
+                        <img class="progress_over_5" s src="./page_h/img/yb_step_progress_over_h.png" />
+                        <img class="progress_ready_5" src="./page_h/img/yb_step_progress_ready_h.png" />
+                        <div id="btn_cgxz_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">成果修正</span>
+                        </div>
+                    </div>
+                    <div id="btn_fbbc" class="yb_step_6" style="position: absolute; left: 616px; top: 0px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_fbbc.png" />
+                        <div id="btn_fbbc_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_h.png" />
+                            <span class="word17">成果保存</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap2 flex-row justify-between yb-pa-s" id="yb_menu_s">
+                    <div id="btn_sjsz_shu" class="yb_step_1" style="position: absolute; left: -9px; top: 6px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_sjsz.png" />
+                        <img class="progress_over_1" s src="./page_h/img/yb_step_progress_over_s.png" />
+                        <img class="progress_ready_1" src="./page_h/img/yb_step_progress_ready_s.png" />
+                        <div id="btn_sjsz_shu_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">时间设置</span>
+                        </div>
+                    </div>
+
+                    <div id="btn_jysz_shu" class="yb_step_2" style="position: absolute; left: -9px; top: 128px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_jysz.png" />
+                        <img class="progress_over_2" s src="./page_h/img/yb_step_progress_over_s.png" />
+                        <img class="progress_ready_2" src="./page_h/img/yb_step_progress_ready_s.png" />
+                        <div id="btn_jysz_shu_text">
+                            <img src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">预报情景</span>
+                        </div>
+                    </div>
+
+                    <div id="btn_mxxz_shu" class="yb_step_3" style="position: absolute; left: -9px; top: 252px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_mxxz.png" />
+                        <img class="progress_over_3" s src="./page_h/img/yb_step_progress_over_s.png" />
+                        <img class="progress_ready_3" src="./page_h/img/yb_step_progress_ready_s.png" />
+                        <div id="btn_mxxz_shu_text" style="">
+                            <img x- src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">预报模型</span>
+                        </div>
+                    </div>
+                    <div id="btn_ybjs_shu" class="yb_step_4" style="position: absolute; left: -9px; top: 374px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_ybjs.png" />
+                        <img class="progress_over_4" s src="./page_h/img/yb_step_progress_over_s.png" />
+                        <img class="progress_ready_4" src="./page_h/img/yb_step_progress_ready_s.png" />
+                        <div id="btn_ybjs_shu_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">预报计算</span>
+                        </div>
+                    </div>
+                    <div id="btn_cgxz_shu" class="yb_step_5" style="position: absolute; left: -9px; top: 497px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_cgxz.png" />
+                        <img class="progress_over_5" s src="./page_h/img/yb_step_progress_over_s.png" />
+                        <img class="progress_ready_5" src="./page_h/img/yb_step_progress_ready_s.png" />
+                        <div id="btn_cgxz_shu_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">成果修正</span>
+                        </div>
+                    </div>
+                    <div id="btn_fbbc_shu" class="yb_step_6" style="position: absolute; left: -9px; top: 620px; ">
+                        <img class="icon_img_bg" src="./page_h/img/yb_step_bg.png" />
+                        <img class="icon_img" src="./page_h/img/yb_step_fbbc.png" />
+                        <div id="btn_fbbc_shu_text" style="">
+                            <img src="./page_h/img/yb_step_text_bg_s.png" />
+                            <span class="word17">发布保存</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ghtbtn" style="top:153px;">
+                    <div class="box26 flex-col">
+                        <div class="main5 flex-col">
+                            <img class="img2" id="icon_mapType" referrerpolicy="no-referrer"
+                                src="./page_h/img/icon_ght.png" />
+                        </div>
+                    </div>
+                    <div class="section19 flex-col"><span class="word31">概化图</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧弹出实时洪水预报 -->
+        <div id="modal" style="display: none;">
+            <h2>实时洪水预报</h2>
+            <!-- <div class="ssybhsDiv">
+                <span>实时滚动</span>
+                <div>
+                    <label for="">方案类型：</label>
+                    <label>实时情景</label>
+                </div>
+                <div>
+                    <label for="">所选模型：</label>
+                    <label>SAC,HBYH,TANK,APIGIUH,XC,XAJGJ,HBYH,TANK,APIGIUH</label>
+                </div>
+                <div>
+                    <label for="">计算时间：</label>
+                    <label>2022-06-16 10:15:57</label>
+                </div>
+                <div>
+                    <label for="">开始时间：</label>
+                    <label>2022-06-13 08:00:00</label>
+                </div>
+                <div>
+                    <label for="">结束时间：</label>
+                    <label>2022-06-16 08:00:00</label>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- <div id="rain_info" class="foot_tuli rain_info" style="bottom:3px;left:0px;    width: 580px;display:none ;height:204px">
+
+
+          <div class="rain_info" style="float:left;position:relative;left:2px;margin-top: 0px;z-index:999999; display:none; background-color: transparent;border:1px solid;width:510px;">
+              <div class="form-inline" style="height:202px;background-color:white">
+                  <img style=" width:80px;height:202px;float:left" id="rain_tl" src="" />
+                  <div style="float:left;margin-left:10px;margin-top:20px;width:110px">
+                      <label style="font-size:16px;"> 当前雨量时间: </label>
+                      <br /><label id="cur_rain_tm" style="font-size:16px;color:blue;display:none"> </label>
+                      <label id="cur_rain_tm_show" style="font-size:16px;color:blue;height: 50px;"> </label>
+
+
+                      <div>
+                          <button id="pre_rainImage" class="btn btn-color" style="margin-left:0px;bottom:50px; position:absolute; width: 100px;">第一天</button>
+
+                          <button class="btn btn-color" style="margin-left:0px;bottom:10px; position:absolute; display:none;    width: 100px;" id="next_rainImage">后一天</button>
+                          <button class="btn btn-color" style="bottom:10px; position:absolute; margin-left:0px;  width: 100px;" id="proc_rainImage">过程雨量</button>
+                      </div>s
+                  </div>
+                  <div style="width:300px;height:202px; float:right;" id="rain_echart">
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div id="icon_bar4" class="newico newico_r hover" style="float: left;     margin-top: 80px;margin-left: 3px;"></div>
+     </div>
+    -->
+    <div id="progress_zhezhao_h" class="yb-jdt-heng"
+        style="background-color: transparent; width: 100%; height: 100%; top: 0px; left: 0px; position: absolute; display: none;z-index:99999">
+        <div id="progress_panel_right" class="progress_info ">
+            <p style=" color: #83acf7;font-size: 16px;text-align:center"> <strong>当前计算进程:</strong></p>
+            <br />
+            <div id="tx_progress_content_h" class="progress_content"></div>
+        </div>
+        <div class="progress shine  progress_persent progress_panel_bottom" id="progress_panel_bottom_h"
+            data-width="0%">
+            <div class="progress-text progress-text_h"></div>
+            <div class="progress-bar progress-bar_h" id="progress_h">
+                <div class="progress-text progress-text_h"></div>
+            </div>
+        </div>
+    </div>
+    <div id="progress_zhezhao_s" class="yb-jdt-shu"
+        style="background-color:transparent;width:100%;height:100%;top:0px;left:0px;position:absolute;display:none">
+        <div id="progress_panel_right" class="progress_info ">
+            <p style=" color: #83acf7;font-size: 16px;text-align:center"> <strong>当前计算进程:</strong></p>
+            <br />
+            <div id="tx_progress_content_s" class="progress_content"></div>
+        </div>
+        <div class="progress shine  progress_persent progress_panel_bottom" id="progress_panel_bottom_s" data-width="0%"
+            style="transform: rotate(90deg); position: absolute; top: 450px; left: calc(50% + 160px);">
+            <div class="progress-text progress-text_s"></div>
+            <div class="progress-bar progress-bar_s" id="progress_s">
+                <div class="progress-text progress-text_s"></div>
+            </div>
+        </div>
+    </div>
+    <div style="position: absolute;bottom:10px; left: 220px;font-weight: bold;display:none;" class="byyz_list_tl">
+        <img src="" id="byyz_list_tl" style="width:80px;height:260px;" />
+
+    </div>
+    <div id="content_panel"></div>
+    <div class="loading-layer" style="display: none;">
+        <div class="loading-content">
+            <img src="img/Images/loading.gif" />
+            <span id="span_loading">加载中。。。</span>
+        </div>
+    </div>
+    <div class="loading-layer-jdt" style="display: none;">
+        <div class="loading-content-jdt">
+            <div class="prg-cont rad-prg" id="indicatorContainer"></div>
+            <span id="span_loading_jdt">加载中。。。</span>
+        </div>
+    </div>
+
+    <div id="svg_menu" data-stcd="" class="box27" style="">
+        <ul class="outer4_3 flex-col">
+            <li class="main7_3 flex-row  ">
+                <img class="label15_3" referrerpolicy="no-referrer" src="./page_h/img/stcd_ks.png" />
+                <span class="word32_3">设为开始站</span>
+                <div class="block10_3 flex-col right_flag " style="display: none"></div>
+            </li>
+            <li class="main8_3 flex-row  ">
+                <img class="label16_3" referrerpolicy="no-referrer" src="./page_h/img/stcd_tz.png" />
+                <span class="word32_3">设为结束站</span>
+                <div class="block10_3 flex-col right_flag" style="display:none"></div>
+            </li>
+            <li class="main9_3 flex-row  ">
+                <img class="icon12_3" referrerpolicy="no-referrer" src="./page_h/img/stcd_zt_active.png" />
+                <span class="word32_3">设为暂停站</span>
+                <div class="block10_3 flex-col right_flag" style="display:none"></div>
+            </li>
+            <li class="main10_3 flex-row  ">
+                <img class="icon13_3" referrerpolicy="no-referrer" src="./page_h/img/stcd_xz.png" />
+                <span class="word32_3">成功修正</span>
+                <div class="block10_3 flex-col right_flag" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="Jquery/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="Jquery/moment.min.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="Jquery/openlayers/ol.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.drag.js"></script>
+    <script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="Jquery/sheetjs-master/xlsx.mini.flow.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-dataTables/datatables.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-dataTables/datatables-sort.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.pageslide.min.js"></script>
+
+    <script type="text/javascript" src="Jquery/float/js/float-module.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.event.ue.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.udraggable.js"></script>
+    <script type="text/javascript" src="Jquery/step/lib.js"></script>
+    <script src="Jquery/zTree_v3/js/jquery.ztree.core.js"></script>
+    <script src="Jquery/zTree_v3/js/jquery.ztree.excheck.js"></script>
+    <script src="Jquery/BootstrapWizard/Bootstrap-Wizard-master20160112/js/bwizard.js"></script>
+    <script src="Jquery/progress/js/pg.js"></script>
+    <script src="Jquery/radialindicator/js/radialIndicator.js"></script>
+    <script src="Jquery/radialindicator/js/demo.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools.js"></script>
+    <script type="text/javascript" src="Jquery/layer/layer.js"></script>
+
+    <script src="Script/common/apiLogin.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Script/common/common_fun.js"></script>
+    <script type="text/javascript" src="Script/common/checkrole.js"></script>
+    <script type="text/javascript" src="Script/common/manger.js"></script>
+    <script type="text/javascript" src="Script/ybdd/map.js"></script>
+    <script src="Script/common/subframe_fuc.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Jquery/RightMenu/jquery-smartMenu.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_panel.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_panel_all.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_dispatch.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_dispatch_xxtj.js"></script>
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_result.js"></script> -->
+    <script type="text/javascript" src="Script/ybdd/fanganList.js"></script>
+    <script type="text/javascript" src="Script/ybdd/areaList.js"></script>
+    <script type="text/javascript" src="Script/ybdd/index.js"></script>
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_historyFlood.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_cgxz.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_yxyl.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_clxs.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/pdf_show.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_rainReport.js"></script> -->
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_swys.js"></script> -->
+    <script type="text/javascript" src="Script/ybdd/tools_panel_allYb.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_panel_sdljs.js"></script>
+    <script type="text/javascript" src="Script/ybdd/tools_panel_singleDm.js"></script>
+    <!-- <script type="text/javascript" src="Script/ybdd/tools_panel_sdldmxx.js"></script> -->
+    <script type="text/javascript" src="Script/ybdd/yb_stcd_rightmenu.js"></script>
+    <script type="text/javascript" src="Script/ybdd/yb_step.js"></script>
+
+</body>
+
+</html>

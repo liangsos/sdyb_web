@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>面板</title>
+    <link href="Jquery/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="Jquery/daterangepicker-1.3.23/daterangepicker-bs3.min.css" rel="stylesheet" />
+    <!-- <link href="Jquery/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" /> -->
+    <link href="Jquery/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="Jquery/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="Jquery/openlayers/ol.min.css" rel="stylesheet" />
+    <link href="Jquery/jquery-dataTables/datatables.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Jquery/toastr/toastr.css" />
+    <link href="Jquery/radialindicator/css/radialindicator.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/RightMenu/smartMenu.css" rel="stylesheet" type="text/css" />
+    <link href="Jquery/jquery.pagination/pagination.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Jquery/zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css" />
+    <link href="Css/panel_shikuang.css" rel="stylesheet" />
+    <link href="Css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="Css/panel_harfwork.css" rel="stylesheet" />-->
+</head>
+
+<body style="overflow:hidden">
+
+
+
+
+    <!--<link href="Jquery/bootstrap/css/bootstrap.min.css" rel="stylesheet" />-->
+    <!-- 水情面板-->
+    <div id="panelSw" class="modal-panel" style="display: none;background-color: rgba(24,24,38,0.8)">
+        <div class="panel-header" style="display:block">
+            <span class="modal-title"></span>
+            <div class="title_btn">
+                <a class="icon-max" href="javascript:;" title="最大化"></a>
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+
+        <div class="form-inline" style="float: left; margin-left: 0px;width: 100%;height:516px;">
+
+
+
+            <ul class="nav nav-tabs nav-modal tb_body">
+                <li>
+                    <a id="linkStationInfo" _data="#contStatinInfo" href="javascript:void(0);"
+                        data-toggle="tab">基本信息</a>
+                </li>
+                <li><a id="linkProLine" _data="#contProLine" href="javascript:void(0);" data-toggle="tab">过程线</a></li>
+                <li><a id="linkDmInfo" _data="#contDmInfo" href="javascript:void(0);" data-toggle="tab">断面信息</a></li>
+                <li>
+                    <a id="linkRainInfo" _data="#contRainInfo" href="javascript:void(0);" data-toggle="tab">降雨信息</a>
+                </li>
+                <li><a id="linkRankList" _data="#contRankList" href="javascript:void(0);" data-toggle="tab">历史极值</a>
+                </li>
+                <li><a id="linkMonthChart" _data="#contMonthChart" href="javascript:void(0);" data-toggle="tab">旬月均值</a>
+                </li>
+                <li><a id="linkCompareChart" _data="#contCompareChart" href="javascript:void(0);"
+                        data-toggle="tab">同期对比分析</a></li>
+                <li>
+                    <a id="link_ZV" _data="#cont_ZV" href="javascript:void(0);" data-toggle="tab"
+                        style="display:none">Z-V-Q曲线</a>
+                </li>
+                <li>
+                    <a id="linkQx" _data="#contQx" href="javascript:void(0);" data-toggle="tab"
+                        style="display:none">水位流量关系</a>
+                </li>
+                <li><a id="linkQjt" _data="#contQjt" href="javascript:void(0);" data-toggle="tab">全景图</a></li>
+                <li><a id="linkSpjk" _data="#contSpjk" href="javascript:void(0);" data-toggle="tab">视频监控</a></li>
+
+                <li style="float: right">
+                    <button id="data_in_stcd" type="button" class="btn btn-color " onclick="importExl()"
+                        style="display:none">
+                        数据导入
+                    </button>
+                    <input id="importExcel" type="file" onchange="importf(this)"
+                        accept=".xlsx, .xls, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+                        style="display:none" />
+                </li>
+                <li style="float: right; margin-right: 5px;">
+                    <button id="data_out_stcd" type="button" class="btn btn-color " onclick="downloadExlStcd()"
+                        style="display:none">
+                        数据导出
+                    </button>
+                </li>
+                <a href="" download="导出单站的数据.xlsx" id="hfStcd"></a>
+            </ul>
+            <div class="tab-content">
+                <!--基本信息-->
+                <div id="contStatinInfo" class="tab-pane fade ">
+                    <table class="table-jbxx"></table>
+                </div>
+
+                <!--过程线-->
+                <div id="contProLine" class="tab-pane fade">
+                    <div class="control-group div-search" style=" background-color: rgba(24,24,38,0.8);">
+                        <label class="control-label" style="color:white">时间</label>
+                        <input id="txtTimeGcx" class="form-control form-datetime" size="16" type="text"
+                            style="width: 250px;   background-color: rgba(24,24,38,0.8); color: white; " />
+                        <button id="btnSearchGcx" style=" color: white; border: 1px solid white; height: 28px; "
+                            type="button" class="btn btn-color"><span class='fa fa-search'></span>&nbsp;查询
+                        </button>
+                    </div>
+                    <div class="div-main">
+                        <div class="sidebar-right">
+                            <div class="ybsq-table-header">
+                                <table class="table">
+                                    <colgroup></colgroup>
+                                    <thead>
+                                        <tr></tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div class="ybsq-table-body">
+                                <table class="table tableSqxx">
+                                    <colgroup></colgroup>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-control-right">
+                            <label class="icon-resize-left icon-resize-left2 iconLeft" title="左缩放">
+                                ＜
+                            </label>
+                            <label class="icon-resize-left iconRight" title="右缩放">
+                                ＞
+                            </label>
+                        </div>
+                        <div class="content-left" style="position:relative">
+
+                            <div id="proLineBody" style="top:20px;">
+                            </div>
+                        </div>
+                        <!-- <div class="clearfix"></div> -->
+                    </div>
+                    <div class="field_yb field_dd">
+                        <div class="control-group" style="display:inline-block">
+                            <h4>特征统计</h4>
+                        </div>
+                        <table class="table table_ybtj">
+                            <thead>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!--断面信息-->
+                <div id="contDmInfo" class="tab-pane fade" style="position:relative;">
+                    <div id="dmInfoBody">
+                    </div>
+                    <div class="dm-right" style="display:none">
+                        <span>右岸</span>
+                    </div>
+                </div>
+
+                <!--Z-V曲线-->
+                <div id="cont_ZV" class="tab-pane fade">
+                    <div id="zvBody" style="float: left; width: 260px;">
+                        <table class="table tableZV">
+                            <thead></thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div style="float: left;">
+                        <div id="zvChartBody">
+                        </div>
+                    </div>
+                </div>
+
+                <!--水位曲线-->
+                <div id="contQx" class="tab-pane fade">
+                    <img src="img/Images/wjbSwLl.png" id="wjbImg" alt="Alternate Text" />
+                </div>
+                <!--全景图-->
+                <div id="contQjt" class="tab-pane fade">
+                    <iframe id="ifram_qjt" src="" style="width:100%;height:100%"></iframe>
+                </div>
+                <!--视频监控-->
+                <div id="contSpjk" class="tab-pane fade">
+                    <iframe id="ifram_spjk" src="" style="width:100%;height:100%"></iframe>
+                </div>
+                <!--历史极值-->
+                <div id="contRankList" class="tab-pane fade" style="position:relative;">
+                    <ul class="nav nav-tabs nav-rank">
+                        <li id="linkRankMax" class="active"><a _data="#contRankMax" href="javascript:void(0);"
+                                data-toggle="tab">极大</a></li>
+                        <li id="linkRankMin"><a _data="#contRankMin" href="javascript:void(0);" data-toggle="tab">极小</a>
+                        </li>
+                    </ul>
+                    <div style="position: absolute; top: 4px; right: 35%; color: red;">
+                        <span class="spanRank"></span>
+                    </div>
+                    <div class="tab-content" style="margin-top: 1px;">
+                        <div id="contRankMax" class="tab-pane active">
+                            <div class="rank-table-header">
+                                <table class="table table-rank">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>排名</th>
+                                            <th>年最高水位</th>
+                                            <th>发生时间</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div style="width: 100%;overflow-x: hidden; overflow-y: scroll;">
+                                <table class="table table-rank tableSwMax">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+
+                            <div class="rank-table-header">
+                                <table class="table table-rank">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>排名</th>
+                                            <th>年最大流量</th>
+                                            <th>发生时间</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div style="width: 100%;overflow-x: hidden; overflow-y: scroll;">
+                                <table class="table table-rank tableLlMax">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="contRankMin" class="tab-pane fade">
+                            <div class="rank-table-header">
+                                <table class="table table-rank">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>排名</th>
+                                            <th>年最低水位</th>
+                                            <th>发生时间</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div style="width: 100%;overflow-x: hidden; overflow-y: scroll;">
+                                <table class="table table-rank tableSwMin">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+
+                            <div class="rank-table-header">
+                                <table class="table table-rank">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>排名</th>
+                                            <th>年最小流量</th>
+                                            <th>发生时间</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div style="width: 100%;overflow-x: hidden; overflow-y: scroll;">
+                                <table class="table table-rank tableLlMin">
+                                    <colgroup>
+                                        <col style="width: 20%;" />
+                                        <col style="width: 25%" />
+                                        <col style="width: 35%" />
+                                    </colgroup>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--旬月均值-->
+                <div id="contMonthChart" class="tab-pane fade">
+                    <ul class="nav nav-tabs nav-rank">
+                        <li class="active"><a _data="#contMonthQ" href="javascript:void(0);" data-toggle="tab">流量均值</a>
+                        </li>
+                        <li><a _data="#contMonthZ" href="javascript:void(0);" data-toggle="tab">水位均值</a></li>
+                    </ul>
+                    <div style="position: absolute; top: 80px; left: 450px;z-index: 1;">
+                        <label class="control-label" style="color: #FFFFFF;">时间</label>
+                        <input id="txtBeginTimeXY" class="form-control form-date" size="16" type="text" />
+                        <label class="control-label">～</label>
+                        <input id="txtEndTimeXY" class="form-control form-date" size="16" type="text" />
+                        <label><input id="radXY_Xun" type="radio" name="radXYType" checked="checked"
+                                value="xun" /><span></span><span style="color: #FFFFFF;">旬均</span>></label>
+                        <label><input id="radXY_Month" type="radio" name="radXYType" value="month"
+                                style="color: #FFFFFF;" /><span></span><span style="color: #FFFFFF;">月均</span>></label>
+                        <button id="btnSearchXY" type="button" class="btn btn-color"><span class='fa fa-search'
+                                style="color: #FFFFFF;">&nbsp;&nbsp;查询</span>
+                        </button>
+                    </div>
+                    <div class="tab-content">
+                        <div id="contMonthQ" class="tab-pane active">
+                            <div id="monthQBody">
+                            </div>
+                        </div>
+                        <div id="contMonthZ" class="tab-pane">
+                            <div id="monthZBody">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--对比分析-->
+                <div id="contCompareChart" class="tab-pane fade" style="position: relative;">
+                    <div class="control-group div-search">
+                        <label class="control-label">时间</label>
+                        <input id="txtBeginTimeDbfx" class="form-control form-date" size="16" type="text" />
+                        <label class="control-label">～</label>
+                        <input id="txtEndTimeDbfx" class="form-control form-date" size="16" type="text" />
+                        <label class="control-label">对比年份</label>
+                        <input id="txtComYear" style="width: 50px;" class="form-control" size="16" type="text" />
+                        <button id="btnSearchDbfx" type="button" class="btn btn-info btn-color"><span
+                                class='fa fa-search'></span>&nbsp;&nbsp;查询
+                        </button>
+                        <label class="control-label">&nbsp;&nbsp;实时:</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkNowSw_Dbfx"
+                                type="checkbox" checked="checked" />水位</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkNowLl_Dbfx"
+                                type="checkbox" checked="checked" />流量</label>
+                        <label class="control-label">&nbsp;&nbsp;对比:</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkLastSw_Dbfx"
+                                type="checkbox" checked="checked" />水位</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkLastLl_Dbfx"
+                                type="checkbox" checked="checked" />流量</label>
+                        <label class="control-label">&nbsp;&nbsp;多年同期:</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkDntqSw_Dbfx"
+                                type="checkbox" checked="checked" />水位</label>
+                        <label class="control-label"><input style="height: 14px;margin-top: 5px;" id="chkDntqLl_Dbfx"
+                                type="checkbox" checked="checked" />流量</label>
+                    </div>
+                    <div class="div-main">
+                        <div id="compareChartBody">
+                        </div>
+                    </div>
+                    <div class="dbfx_tuli">
+                        <img src="img/tuli.png">
+                    </div>
+                </div>
+
+                <div id="contRainInfo" class="tab-pane fade">
+
+                    <div class="control-group div-search"
+                        style=" background-color: rgba(24,24,38,0.8); width: calc(100% - 20px);">
+                        <label class="control-label" style="color:white">时间</label>
+                        <input id="txtRainTimeGcx" class="form-control form-datetime" size="16" type="text"
+                            style="width: 250px;   background-color: rgba(24,24,38,0.8); color: white; " />
+                        <button id="btnSearchRainGcx" style=" color: white; border: 1px solid white; height: 28px; "
+                            type="button" class="btn btn-color">
+                            <span class='fa fa-search'></span>&nbsp;查询
+                        </button>
+                    </div>
+                    <div class="div-main">
+                        <div id="rainInfoBody">
+                        </div>
+                        <div id="rainInfoHourBody" style="display: none;">
+                        </div>
+                        <div class="return-ryl" style=" position: absolute; top: 130px; right: 140px;display:none">
+                            <input id="btnChooseRainSK" name="btnChooseRainSK" type="checkbox" data-size="mini"
+                                data-on-text="点" data-off-text="面" data-switch-value="false" data-off-color="info">
+                            <button id="btnReturnRyl" type="button" style="display: none;">
+                                <span class='fa fa-reply'></span>&nbsp;&nbsp;返回日雨量柱状图
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="panel_showPdfList" class="modal-panel "
+        style="display: none; position: absolute; width: 400px; height: 600px; top: calc(50% - 300px); left: calc(50% - 200px);margin-top:0px;margin-left:0px;z-index: 999;">
+        <div class="panel-header">
+            <span class="modal-title">文档列表</span>
+            <div class="title_btn">
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+
+        <div>
+            <a id="AddDoc" style="    color: #FFFFFF;
+            text-decoration: underline;
+            cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 50px;">新增文件</a>
+        </div>
+        <ul>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水情月刊2021.4.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+            <li><a>1.水文快报2022年第2期20220623.pdf</a></li>
+        </ul>
+
+
+    </div>
+    <div id="panel_AddPdf" class="modal-panel "
+        style="display: none; position: absolute; width: 380px; height: 200px; top: calc(50% - 100px); left: calc(50% - 190px);margin-top:0px;margin-left:0px;z-index: 999;">
+        <div class="panel-header">
+            <span class="modal-title">文档上传</span>
+            <div class="title_btn">
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+
+        <div style="    margin-left: 30px;
+        margin-top: 30px;">
+            <label style="color: #FFFFFF;">模板下载:</label>
+            <a id="model_doc">模板.doc</a>
+        </div>
+
+        <div style="      margin-left: 30px;
+        margin-top: 30px;
+        display: inline-flex;">
+
+            <label style="color: #FFFFFF;">文件上传:</label>
+            <input type="file" id="i_file" multiple name="file-2" accept=".pdf" class="input-file" style="    color: #FFFFFF;
+                margin-left: 15px;
+                width: 260px;">
+        </div>
+
+        <div>
+
+            <button class="btn btn-primary radius" id="btn_upload" type="button" style="    height: 24px;
+                float: right;
+                margin-right: 10px;
+                margin-top: 25px;
+                color: white;
+                border: 1px solid;
+                font-size: 12px;
+                line-height: 13px;">提交</button>
+
+
+        </div>
+
+    </div>
+    <div id="panel_showPdf" class="modal-panel "
+        style="display: none; position: absolute; width: 800px; height: 600px; top: calc(50% - 300px); left: calc(50% - 400px);margin-top:0px;margin-left:0px;z-index: 999;">
+        <div class="panel-header">
+            <span class="modal-title">文档展示</span>
+            <div class="title_btn">
+                <a class="icon-max" href="javascript:;" title="最大化"></a>
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+
+        <iframe src="./doc.html" id="frame_pdf" name="frame_pdf"
+            style="height: 100%;width: 100%;background-color: white;"></iframe>
+
+
+    </div>
+    <!-- 水情预警报表面板-->
+    <div id="panel_sqyj" class="modal-panel report-sqyj " style="display: none;position: absolute;z-index: 999;">
+        <div class="panel-header">
+            <span class="modal-title"></span>
+            <div class="title_btn">
+                <a class="icon-max icon-max-para" href="javascript:;" title="最大化"></a>
+                <a class="icon-close" href="javascript:;" title="关闭"></a>
+            </div>
+        </div>
+        <div class="form-inline" style="    background: rgba(24,24,38,0.8);height: calc(100% - 62px);">
+            <ul class="nav nav-tabs nav-modal tj_body_ddjg" style="display:none;">
+                <li><a id="linkSqyj_hd" _data="#contSqyj_hd" href="javascript:void(0);" data-toggle="tab">河道</a></li>
+                <li><a id="linkSqyj_sk" _data="#contSqyj_sk" href="javascript:void(0);" data-toggle="tab">水库</a></li>
+        
+            </ul>
+            <div style="height: 30px;color: #FFFFFF;background: rgba(24,24,38,0.8)">
+                <span id="infoTxt_sk" style="margin-left: 10px;display: none;
+                margin-top: 5px;
+                position: absolute;"> </span>             <span id="infoTxt_hd" style="margin-left: 10px;display: none;
+                margin-top: 5px;
+                position: absolute;"> </span>
+
+            </div>
+            <div class="tab-content tj_body_ddjg tjfx-table-data_para-sqyj"
+                style="margin-bottom:10px;    height:  calc(100% - 30px);">
+                <div id="contSqyj_hd" class="tab-pane fade" style="margin-top:30px;">
+                    <div class="sqyj-table-hd">
+                        <table id="hdHead" class="table" spellcheck="background: rgb(18,37,56) !important;">
+                            <thead></thead>
+                        </table>
+
+                        <table class="table tableHd" id="tableHd_sqyj" style="margin-top:-30px;">
+                            <thead>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="contSqyj_sk" class="tab-pane fade" style="margin-top:30px;">
+                    <div class="sqyj-table-sk">
+                        <table id="skHead" class="table" spellcheck="background: rgb(18,37,56) !important;">
+                            <thead></thead>
+                        </table>
+
+                        <table class="table tableSk" id="tableSk_sqyj" style="margin-top:-30px;">
+                            <thead>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="Jquery/moment.min.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="Jquery/bootstrap-datetimepicker/js/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script type="text/javascript" src="Jquery/daterangepicker-1.3.23/daterangepicker.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.drag.js"></script>
+    <script type="text/javascript" src="Jquery/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="Jquery/sheetjs-master/xlsx.mini.flow.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-dataTables/datatables.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-dataTables/datatables-sort.js"></script>
+    <script type="text/javascript" src="Jquery/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="Jquery/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="Jquery/float/js/float-module.min.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.event.ue.js"></script>
+    <script type="text/javascript" src="Jquery/jquery.udraggable.js"></script>
+    <script type="text/javascript" src="Jquery/step/lib.js"></script>
+    <script src="Jquery/zTree_v3/js/jquery.ztree.core.js"></script>
+    <script src="Jquery/zTree_v3/js/jquery.ztree.excheck.js"></script>
+
+    <script src="Jquery/radialindicator/js/radialIndicator.js"></script>
+    <script src="Jquery/radialindicator/js/demo.js"></script>
+    <script type="text/javascript" src="Jquery/RightMenu/jquery-smartMenu.js"></script>
+    <script type="text/javascript" src="Script/shikuang/showPdfList.js"></script>
+    <script type="text/javascript" src="Script/shikuang/uploadPdf.js"></script>
+    <script type="text/javascript" src="Script/shikuang/showPdf.js"></script>
+    <script type="text/javascript" src="Script/shikuang/shikuang_sdlyb_report.js"></script>
+    <script type="text/javascript" src="Script/shikuang/data.js"></script>
+    <script type="text/javascript" src="Script/shikuang/tools_panel_sk.js"></script>
+    <!-- <script type="text/javascript" src="Script/panel_harfwork.js"></script>-->
+
+    <script type="text/javascript">
+        //实例化工具类
+
+
+        //  var searchStime = "2020-08-12 08:00:00";
+        //  var searchEtime = "2020-08-14 12:00:00";
+        var _hisStormId = -1;
+        var _rainPlus = 0;
+        var _plusType = 0;
+        searchPlan = "0";
+        var tools_panel = new Tools_Panel();
+
+    </script>
+</body>
+
+</html>

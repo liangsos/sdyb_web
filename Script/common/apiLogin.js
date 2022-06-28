@@ -10,8 +10,11 @@ const apiUrl_cloud = "http://10.37.1.73:30000/";
 const apiUrl_zf = "http://10.37.1.79:9003/sd-api/";
 
 var login_time = null;
+
+//是否调试模式
+const isdebug = true;
 $.ajaxSetup({
-    contentType: "application/x-www-form-urlencoded;charset=utf-8",
+    contentType: "application/x-www-form-urlencoded;charset=utf-~8",
     beforeSend: function (jqXHR, settings) {
         settings.timeout = 0;
         if (settings.data != undefined) {
@@ -24,6 +27,12 @@ $.ajaxSetup({
                      eval("objData.autoFore =0");
                  }
                  settings.data = JSON.stringify(objData);*/
+                //当plan=1且meterPattern不为空时，hisstormId=空
+                var objData = JSON.parse(settings.data);
+                if (objData.plan == "1" && (objData.hasOwnProperty("meteorPattern") && objData.meteorPattern != "")) {
+                    objData.hisStormId = "";
+                    settings.data = JSON.stringify(objData)
+                }
             }
         }
 
@@ -77,14 +86,17 @@ function userLogin() {
 
     }
 
-     var yanzm = $("#yanzm").val().toLowerCase();
+    var yanzm = $("#yanzm").val().toLowerCase();
     var verCode = $("#verCode").val().toLowerCase();
 
-     if (yanzm != verCode) {
+    if (!isdebug) {
+        if (yanzm != verCode) {
 
-        showLoginError("验证码不正确!");
-        return;
-    }/**/
+            showLoginError("验证码不正确!");
+            return;
+        }
+    }
+
     setCookie("loginType", "1");
 
     var settings = {
@@ -108,9 +120,10 @@ function userLogin() {
             setCookie("accessToken", res.data.accessToken);
             setCookie("username", res.data.userDTO.name);
 
-            // window.location.href = "http://10.37.1.73:32622/#/navigation";
-              window.location.href = "index.html";
-
+             if (!isdebug)
+                window.location.href = "http://10.37.1.73:32622/#/navigation";
+            else
+                window.location.href = "ybdd.html";
         }
         else {
 
